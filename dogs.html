@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Dogs</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <div>
+            <img src="images/adoptadog-logo.svg" alt="White vectorized silhouette of a dog" id="company-logo">
+            <h2>Seattle's premiere dog adoption agency</h2>
+            </div>
+            <div>
+                <div id = "in-cart">
+                <img src="images/cart-icon.svg" alt="White icon of a shopping cart" id="cart-icon">
+                <p id = "totalDisplay">Total: $0</p>
+            </div>
+                <a href="checkout.html">
+                    <button type="button">Checkout</button>
+                </a>
+            </div>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <a href="index.html">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> 
+                </li>
+                <li>
+                    <a href="dogs.html">Dogs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+        <h2 id = "page-intro">
+            Here are all of our Dogs!
+        </h2>
+        <section class = "grid-container">
+            <div class = "item1">
+                <img src="images/murphy-card.jpg" alt="Brown elderly dog" onclick="showDogInfo('Brown elderly dog', 'Murphy', 123.45)">
+                <h3>Murphy</h3>
+                <p>
+                    Cost to Adopt: $123.45
+                </p>
+                <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae
+                </p>
+                <button type="button" onclick= "addTotal()">Adopt</button>
+            </div>
+            <div class = "item2">
+                <img src="images/poppy-card.jpg" alt="Elderly maltese" onclick="showDogInfo('Elderly maltese', 'Poppy', 123.45)">
+                <h3>Poppy</h3>
+                <p>
+                    Cost to Adopt: $123.45
+                </p>
+                <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae
+                </p>
+                <button type="button" onclick= "addTotal()">Adopt</button>
+            </div>
+            <div class = "item3">
+                <img src="images/jack-card.jpg" alt="Young beagle" onclick="showDogInfo('Young Beagle', 'Jack', 123.45)">
+                <h3>Jack</h3>
+                <p>
+                    Cost to Adopt: $123.45
+                </p>
+                <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae
+                </p>
+                <button type="button" onclick= "addTotal()">Adopt</button>
+            </div>
+            <div class = "item4">
+                <img src="images/duffy-card.jpg" alt="Sweet pitbull" onclick="showDogInfo('Sweet pitbull', 'Duffy', 123.45)">
+                <h3>Duffy</h3>
+                <p>
+                    Cost to Adopt: $123.45
+                </p>
+                <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae
+                </p>
+                <button type="button" onclick= "addTotal()">Adopt</button>
+            </div>
+            <div class = "item5">
+                <img src="images/lucas-card.jpg" alt="Black German shepherd" onclick="showDogInfo('Black German shepherd', 'Lucas', 123.45)">
+                <h3>Lucas</h3>
+                <p>
+                    Cost to Adopt: $123.45
+                </p>
+                <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae
+                </p>
+                <button type="button" onclick= "addTotal()">Adopt</button>
+            </div>
+            <div class = "item6">
+                <img src="images/jake-card.jpg" alt="Yellow lab" onclick="showDogInfo('Yellow lab', 'Jake', 123.45)">
+                <h3>Jake</h3>
+                <p>
+                    Cost to Adopt: $123.45
+                </p>
+                <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae
+                </p>
+                <button type="button" onclick= "addTotal()">Adopt</button>
+            </div>
+            <div class = "item7">
+                <img src="images/angus-card.jpg" alt="Cute boxer" onclick="showDogInfo('Cute boxer', 'Angus', 123.45)">
+                <h3>Angus</h3>
+                <p>
+                    Cost to Adopt: $123.45
+                </p>
+                <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae
+                </p>
+                <button type="button" onclick= "addTotal()">Adopt</button>
+            </div>
+            <div class = "item8">
+                <img src="images/violet-card.jpg" alt="Chocolate lab puppy" onclick="showDogInfo('Chocolate lab puppy', 'Violet', 123.45)">
+                <h3>Violet</h3>
+                <p>
+                    Cost to Adopt: $123.45
+                </p>
+                <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae
+                </p>
+                <button type="button" onclick= "addTotal()">Adopt</button>
+            </div>
+            <div class = "item9">
+                <img src="images/piper-card.jpg" alt="Nova Scotia Duck Tolling Retriever" onclick="showDogInfo('Nova Scotia Duck Tolling Retriever', 'Piper', 123.45)">
+                <h3>Piper</h3>
+                <p>
+                    Cost to Adopt: $123.45
+                </p>
+                <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae
+                </p>
+                <button type="button" onclick= "addTotal()">Adopt</button>
+            </div>
+            <div class = "item10">
+                <img src="images/maximus-card.jpg" alt="Black terrier" onclick="showDogInfo('Black terrier', 'Maximus', 123.45)">
+                <h3>Maximus</h3>
+                <p>
+                    Cost to Adopt: $123.45
+                </p>
+                <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae
+                </p>
+                <button type="button" onclick= "addTotal()">Adopt</button>
+            </div>
+            <div class = "item11">
+                <img src="images/luna-card.jpg" alt="Yellow lab" onclick="showDogInfo('Yellow lab', 'Luna', 123.45)">
+                <h3>Luna</h3>
+                <p>
+                    Cost to Adopt: $123.45
+                </p>
+                <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae
+                </p>
+                <button type="button" onclick= "addTotal()">Adopt</button>
+            </div>
+            <div class = "item12">
+                <img src="images/stella-card.jpg" alt="Chihuahua" onclick="showDogInfo('Chihuahua', 'Stella', 123.45)">
+                <h3>Stella</h3>
+                <p>
+                    Cost to Adopt: $123.45
+                </p>
+                <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+                    sunt arum rendae pla endis re ea erum, qui doluptae
+                </p>
+                <button type="button" onclick= "addTotal()">Adopt</button>
+            </div>
+        </section>
+        <footer>
+            <img src="images/adoptadog-logo.svg" alt="White vectorized silhouette of a dog" id="company-logo">
+            <p>
+                Aborpos nisto inci tet aut que volupti beruptiberro to ex
+                esseque invenienihil imaximu scideru ptistiusam consequunt
+            </p>
+            <a href="index.html">
+                Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/
+            </a>
+            <a href="dogs.html">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dogs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/
+            </a>
+            <a href="#">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/
+            </a>
+            <p>
+                © 2018 Adoptadog, LLC | Seattle, WA
+            </p>
+        </footer>
+        <script src = "demo.js" charset="utf-8"></script>
+    </body>
+</html>
