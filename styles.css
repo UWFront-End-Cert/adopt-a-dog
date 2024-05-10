@@ -1,18 +1,24 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
     background-image: url("images/header-image.jpg");
     height: 500px;
     display: flex;
     flex-direction: row;
 }
+
 header h2 {
     color: rgb(129, 183, 65);
 }
+
 #adoptadog {
     width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
 }
+
 nav {
     background-color: rgb(236, 236, 236);
     color: rgb(9, 60, 96);
@@ -22,40 +28,66 @@ nav {
     display: flex;
     align-items: center;
 }
-article {
-    margin-left: 200px;
-    margin-right: 200px;
+
+nav a {
+    text-decoration: none;
+    color: rgb(9, 60, 96);
 }
+
+#cart {
+    display: flex;
+    color: white;
+    margin-top: 75px;
+}
+
+#cart img {
+    height: 10%;
+    width: 10%;
+}
+
 #adopt-a-dog {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 55%;
     margin: 20px;
 }
+
 #dogs {
     display: grid;
-    grid-template-rows: 50% 50%;
     grid-gap: 20px;
     margin-bottom: 50px;
 }
+
 .row {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-gap: 10px;
 }
+
 .dog {
     border: 1px solid rgb(236, 236, 236);
 }
+
 .dog img {
     width: 238px;
     height: 142px;
 }
-#dog button {
+
+.dog button,
+#checkout button {
     background-color: rgb(129, 183, 65);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    width: 100%;
 }
+
+article h1 {
+    text-align: center;
+}
+
+article h1, article h2, .dog h3 {
+    color: rgb(9, 60, 96);
+}
+
 article button {
     background-color: rgb(236, 236, 236);
     color: rgb(9, 60, 96);
@@ -63,13 +95,16 @@ article button {
     display: grid;
     place-items: center;
 }
+
 footer {
     background-color: rgb(9, 60, 96);
     text-align: center;
     padding: 20px;
     color: white;
 }
-header img, footer img {
-    height: 33%; 
+
+header img,
+footer img {
+    height: 33%;
     width: 33%;
 }
