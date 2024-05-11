@@ -11,6 +11,7 @@ header {
 
 header h2 {
     color: rgb(129, 183, 65);
+    margin-top: 0px;
 }
 
 #adoptadog {
@@ -34,21 +35,30 @@ nav a {
     color: rgb(9, 60, 96);
 }
 
-#cart {
+.checkout {
     display: flex;
+    flex-direction: column;
     color: white;
     margin-top: 75px;
 }
 
-#cart img {
-    height: 10%;
-    width: 10%;
+.checkout img {
+    height: 3vw;
+    width: 3vw;
 }
 
-#adopt-a-dog {
-    display: grid;
-    grid-template-columns: 45% 55%;
-    margin: 20px;
+.blog {
+    display: flex;
+    margin: 25px;
+}
+
+.column {
+    flex: 50%;
+}
+
+.column img {
+    display: block;
+    margin: auto;
 }
 
 #dogs {
@@ -73,7 +83,7 @@ nav a {
 }
 
 .dog button,
-#checkout button {
+.checkout button {
     background-color: rgb(129, 183, 65);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -84,7 +94,9 @@ article h1 {
     text-align: center;
 }
 
-article h1, article h2, .dog h3 {
+article h1,
+article h2,
+.dog h3 {
     color: rgb(9, 60, 96);
 }
 
@@ -108,3 +120,4 @@ footer img {
     height: 33%;
     width: 33%;
 }
+
