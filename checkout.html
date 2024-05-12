@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+</head>
+<body>
+  <header>
+    <div class="banner">
+      <img src="images/adoptadog-logo.svg" class="banner-logo" alt="adopt a dog logo" style="background-color: rgb(185, 184, 184)" height="100">
+        <h1 class="headline">Seattle's premiere dog adoption agency</h1>
+          <nav class="nav-menu">
+            <ul> 
+              <li><a href="index.html">Home</a></li> 
+              <li><a href="dogs.html">Dogs</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              </ul> 
+            </nav>
+      <div class="cart">
+          <img src="images/cart-icon.svg" class="cart-icon" style="background-color: rgb(185, 184, 184)" height="20" alt="shopping cart icon"><br>
+          <span class="cart-amount">$1234.56</span><br> 
+          <a href="checkout.html" class="button checkout">Checkout</a><br><br>
+      </div>
+    </div>
+  </header>
+
+      <h1>Checkout</h1>
+      <form>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" class="input-name"><br>
+
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" name="email" class="input-email"><br>
+
+        <label for="street">Street Address</label><br>
+        <input type="text" id="street" name="street" class="input-street"><br>
+
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" class="input-city">
+
+        <label for="state">State</label>
+        <select id="state" name="state" class="input-state">
+            <option value="AK">Alaska</option>
+            <option value="CA">California</option>
+            <option value="CO">Colorado</option>
+            <option value="CT">Connecticut</option>
+            <option value="DE">Delaware</option>
+            <option value="DC">District of Columbia</option>
+            <option value="HI">Hawaii</option>
+            <option value="IL">Illinois</option>
+            <option value="IA">Iowa</option>
+            <option value="KS">Kansas</option>
+            <option value="ME">Maine</option>
+            <option value="MD">Maryland</option>
+            <option value="MA">Massachusetts</option>
+            <option value="MI">Michigan</option>
+            <option value="MN">Minnesota</option>
+            <option value="OR">Oregon</option>
+            <option value="WA">Washington</option>
+          </select>
+
+        <label for="zip">Zip Code</label>
+        <input type="text" id="zip" name="zip" class="zip"><br>
+
+        <label>First Time Adopter?</label><br>
+        <label>
+            <input type="radio" name="first-time-adopter" class="first-time-adopter input-first-time-adopter" value="yes">
+            Yes
+        </label><br>
+        <label>
+            <input type="radio" name="first-time-adopter" class="first-time-adopter input-first-time-adopter" value="no">
+            No
+        </label><br>
+
+        <label for="pickup-location">Pickup Location</label><br>
+        <select id="pickup-location" name="pickup-location" class="pickup-location select-pickup-location">
+          <option value="location1">Location 1</option>
+          <option value="location2">Location 2</option>
+          <option value="location3">Location 3</option>
+        </select>
+      </form>
+
+    <h4>Dogs Adopted</h4>
+      <div class="adopted-dogs section-adopted dogs">
+        <div class="adopted-dog-info">
+          <img src="images/lucas-checkout.jpg" class="adopted-dog" alt="Picture of Lucas">
+          <h4 class="dog-name">Lucas</h4>
+          <p class="adoption-cost"><strong>Cost to Adopt:</strong>&nbsp;<span>$123.45</span></p>
+        </div>
+        
+        <div class="adopted-dog-info">
+          <img src="images/duffy-checkout.jpg" class="adopted-dog" alt="Picture of Duffy">
+          <h4 class="dog-name">Duffy</h4>
+          <p class="adoption-cost"><strong>Cost to Adopt:</strong>&nbsp;<span>$123.45</span></p>
+        </div>
+      </div>
+
+    <h4>Total Adoption Cost</h4>
+      <p id="total-cost" class="total-cost paragraph-total-cost">$1234.56</p>
+
+    <!--submit button -->
+    <button type="submit" class="submit-button">Submit</button>
+    
+      <!--footer content-->
+      <div class="footer">
+        <img src="images/adoptadog-logo.svg" class="footer-logo" alt="adopt a dog logo" style="background-color: rgb(185, 184, 184)" height="100">
+          <div class="footer-text">
+              <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>
+                  esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+                  <nav class="footer-menu">
+                      <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="dogs.html">Dogs</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                  </nav>
+              <p><small>&copy;2018 Adoptadog LLC | Seattle, WA</small></p>
+          </div>
+      </div> 
+</body>
+</html>
