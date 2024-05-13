@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <div style="background-color: #083b5f; color: white; padding: 20px; text-align: center; position: relative;">
+        <div style="position: absolute; top: 10px; right: 10px;">
+            <img src="file:///C:/Users/jxu50/Desktop/adopt-a-dog/images/cart-icon.svg" alt="Cart Icon" style="width: 30px; height: 30px;">
+        </div>
+        <div style="position: absolute; top: 50px; right: 10px; background-color: #7eb442; color: white; padding: 10px 20px; text-align: center;">
+            Checkout
+        </div>
+        <div style="position: relative; display: inline-block; text-align: left;">
+            <img src="file:///C:/Users/jxu50/Desktop/adopt-a-dog/images/adoptadog-logo.svg" alt="Adopt A Dog Logo" style="width: 200px; height: auto; margin-bottom: 10px;">
+            <div style="color: #7eb442; font-size: 25px; text-align: left;">
+                Seattle’s premiere dog adoption agency
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div style="background-color: #ebebeb; padding: 10px; text-align: center;">
+        <a href="index.html" style="color: black; text-decoration: none; margin-right: 10px;">Home</a>
+        <span style="color: black;">/</span>
+        <a href="dogs.html" style="color: black; text-decoration: none; margin-left: 10px; margin-right: 10px;">Dogs</a>
+        <span style="color: black;">/</span>
+        <a href="blog.html" style="color: black; text-decoration: none; margin-left: 10px;">Blog</a>
+    </div>
+
+    <!-- Checkout Form -->
+    <div style="margin: 20px auto; max-width: 600px;">
+        <h1>Checkout</h1>
+        <form action="#" method="post">
+            <div style="margin-bottom: 10px;">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="street">Street Address</label><br>
+                <input type="text" id="street" name="street" required>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" required>
+                <label for="zip">Zip Code</label>
+                <input type="text" id="zip" name="zip" required>
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" required>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="pickup">Pickup Location</label><br>
+                <select id="pickup" name="pickup" required>
+                    <option value="location1">Location 1</option>
+                    <option value="location2">Location 2</option>
+                    <option value="location3">Location 3</option>
+                </select>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="first-time">First Time Adopter?</label><br>
+                <input type="radio" id="yes" name="first-time" value="yes" required>
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="first-time" value="no" required>
+                <label for="no">No</label>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="total-cost">Total Adoption Cost</label><br>
+                <input type="text" id="total-cost" name="total-cost" value="$1234.56" readonly>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="dogs-adopted">Dogs Adopted</label><br>
+                <input type="text" id="dogs-adopted" name="dogs-adopted" value="Lucas, Duffy" readonly>
+                <p>Lucas - Cost to Adopt: $123.45</p>
+                <p>Duffy - Cost to Adopt: $123.45</p>
+            </div>
+            <button type="submit" style="background-color: #7eb442; color: white; padding: 10px; border: none;">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div style="background-color: #3c3c3c; color: white; padding: 20px; text-align: center;">
+        <img src="file:///C:/Users/jxu50/Desktop/adopt-a-dog/images/adoptadog-logo.svg" alt="Footer Logo" style="width: 100px; height: auto;">
+        <p style="margin-top: 10px;">Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+        <p>
+            <a href="index.html" style="color: white; text-decoration: none;">Home</a>
+            <span style="color: white;"> / </span>
+            <a href="dogs.html" style="color: white; text-decoration: none;">Dogs</a>
+            <span style="color: white;"> / </span>
+            <a href="contact.html" style="color: white; text-decoration: none;">Contact</a>
+        </p>
+        <p>© 2018 Adoptadog, LLC   |   Seattle, WA</p>
+    </div>
+
+</body>
+</html>
