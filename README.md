@@ -8,6 +8,7 @@ Welcome to Adopt a Dog, an online platform dedicated to helping you find and ado
 
 - [Project Structure](#project-structure)
 - [Features](#features)
+- [Technologies Used](#technologies-used)
 - [Installation](#installation)
 
 ## Project Structure
