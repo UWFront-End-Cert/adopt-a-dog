@@ -1,0 +1,15 @@
+https://marker.io/blog/website-qa-checklist
+
+Personas (https://canvas.uw.edu/courses/1703387/discussion_topics/8902006?module_item_id=20973678)
+
+- The website has been tested on all devices/browsers listed by Personas
+- Both PC and Mac compatible 
+- tablet and smartphone compatible
+- UI and Design Testing
+- Content testing
+- Functional testing
+- Accessibility testing
+- SEO testing
+- Responsive & cross-browser testing
+- Security testing
+- Scripts, snippet codes, widgets, and plugins

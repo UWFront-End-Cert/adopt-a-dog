@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Checkout</title>
+      <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    </head>
+    <body>
+      <header>
+        <div class="header-logo-checkout-overlay">
+          <div class="header-logo-wrapper">
+            <img src="images/adoptadog-logo.svg" alt="adopt-a-dog logo">
+            <h1 class="header-logo-heading">Seattle’s premiere dog adoption agency</h1>
+          </div>
+          <div class="header-checkout-wrapper">
+            <img class="header-checkout-icon" src="images/cart-icon.svg" alt="checkout cart icon">
+            <p class="header-checkout-cart">$<span class="cart-value">0</span></p>
+            <a href="checkout.html" class="header-checkout-link">Checkout</a>
+          </div>
+        </div>
+
+        <nav class="header-nav">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <a href="dogs.html">Dogs</a>
+          <span>/</span>
+          <a href="blog.html">Blog</a>
+        </nav>
+    </header>
+
+  <main>
+    <div class="checkout-grid">
+        <h2>Checkout</h2>
+        <form action="contact-form-process.php">
+          <label>
+            Name
+            <input type="text" name="fullName">
+          </label>
+          <br>
+          <label>
+            Email Address
+            <input type="text" name="email">
+          </label>
+          <br>
+          <label>
+            Street Address
+            <input type="text" name="streetAddress">
+          </label>
+          <br>
+          <label>
+            City
+            <input type="text" name="city" value="">
+          </label>
+          <label>
+            State
+            <select id="text" name="state">
+              <option value="wa">WA</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+          <label>
+            Zip Code
+            <input type="text" id="zipCode" name="zipCode">
+          </label>
+          <br>
+          <label>
+            First Time Adopter?
+            <input type="radio" name="yes" value="yes" checked>Yes
+          </label>
+          <label>
+            <input type="radio" name="no" value="no"> No
+          </label>
+          <br>
+          <label>
+            Pickup Location:
+            <select name="region">
+              <option value="--" selected > ---</option>
+              <option value="seattle">Seattle</option>
+              <option value="bellevue">Bellevue</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+          <br>
+          <label>
+            Dogs Adopted
+          </label>
+          <br>
+          <label>
+            Total Adoption Cost
+          </label>
+          <br>
+          <input type="submit" value="Submit" >
+        </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-box">
+      <img src="images/adoptadog-logo.svg" alt="name of company and dog silhouette">
+      <p>Dogs, dogs, dogs, dogs.</p>
+      <nav class="footer-navbar">
+          <a href="index.html">Home</a>
+          <span></span>
+          <a href="dogs.html">Dogs</a>
+          <span></span>
+          <a href="blog.html">Blog</a>
+      </nav>
+      <small>© 2024 Adoptadog, LLC | Seattle, WA</small>
+    </div>
+  </footer>
+</body>
+</html>
