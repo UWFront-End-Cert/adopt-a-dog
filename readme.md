@@ -21,10 +21,10 @@ The site will be designed for mobile devices first, with clear header and footer
 
 ## Mockups (Provided by Adopt-a-Dog LLC Designers)
 
-![home page screenshot](images/mock-1.jpg)
-![dogs screenshot](images/mock-2.jpg)
-![blogs screenshot](images/mock-3.jpg)
-![checkout screenshot](images/mock-4.jpg)
+![home page screenshot](comps/mock-1.jpg)
+![dogs screenshot](comps/mock-2.jpg)
+![blogs screenshot](comps/mock-3.jpg)
+![checkout screenshot](comps/mock-4.jpg)
 
 <a name="status"></a>
 
