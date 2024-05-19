@@ -1,0 +1,123 @@
+User Persona
+
+Name: Bill Harford
+Age: 37
+Occupation: Doctor
+Education: Medical school
+
+Who is Bill? 
+Bill is single doctor who enjoys the outdoors. Bill enjoys trail running, backpacking and hiking. He is looking to adopt a dog that can join him on his adventures in the PNW wilderness. He is a first time dog owner.
+
+Challenges:
+-He is a pretty busy person and a bit of a perfectionist so he appreciates efficient, well designed processes.
+-He has a variable work schedule with odd hours so a business with an adoption process that is mostly online and doesn't have to be conducted during normal business hours is ideal.
+
+Other details: 
+-Owns a 1-year old smartphone and 3-year old laptop.
+-Very intelligent an considers himself tech savy.
+-He uses Chrome on his work PC.
+-His smartphone is an iPhone where he uses Safari as a browser.
+-His iPhone is always on him so he will mostly be using his it to search for a dog to adopt.
+-His laptop is a MacBook Air and he uses Safari on it. However, he mostly uses his iPhone for browsing and uses the laptop for when he has to do work at home or on the go.
+
+
+------
+
+
+Research
+
+Research shows that:
+-Majority of the site users are English speaking, so the site’s language will be English.
+    -After English the 4 most common languages spoken in Seattle are Spanish, Chinese, Vietnamese and Tagalog (Filipino), so I will eventually add support for these languages.
+-Site users use either OSX or Windows to access the site on desktop devices and iPhones/iPad or Androids for mobile devices.
+-Users access the site using the following browsers:
+    -OSX: Safari, Chrome and Firefox
+    -Windows: Edge
+    -iOS (iPhone/iPad): Safari
+    -Android: Chrome
+-Some of the site’s users have disabilities, so I will want to make the site accessible
+    -Large, easy to click links (especially for the mobile site)
+    -Easy to read text for the visually impaired
+    -Screen reader compatibility and using alt text for the visually impaired 
+
+
+------
+
+
+Testing
+
+--
+
+W3C Validation
+
+W3C Markup Validation:
+Ran full website through the validator and it had no errors. It did get a warning saying “This document appears to be Lorem ipsum text but the html start tag has lang="en". Consider using lang="zxx" (or variant) instead.” This warning is helpful, but the Lorem ipsum text is just a place holder until I write the actual body copy for the website, which I will do once the site is fully designed and functioning properly.
+
+-
+
+W3C CSS Validation:
+Not run, as I have not added CSS yet to the site. I will be adding CSS soon and I will then run the validator.
+
+--
+
+Browser Testing
+
+Mac
+
+Safari
+Version: 17.4.1
+Load speed: 0.294s
+Accessibility: 100%
+Everything looks and functions as it should.
+
+Chrome
+Version: 125.0.6422.60
+Ran Google Lighthouse on 5/18/24, 1:41 PM
+Performance: 100%
+Speed: 0.2s
+Accessibility: 100%
+Best Practices: 96%
+    -There was a note about not having responsive images, but this will be fixed when I add CSS to the site.
+SEO: 90%
+    -Got dinged for not having a meta description, so before site goes live I will add a meta description.
+Everything looks and functions as it should.
+
+Firefox
+Version: 124.0.2
+Load speed: 0.034s
+Accessibility: no issues found
+Everything looks and functions as it should.
+
+-
+
+Windows
+
+Edge
+Version: 124.0.2478.109
+Load speed: 0.2s
+Everything looks and functions as it should.
+
+-
+
+iPhone
+
+Safari
+Version: 17.4.1
+Load speed: 0.9s
+Everything looks and functions as it should.
+
+-
+
+Android
+
+Chrome
+Version: 125.0.6422.53
+Ran Google Lighthouse on 5/18/24, 1:54 PM
+Performance: 97%
+Speed: 0.8s
+Accessibility: 100%
+Best Practices: 96%
+    -There was a note about not having responsive images, but this will be fixed when I add CSS to the site.
+SEO: 92%
+    -Got dinged for not having a meta description, so before site goes live I will add a meta description.
+Everything looks and functions as it should.
