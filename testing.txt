@@ -1,0 +1,38 @@
+Adopt-a-Dog Website Testing Document
+
+Revisions:
+5/19/2024: created testing document, user base cross-section, and tested on multiple devices. Integrate results below.
+
+User base cross-section and needs:
+-People who seek to adopt a dog in the greater Seattle area, either mostly online, or in-person at one of our locations. Support for individuals to take their transaction offline, such as contact info and location info, required
+-Users mostly viewing from mobile devices (Apple, Samsung, Google Pixel), then tablet/laptops, then desktop computers. Development will be proportionately distributed to 65% mobile, 20% tablet and laptop, and 15% desktop. Support will be needed for Chrome, Edge, Safari, and Firefox
+-Age ranges include anyone able to access the internet, however, credit card checkout will be limited to adults
+-Support for screen reader required per Adopt-a-Dog LLC
+
+Testing results:
+Functionality testing metrics and results:
+-CSS fail, implementation scheduled for end of May/early June 2024.
+-JS fail, implementation scheduled for middle June 2024.
+-Confirmed through w3 html validator that there are no syntactical HTML errors and all HTML is semantic. 
+-Intra-site links fail, update before 5/26/24
+-Form testing: submit button functionality to be implemented mid June 2024
+ 
+Accessibility testing metrics and results:
+-WCAG checklist score: WCAG 2.0 AA rating per websiteaccessibiltychecker.com
+-Contrast rating to be updated upon completion of styling
+-Keyboard navigable page fail, TBD
+-Screen reader naviagable page partial fail, scheduled with completion of CSS
+-Zoom test levels 50%-200% pass with no remarkable results
+
+Performance testing metrics and results:
+Thanks to Britt Rohrer for recommending Google Lighthouse as a benchmark tool.
+-Lighthouse testing showed 100 for performance, 93 for accessiblity, 96 for best practices, and 82 for SEO. Consider approach to make links crawlable and to give document a meta description to improve SEO rating. Check again pending styling and screen reader implementations.
+
+Compatibility testing metrics and results:
+(Note these results are pre-CSS implementation. Suggest considerations for 4 or 6 bootstrap standard viewport sizes and flexbox or grid formatting of elements to prevent stacking and overflow)
+-Browser/device combinations:
+--Lenovo Chromebook with Android Chrome- unremarkable results
+--Google Pixel 8 with mobile Chrome- unremarkable results
+--Apple Macbook Air with Safari- unremarkable results
+--Windows 11 desktop with firefox- zip code box is formatted as a number and has up/down arrows next to it, atypical. read firefox documentation and consider a browser query if needed
+--Chrome DevTools emulating Iphone SE- dropdown menu for state select on checkout.html seems to cover upper part of screen rather than whole screen, not functionally remarkable 
