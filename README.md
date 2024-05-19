@@ -1,17 +1,14 @@
 # Adopt a Dog
 
+Link: https://jason-xuu.github.io/html200-adopt-a-dog/
+
 Welcome to Adopt a Dog, an online platform dedicated to helping you find and adopt your new best friend. Our site aims to connect dogs in need of a home with loving families, providing detailed information and images to aid in the adoption process.
 
 ## Table of Contents
 
 - [Project Structure](#project-structure)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Structure
 
