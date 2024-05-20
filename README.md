@@ -1,10 +1,10 @@
 ## Adopt A Dog
 
 ## Table of Contents:
-    1. [Description](#description)
-    2. [Features](#features)
-    3.[Testing](#testing)
-    4. [Compatibility](#compatibility)
+1. [Description](#description)
+2. [Features](#features)
+3. [Testing](#testing)
+4. [Compatibility](#compatibility)
 
 <a name="description"></a>
 ## Description
