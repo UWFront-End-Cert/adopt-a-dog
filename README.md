@@ -6,7 +6,8 @@ Occupation: Software Engineer</p>
 - May adopt multiple dogs. Wants to make sure that cart can hold up to 5 pets.<br>
 - Uses Google Chrome and Microsoft Edge on desktop.<br>
 - Uses Safari on mobile.<br>
-- Prefers single-page applications.</p>
+- Prefers single-page applications.<br>
+- Wants to make sure that the site content fits within the screen on both desktop and mobile</p>
 
 ### Testing:
 <p>The site was tested on Google Chrome, Microsoft Edge, and Safari. The site now appears as expected on all 3 browsers. There were some issues on mobile, however:</p>
