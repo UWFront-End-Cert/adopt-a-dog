@@ -7,7 +7,7 @@ Occupation: Software Engineer</p>
 - Uses Google Chrome and Microsoft Edge on desktop.<br>
 - Uses Safari on mobile.<br>
 - Prefers single-page applications.<br>
-- Wants to make sure that the site content fits within the screen on both desktop and mobile</p>
+- Requires that the site content fits within the screen on both desktop and mobile.</p>
 
 ### Testing:
 <p>The site was tested on Google Chrome, Microsoft Edge, and Safari. The site now appears as expected on all 3 browsers. There were some issues on mobile, however:</p>
