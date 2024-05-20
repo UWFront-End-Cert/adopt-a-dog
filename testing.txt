@@ -1,0 +1,44 @@
+# [Adopt-a-dog](https://gra-nolan-bar.github.io/html200-adopt-a-dog/)
+UX Testing 
+
+Tests ran: 
+  Lighthouse:
+    Performance: 100
+    Accessibility: 93
+    Best Practices: 100
+    SEO: 90 (need to add meta description)
+  Sizing (with Window Resizer and devtools):
+    * displays well on various Desktop sizes and images sizes appropriately
+    * text scales and fills sections and boxes as expected 
+    * header needs to be corrected with checkout and cart on right side of the page
+    * Displays well on iPhones of various sizes
+      * need to adjust header and footer sizing as some items wrap and are outside header
+    * Displays well on tablet
+      * want to adjust how the flex boxes wrap so that it looks cleaner 
+  General: 
+    * need to adjust the links to display a different color in header and footer 
+      * visited links currently purple on a blue backgground and hard to see 
+    * need to add margin/padding to dog boxes so that they are spaced out correctly 
+    * Blog page - images are not lined up horizontally with text - need to adjust 
+    * Tested on Safari, Chrome desktop, and Firefox. Works well on all 3 browsers
+
+User persona: 
+  Ty Segall 
+  Occupation: 
+    Musician  
+  Education: 
+    High school 
+  Bio: 
+    Working studio musician and live musician that travels often to 
+      many cities around the US and world. He always brings his dog with him 
+      on tour. Spends most of his time playing music and hanging out with his dog. 
+  Using the site for: 
+    Learning about the adoption process 
+    Wants to ensure the dog will do well with travel 
+    Schedule time to meet the dog before adoption
+    Check what shots and immunizations the dog already has received  
+  Other details:  
+    Mostly uses iPhones (Safari) to search the web when on tour, 
+      but a large computer (Chrome) when he is at home or in his studio.  
+    He wants his dog to be people-friendly since it will often be around many different people. 
+    Likes to surf and spend time at the beach.

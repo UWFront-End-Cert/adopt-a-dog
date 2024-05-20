@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Adopt-a-Dog Checkout</title>
+  </head>
+  <body>
+    <header class="header-banner">
+      <div>
+        <img class="adoptadog-logo-header" src="images/adoptadog-logo.svg" alt="adopt a dog logo">
+        <h2>Seattle's premiere dog adoption agency</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dog-page.html">Dogs</a></li>
+          <li><a href="blog-page.html">Blog</a></li>
+        </ul>
+      </nav>
+      <aside>
+        <nav>
+          <img class="cart-icon" src="images/cart-icon.svg" alt="cart icon"> 
+          <form  action="checkout-page.html">
+            <input class="checkout-button" type="submit" value="Checkout">
+          </form>
+        </nav>
+      </aside>
+    </header>
+    <main>
+        <h2>Checkout</h2>
+        <div>
+          <label for="full-name">Name</label>
+          <input type="text" name="full-name" id="full-name" placeholder="">
+        </div>
+        <div>
+          <label for="email-address">Email Address</label>
+          <input type="text" name="email-address" id="email-address" placeholder="">
+        </div>
+        <div>
+          <label for="street-address">Street Address</label>
+          <input type="text" name="street-address" id="street-address">
+        </div>
+        <div>
+          <label for="city">City</label>
+          <input type="text" name="city" id="city">
+        </div>
+        <div>
+          <label for="state">State</label>
+          <input type="text" name="state" id="state">
+        </div>
+        <div>
+          <label for="zip-code">Zip Code</label>
+          <input type="text" name="zip-code" id="zip-code">
+        </div>
+        <div>
+          <h3>First Time Adopter?</h3>
+          <input type="checkbox" name="yes" id="first-time-yes">
+          <label for="first-time-yes">Yes</label>
+          <input type="checkbox" name="no" id="first-time-no">
+          <label for="first-time-no">No</label>          
+        </div>
+        <div>
+          <label for="pickup-location">Pickup Location</label>
+          <select name="pickup-locations" id="pickup-location">
+            <option value="select-one">(select one)</option>
+            <option value="seattle">Seattle</option>
+            <option value="bellevue">Bellevue</option>
+            <option value="everett">Everett</option>
+            <option value="tacoma">Tacoma</option>
+          </select>
+        </div>
+        <div>
+          <h3>Dogs Adopted</h3>
+          <div>dog 1</div>
+          <div>dog 2</div>
+        </div>
+        <div>
+          <h3>Total Adoption Cost</h3>
+          <p>$$$</p>
+        </div>
+        <button>Submit</button>
+    </main>
+    <footer>
+      <img class="adoptadog-logo-footer" src="images/adoptadog-logo.svg" alt="adopt a dog logo">
+      <p>
+        Random paragraph of meaningless information to be added below the name
+        and logo in footer.
+      </p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dog-page.html">Dogs</a></li>
+          <li><a href="blog-page.html">Blog</a></li>
+        </ul>
+      </nav>
+      <address>address info</address>
+    </footer>
+  </body>
