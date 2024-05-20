@@ -1,0 +1,327 @@
+.wrapper {
+  display: grid;
+  margin: 0 auto 0;
+  border-radius: 10px;
+}
+
+.header-img-container {
+    background-image: url(images/header-image.jpg);
+    grid-column: 1 / span 12;
+    width: 100%;
+    min-height: 500px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-text-container {
+    position: absolute;
+    grid-column: 1 / span 12;
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+    left: 4%;
+    top: 15%;
+}
+
+.header-text-container img {
+    width: 26rem;
+    max-width: 90%;
+    margin-left: 5%;
+  }
+
+.header-text {
+    color: #76c91b;
+    font-style: italic;
+    font-size: 24px;
+    margin-top: 0;
+    margin-left: 5%;
+}
+
+.navigation-bar {
+  grid-column: 1 / span 12;
+  width: 100%;
+
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    overflow: hidden;
+    background-color: #f2f5f1;
+  }
+  
+  .navigation-bar ul li:first-child {
+    float: left;
+    margin-left: 8%;
+  }
+
+  .navigation-bar ul li {
+    float: left;
+    margin-left: 3%;
+  }
+  
+  .navigation-bar li a {
+    display: block;
+    padding: 1%;
+    font-weight: bold;
+    font-size: large;
+    color: #093c60;
+    text-decoration: none;
+  }
+
+
+  .divider-vertical-second-menu{
+    height: 40px;
+    width: 1px;
+    margin: 0 5px;
+    overflow: hidden;
+    background-color: #DDD;
+    border-right: 2px solid #FFF;
+ }
+
+  nav > a {
+    border-right: solid 1px #000000;
+  }
+  nav > a:last-of-type {
+    border-right: none;
+  }
+
+  .checkout {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-align: right;
+  }
+  
+  .icon-price {
+    padding: 3rem;
+  }
+
+  .cart-icon {
+    width: 2rem;
+    padding-right: 1rem;
+  }
+
+  .header-price {
+    color: white;
+    display: inline;
+    font-weight: bold;
+  }
+
+  .checkout a {
+    background-color: #76c91b;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    height: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-decoration: none;
+  }
+
+  .intro-dog {
+    grid-column: 3 / span 4;
+    grid-row: 3;
+    padding-top: 40px;
+  }
+
+  .intro-dog img {
+    grid-column: 3 / span 4;
+    grid-row: 3;
+    width: 25rem;
+    height: auto;
+  }
+
+  .adopt-text h2 {
+    color: #083b5f;
+  }
+
+  .bluetext {
+    color: #083b5f;
+  }
+
+  .adopt-text {
+    grid-column: 8 / span 4;
+    grid-row: 3;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+
+  .footer {
+    grid-column: 1 / span 12;
+    width: 100%;
+    background-color: #083b5f;
+    align-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .footer img {
+    width: 25rem;
+    max-width: 60%;
+    align-content: center;
+  }
+
+  /* Float four columns side by side */
+.column {
+  float: left;
+  width: 12%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.dog-adoptions {
+  grid-column: 1 / span 12;
+  grid-row: 4;
+  padding-left: 5%;
+}
+
+.dog-adoptions img {
+width: 15rem;
+}
+
+.button {
+  background-color: #76c91b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/*Form*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.checkout-header {
+  margin: 0;
+}
+
+* {box-sizing: border-box;}
+
+
+/*Blog*/
+
+.blog {width: 100%}
+.blogcontent {width: 100%;}
+.blog h3 {
+padding-left: 25%;
+}
+
+.blog p {
+  padding-left: 25%;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
