@@ -1,0 +1,95 @@
+header {
+  background-color: #003d64;
+  height: 10rem;
+}
+
+footer {
+  background-color: #3d3d3e;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h2 {
+  color: #70ba22;
+}
+
+.checkout-button {
+  color: white;
+  background-color: #71ba22;
+}
+
+.adoptadog-logo-footer {
+  width: 15%;
+}
+
+.adoptadog-logo-header {
+  width: 50%;
+}
+
+.cart-icon {
+  width: 2rem;
+}
+
+.header-banner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 1rem;
+}
+
+.intro-photo {
+  width: 15rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.intro-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.dog-list-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.dog-box {
+  flex: 1 1 auto;
+  width: 10rem;
+  text-wrap: balance;
+  justify-content: center;
+  text-align: center;
+}
+
+.dog-profile-photo {
+  width: 10rem;
+}
+
+.blog-container {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 1rem 1rem 1rem 0rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.blog-photo {
+  flex: 1 1 auto;
+  flex-basis: 25%;
+  width: 100%;
+  height: 100%;
+  min-width: 150px;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.blog-text-box {
+  flex: 1 1 auto;
+  flex-basis: 75%;
+  padding: 1rem 1rem 1rem 1rem;
+}
