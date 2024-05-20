@@ -1,6 +1,6 @@
-##Adopt A Dog
+## Adopt A Dog
 
-##Table of Contents:
+## Table of Contents:
     1. [Description](#description)
     2. [Features](#features)
     3.[Testing](#testing)
