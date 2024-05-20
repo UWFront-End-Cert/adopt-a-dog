@@ -26,33 +26,54 @@ Testing Done and Changes Made
 Testing Process Details Using a Variety of Browsers and Platforms. 
 
 Chrome (Laptop)
-Observations:
-Overview of Changes:
+Observations: 
+Dog information with description and photo needs to be aligned. 
+Blog posts need to take up more horizontal space on the page. 
+Overview of Changes: Coming next week. 
 
 Chrome (Mobile)
 Observations:
-Overview of Changes:
+Text size needs to increase as the screen size goes down. 
+Dog information with description and photo need to be listed in a single file vertically. 
+Blog posts need to have the title, photo, and then blog post content listed vertically on the page. 
+Navigation bar needs to be larger. 
+Overview of Changes: Coming next week. 
 
-Safari (Tablet)
-Observations:
-Overview of Changes:
+Safari (Laptop)
+Observations: 
+Dog information (description and photos) are showing up with the correct layout with this browser and device. 
+Blog posts need to take up more horizontal space on the page. 
+Overview of Changes: Coming next week. 
 
-Safari ( Mobile)
-Observations:
-Overview of Changes:
+Safari ( Tablet)
+Observations: 
+Layout changes are needed. For instance, dog information with description and photo needs to be aligned. 
+Text size needs to increase as the screen size goes down. 
+Blog posts need to take up more horizontal space on the page. 
+Navigation bar needs to be larger. 
+Overview of Changes: Coming next week. 
 
 
-
-W3c Markup Validation
+W3c Markup Validation:
 HTML: no errors
 CSS: no errors
 
-
 Page Load Speeds: 
-https://developers.google.com/speed 
+Google Lighthouse Audit
+Performance: 79
+Accessibility: 90
+Best Practices: 74
+SEO: 67
+First Contentful Paint: 1.9 s
+Largest Contentful Paint: 5.3 s
+Total Blocking Time: 0 ms
+Cumulative Layout Shift: 0.017
 
-Accessibility: Google Lighthouse 
-
+Accessibility: 
+Accessibility score: 71
+Status: not compliant
+One critical issue discovered
+Visual Issue: Background and foreground colors do not have a sufficient contrast ratio. 
 
 User Persona 
 
