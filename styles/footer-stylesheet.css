@@ -1,0 +1,34 @@
+.footer-container {
+    display: flex;
+    background-color: #2E2E2E;
+    justify-content: center;
+}
+
+.footer-box {
+    width: 30%;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.footer-links {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 1rem;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto
+}
