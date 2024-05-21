@@ -53,9 +53,9 @@ body {
     text-decoration: none;
 }
 
-.logo {
-    width: auto;
-    max-width: 50%;
+#logo {
+    max-width: 100%;
+    height: auto
 }
 
 .nav-box {
