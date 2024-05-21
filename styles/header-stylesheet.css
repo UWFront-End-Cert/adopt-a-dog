@@ -1,0 +1,124 @@
+body {
+    margin: 0rem;
+}
+
+.logo-checkout-container {
+    display: flex;
+}
+
+.logo-box {
+    background-color: #0B2D4D;
+    width: 75%;
+    padding-top: 3rem;
+    padding-left: 8rem;
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+}
+
+#subheading {
+    color: #70AD32;
+    font-family: serif;
+    font-style: italic;
+    font-size: calc(1.5vw + 1.5vh);
+    font-weight: 600;
+    margin-top: 0rem;
+}
+
+.checkout-box {
+    display: block;
+    text-align: right;
+    background-color: #0B2D4D;
+    color: white;
+    width: 25%;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-right: 8rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.shopping-cart {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.checkout-button {
+    background-color: #70AD32;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: auto;
+    max-width: 50%;
+}
+
+/*
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo-checkout-container {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.logo-box {
+    width: 25%;
+    border-style: none;
+    background: none;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 1rem;
+    background-color: darkblue;
+}
+
+h1 {
+    color: green;
+}
+
+.checkout-box {
+    width: 25%;
+    border-style: none;
+    background: none;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: blue;
+}
+
+.nav-box {
+    width: 100%;
+    border-style: none;
+    background: none;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+    background-color: lightgray;
+} 
+
+.nav-box a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.nav-box a:hover {
+    text-decoration: none;
+    color: #0394C9;
+}
+
+a.buttons {
+    padding: 1.5rem;
+    font-size: 1.25rem;
+}
+*/
