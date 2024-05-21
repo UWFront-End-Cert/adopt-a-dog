@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adopt a Dog</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+    <div class="one">   
+    <img class="logo" src="images/header.jpg" alt="dog image header">
+    </div>
+    <div class="checkoutbox">
+      <div id="checkout-total">$0</div>
+      <img class="cart" src="images/cart-icon.svg" alt="cart icon">
+      <div class="checkout"><a href="checkout.html">Checkout</a></div>
+      </div>    
+</header>
+<div class="two">  
+<nav>
+    <h2>
+    <a href="index.html"> Home </a>
+    <span> /</span>
+    <a href="blog.html"> Blog </a>
+    <span> / </span>
+    <a href="dogs.html"> Dogs </a>
+    <span> / </span>
+    </h2>
+    </nav>
+  </div>
+  <div id="checkout-info">
+    <p>Total: $<span id="total"></span></p>
+  </div>
+<div class="form">
+    <div class="grid-item-form">
+        <h1 id="main-content">CHECKOUT</h1>
+        <!--Active Checkout form -->
+         <form	action="/action.php"	method="GET">
+         <div class="input-container">
+           <div class="leftcontainer">
+             <p> Name </p>
+             </div>
+             <div class="rightcontainer">
+              <input class="input-field" type="text" name="Name">
+              </div>
+              </div>
+         <div class="input-container">
+           <div class="leftcontainer">
+             <p> E-mail </p>
+             </div>
+             <div class="rightcontainer">
+              <input class="input-field" type="email" name="E-mail">
+              </div>
+              </div>
+         <div class="input-container">
+           <div class="leftcontainer">
+            <p>Street Address</p>
+            </div>
+            <div class="rightcontainer">
+             <input class="input-field" type="text" name="address">
+             </div>
+             </div>
+         <div class="input-container">
+           <div class="leftcontainer">
+            <p>City</p>
+            </div>
+            <div class="rightcontainer">
+             <input class="input-field" type="text" name="City">
+             </div>
+             </div>
+         <div class="input-container">
+           <div class="leftcontainer">
+            <p>State</p>
+            </div>
+            <div class="rightcontainer">
+             <input class="input-field" type="text" name="State">
+             </div>
+             </div>
+          <div class="input-container">
+          <div class="leftcontainer">
+           <p>Register</p>
+           </div>
+           <div class="rightcontainer">
+            <button class="btn" type="submit">SUBMIT</button>
+            </div>
+            </div>
+      </form>
+       </div>
+     </div>
+<footer>
+    <div class="five"> 
+    <img src="images/adoptadog-footer.jpg" alt="adopt a dog logo" style= "max-width:100%">
+    <nav class="nav-footer">
+        <a href="index.html"> Home </a>
+        <span>/</span>
+        <a href="blog.html"> Blog </a>
+        <span>/ </span>
+        <a href="dogs.html"> Dogs </a>
+        <span>/</span></nav>
+        </div>
+    </footer>
+    </body>
+    </html>

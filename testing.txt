@@ -1,0 +1,68 @@
+Lesson 10 Part 2- Testing
+
+Testing and Cross-Browser Compatibility
+
+Overview: Ensuring that the website functions seamlessly across different browsers and platforms is essential to provide a consistent and user-friendly experience for all visitors in search of their four-legged friend. I conducted thorough testing to identify and address any compatibility issues, some minor adjustments are needed and noted, to ensure optimal performance across a wide range of environments.
+
+Testing Process
+
+1. Browser Testing:
+I tested the website on three web browsers: Google Chrome, Mozilla Firefox, and Microsoft Edge. This browser testing allowed me to identify any browser-specific issues and ensure a consistent look and functionality.
+
+2. Mobile Responsiveness
+I conducted tests via Google Chrome Developer and tested responsiveness on various simulated mobile devices, such as smartphones and tablets, with different screen sizes and orientations. This helped me verify that the website maintains its responsiveness and usability on smaller screens. There were some findings during this process and additional coding needed as mentioned below. 
+
+Additional responsiveness needed:
+•	Placement of the cart and checkout on the header is not ideal with smaller screen sizes and it should be made more responsive. 
+•	The blog page has issues when it is converted on a smaller screen size. The images need to be made more responsive. At this time when the screen size becomes smaller, the text does not wrap and the images become miniature. 
+
+3. Operating Systems
+The testing covered different operating systems, including Windows, iOS, and Android. This step ensured that the website performs well and remains visually appealing across various platforms.
+
+4. Accessibility Testing:
+I performed accessibility testing to ensure that the website adheres to web accessibility guidelines (WCAG). This includes testing with screen readers, keyboard navigation, and ensuring proper color contrast for visually impaired users. Some improvements should be made to the accessibility of the site; such as improved keyboard navigation, and screen reader text expanded upon.  
+
+
+
+
+Lesson 10
+**User Persona 1: Alejandro, the Tech-Savvy Millennial**
+
+Background:
+Meet Alejandro, a 28-year-old artist thriving in the digital advertising industry. He loves cutting-edge gadgets and technologies which sets him apart. He is currently searching for a four-legged friend, since he primarly works from home and has time to dedicate to a fur friend. 
+
+Tech-Inclined Habits:
+- Alejandro's daily life revolves around his high-end Android smartphone, blending work and personal pursuits.
+- As a trendsetting enthusiast, he's quick to embrace apps and is always on the hunt for ways to amplify his creativity and efficiency.Although he is strongly against AI generated art as it "takes away from the creativity and artistery"
+- He utilizes an iPad for his artistic endeavors and a powerful MacDesktop for video editing.
+
+Preferred Devices:
+- Smartphone: Google Pixel
+- Laptop: Latest MacBook Pro model
+- Gaming: Xbox Series X
+- Wrist Companion: Samsung Watch
+- Smart Home Setup: Amazon Echo suite, Ring Doorbell, and Philips Hue.
+
+Background Insight:
+- Alejandro boasts an art degree, channeling his spare moments into crafting personal content for his YouTube channel and social media accounts.
+- He is immersed in the digital realm. He actively engages with the art community via social media. 
+
+**User Persona 2: Lori, the Tech-Embracing Grandma**
+
+Background:
+Meet Lori, a vivacious 66-year-old grandmother whose life took a modern twist. Formerly a homemaker, she now balances babysitting her grandchildren with her technological exploration.She is in search of a furry companion for her and the grandkids. 
+
+Tech-Cautious Habits:
+- Lori's smartphone serves as her lifeline, facilitating connections with loved ones.
+- Her trusty Kindle Fire doubles as a news hub, reading haven, show streaming platform, and shopping gateway.
+- Seeking streamlined convenience, Lori navigates web-based tools but treads cautiously with apps due to the password complexity challenge.
+
+Preferred Devices:
+- Smartphone: Android device
+- Personal Gadget: Kindle Fire
+- Laptop: Not applicable
+- Home Assistant: Google Nest Mini, her virtual household aide
+
+Background Insight:
+- Lori's associate's degree serves as her foundation, while her online pastimes involve Pinterest for home inspiration.
+- Lori immerses herself in digital shopping, communication, crafting ideas, and entertainment.

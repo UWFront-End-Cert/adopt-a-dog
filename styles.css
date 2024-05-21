@@ -1,0 +1,558 @@
+font {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 8%;
+  color: grey;
+}
+h1 {
+  color: #143C5B;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+  font-weight: bold;
+}
+
+/* Header */
+.one {
+  box-sizing: content-box;
+  max-width: 100%;
+  max-height: 10%;
+  }
+.logo {
+  max-width: 100%;
+  max-height: 10%;
+}
+ /* Header Cart */
+ 
+ .checkoutbox {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  color: white;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkout a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #66CC00;
+  color: white;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.checkout a:hover {
+  background-color: #4CAF50;
+}
+
+.cart {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 0.5rem; 
+}
+
+.checkout-total {
+  margin-top: 0.5rem; 
+  padding: 2%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:white;
+}
+
+@media (max-width: 768px) {
+  .checkoutbox {
+    position: relative;
+    top: auto;
+    right: auto;
+    text-align: center; 
+    margin: 2% auto; 
+  }
+}
+@media (max-width: 768px) {
+  .checkout a {
+    display: block; 
+    margin-top: 1rem; 
+  }
+
+  .cart {
+    margin-left: 0; 
+    margin-right: 0.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .checkoutbox {
+    position: absolute;
+    top: 2%; 
+    right: 2%; 
+    text-align: right; 
+  }
+}
+
+/* Navigation Bar */
+.two {
+  background-color: gray;
+  font-size: 14px;
+  font: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: .5%;
+  text-indent: 10%;
+  color: navy;
+}
+
+/* Adopt A Dog - About Us */
+
+.thumbnail {
+  max-width: 400px; 
+  max-height: 200px;
+  object-fit: scale-down;
+}
+.main-content{
+padding: 5%;
+display:grid;
+column-gap: 5%;
+grid-template-columns: 30% 30% 20%;
+grid-template-areas: 
+'article1 article1 aside'
+'article2 article2 aside'
+'section1 section1 aside'
+'seemore seemore aside'
+'five five five';
+}
+.article1{
+  grid-area: article1;
+  grid-column: 1 / span 2;
+  padding: 5%;
+}
+.aboutimg {
+  width: 95%;
+  height: 350px;
+  grid-column: 1 / span 2;
+
+}
+.article2 {
+  grid-area: article2;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.aside {
+  padding-top: 5%;
+  grid-area: aside;
+  grid-column: 3;
+  display: inline-block;
+}
+
+.three {
+columns: 1;
+display: flex;
+column-gap: 5%;
+padding-left: 10%;
+padding-right: 33%;
+padding-top: 5%;
+}
+
+.aside a { 
+  color: lightskyblue;
+}
+
+.about {
+  padding-left: 50%;
+  padding-right: 33%;
+}
+
+/* Dogs for Adoption */
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  gap: 3%;
+}
+.dogcard {
+  max-width: 200px;
+  max-height: 200px;
+}
+.section1 {
+  grid-area: section1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  }
+
+.dog-container {
+  border: 1.5px solid #ebebeb;
+  background-color: #ffffff;
+  flex-basis: calc(5% - 2%);
+  margin-bottom: 2%;
+  text-align: center;
+}
+.seemore {
+  background-color: darkgrey;
+  border-radius: 2.5%;
+  grid-area: seemore;
+  text-align: center;
+  padding: 2.5%;
+}
+
+.seemore a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+}
+
+.dogsname {
+  color: #003a66;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+.adoptbutton {
+color: white;
+background: #66CC00;
+justify-content: center;
+border-radius: 5%;
+padding: 5%;
+font-size: 16px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Footer */
+
+.five {
+  background-color: #143C5B;
+  color: white;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+  width:auto;
+   }
+
+/* Blog Page */
+.adoptadogblog {
+  color: #143C5B;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+  font-weight: bold;
+  padding-left: 10%;
+}
+.six {
+  columns: 2;
+  column-gap: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+.seven {
+  columns: 2;
+  column-gap: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+.eight {
+  columns: 2;
+  column-gap: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.blogtitles {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+  color: #143c5b;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* unvisited link */
+a:link {
+  color: rgb(7, 7, 82);
+}
+/* visited link */
+a:visited {
+  color: navy;
+}
+/* mouse over link */
+a:hover {
+  color: lightskyblue;
+}
+/* selected link */
+a:active {
+  color: navy;
+}
+/* Checkout Form */
+p1 {
+  color: navy;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+}
+.aboutcontainer {
+  color: navy;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 66%;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+ }
+.navbar {
+  margin-bottom: 20px;
+}
+
+/*Trial to correct left and right formatting*/
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  width: 66%;
+  columns: 2;
+  align-self:auto;
+  flex-flow: column-reverse;
+}
+/* Responsive Additions */
+@media (max-width: 768px) {
+  /* adjust layout for smaller screens */
+}
+@media (max-width: 480px) {
+  /* adjust layout for smaller screens */
+}
+.img-responsive1 {
+  width:100%;
+  max-width:400px;
+  height:auto;
+}
+.text {
+  flex: 1;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/* Responsive Additions */
+@media (max-width: 768px) {
+  /* For screens with a maximum width of 768px (tablets and smaller) */
+
+  .main-content {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+    grid-template-areas:
+      "article1"
+      "section1"
+      "aside";
+  }
+
+  #aside {
+      float: right;
+      width: 25%;
+      height: auto;
+      margin: .7rem 1% 4%;
+      overflow: hidden;
+      width: 80%;
+      height: auto;
+      margin-right: 0;
+      }
+
+  .article1,
+  .section1 {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
+/* Default styles for larger screens */
+.main-content {
+  grid-template-columns: 30% 30% 20%;
+  grid-template-areas:
+    "article1 article1 aside"
+    "article2 article2 aside"
+    "section1 section1 aside"
+    "seemore seemore aside"
+    "five five five";
+}
+
+/* Media query for tablet devices */
+@media (max-width: 768px) {
+  .main-content {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "article1 article1"
+      "article2 article2"
+      "section1 section1"
+      "aside aside"
+      "seemore seemore"
+      "five five five";
+  }
+
+  .aside {
+    grid-column: 1 / span 2;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .main-content {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "article1"
+      "article2"
+      "section1"
+      "aside"
+      "seemore"
+      "five";
+  }
+
+  .aside {
+    grid-column: 1;
+  }
+}
+
+/* Hide blog article previews on mobile devices */
+@media (max-width: 768px) {
+  .aside {
+    display: none;
+  }
+}
+
+
+
+/* For screens with a maximum width of 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  .checkout {
+    top: 5%;
+    right: 5%;
+  }
+
+  .cart {
+    top: 3%;
+    right: 8%;
+  }
+}
+
+/* For screens with a maximum width of 480px (mobile devices) */
+@media (max-width: 480px) {
+  .checkout {
+    top: 3%;
+    right: 5%;
+  }
+
+  .cart {
+    top: 2%;
+    right: 5%;
+  }
+}
+/* Revisions For the header */
+.header {
+  position: relative;
+}
+/* Add a gradient to the header */
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgb(50, 205, 50), rgb(0, 128, 0));
+  z-index: -1;
+}
+
+/* Adding Containers for Blog Posts*/
+
+/* Containers for blog posts */
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2% 5%;
+}
+
+/* Style for each individual blog post container */
+.blog-post-container {
+  flex-basis: calc(50% - 1.5rem); 
+  display:flex;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ebebeb;
+  background-color: #ffffff;
+}
+
+/* Style for the blog post image */
+.blog-post-container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.blog-post-image {
+  flex-basis: 40%; 
+  padding: 1rem;
+}
+.blog-post-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style for the blog post headline */
+.blog-post-container .blogtitles {
+  color: #143c5b;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Style for the blog post text */
+.blog-post-container p {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+  color: #143c5b;
+  font-size: 14px;
+  line-height: 1.6;
+  }
+  .blog-post-text {
+    flex-basis: 60%; 
+    padding: 1rem;
+  }
+  .blog-post-text p {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    color: #143c5b;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+ 
+/* CSS Corrections for Optimization*/
+
+  .blogtitles,
+nav a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #143c5b;
+  font-weight: bold;
+  font-size: 18px;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(7, 7, 82);
+}
+nav a:hover {
+  color: lightskyblue;
+}
+
+nav a:visited {
+  color: navy;
+}
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+/*Checkout Form*/
+
+.grid-item-form {
+  padding: 5%;
+}
+.checkoutpage {
+  padding: 5%
+}
+#checkout-info {
+  padding: 5%;
+}
