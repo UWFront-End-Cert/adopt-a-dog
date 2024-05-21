@@ -1,0 +1,20 @@
+body {
+    margin: 0rem;
+    color: #0B2D4D;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-text {
+    width: 50%;
+}
+
