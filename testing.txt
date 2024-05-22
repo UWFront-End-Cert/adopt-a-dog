@@ -1,0 +1,88 @@
+UX Testing
+
+
+Adopt-a-dog Website Mockup:
+
+Description:
+
+The Adopt-a-Dog mockup will be a website that provides data on various dogs available for adoption in the Seattle area. It collects its data from HTML pages.
+
+Browsers tested on:
+
+•	Safari
+•	Firefox 
+•	Edge 
+
+Devices tested on:
+
+•	Mac Laptop 
+•	PC
+•	Smartphone 
+•	iPad 
+
+Copyright:
+
+ 2024 Jenny Kerr
+
+
+Resources for the Website
+
+License your dog:
+
+https://kingcounty.gov/en/dept/executive-services/animals-pets-pests/regional-animal-services/pet-licenses
+
+https://www.piercecountywa.gov/325/Pet-Licensing
+
+
+Directory for Veterinarians in the Seattle Area:
+
+
+https://www.bringfido.com/resource/veterinarians/city/seattle_wa_us/
+
+https://www.yellowpages.com/search?search_terms=Veterinarians&geo_location_terms=Puyallup%2C+WA
+
+
+
+Persona 1:
+
+Jerome Shaw
+
+Age: 43
+
+Occupation: Government
+
+Activities: 
+4-wheeling on the abundance of off-road trail systems in Washington State, hiking, fishing, sporting events, and volunteering at Veteran non-profits in the PNW.
+
+Other Details:
+
+Jerome Shaw's journey is one of transition. While stationed at Camp Murray, he discovered his love for outdoor activities in the PNW. Since leaving the National Guard, he has been busy building up his Jeep for off-roading and is now searching for a new furry companion to join his new hobby. His story resonates with many who have experienced similar life changes.
+Jerome purchased a new Mac this year after turning in his government laptop. He uses his 2-year-old smartphone most of the time to search for a new dog to join him on the trails and to download the trails routed from Trails Offroad.
+
+Jerome’s Resources:
+
+Trails Offroad
+
+https://www.trailsoffroad.com/
+
+
+Persona 2:
+
+Sam Barks 
+
+Age: 39
+
+Occupation: Brokerage Accounts Manager for tastytrade
+Activities: Sam is a tech-savvy individual who you could typically find on one of his devices doing work. Sam and a friend own a few franchises and are looking into investing in more together. When Sam is not working, he enjoys the great outdoors as a hunter. He wants to adopt a dog with a lot of energy and is easily trainable to take on his frequent hunting trips. 
+Other Details: He owns a Dell laptop that is under three years old, but he will often work from his newer iPad and smartphone. Sam will only use a website with a few unnecessary details and likes a site with direct information that is clear to navigate and understand. 
+
+Sam’s Resources:
+
+tastytrade
+
+https://tastytrade.com/
+
+2024 Franchise 500 Ranking
+
+https://www.entrepreneur.com/franchise500
+
