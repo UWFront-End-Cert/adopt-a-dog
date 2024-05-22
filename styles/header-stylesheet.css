@@ -1,3 +1,4 @@
+
 .logo-checkout-container {
     display: flex;
 }
@@ -49,7 +50,7 @@
     text-decoration: none;
 }
 
-#logo {
+.logo {
     max-width: 100%;
     height: auto
 }
@@ -78,4 +79,3 @@
     text-decoration: none;
     color: #70AD32;
 }
-
