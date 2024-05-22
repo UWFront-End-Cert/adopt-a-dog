@@ -127,3 +127,7 @@ body {
     text-decoration: none;
     color: #70AD32;
 }
+
+.heading {
+    padding-left: 16rem;
+}
