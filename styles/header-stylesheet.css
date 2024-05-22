@@ -52,11 +52,10 @@
 
 .logo {
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .nav-box {
-    width: 100%;
     border-style: none;
     background: none;
     padding-left: 16rem;
@@ -78,4 +77,8 @@
 .nav-box a:hover {
     text-decoration: none;
     color: #70AD32;
+}
+
+.upper-container {
+    width: 100%;
 }
