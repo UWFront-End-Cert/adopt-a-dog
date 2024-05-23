@@ -87,13 +87,13 @@ article h1 {
     grid-gap: 10px;
 }
 
+.dog img {
+    width: 100%;
+}
+
 .dog {
     border: 1px solid rgb(236, 236, 236);
     padding: 10px;
-}
-
-.dog img {
-    width: 190px;
 }
 
 .dog button {
