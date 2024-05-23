@@ -66,16 +66,16 @@ article h1 {
     text-align: center;
 }
 
+.blog {
+    display: flex;
+    margin: 50px;
+}
+
+.blog-img {
+    margin-right: 50px;
+}
+
 @media only screen and (min-width: 1024px) {
-    .blog {
-        display: flex;
-        margin: 50px;
-    }
-
-    .blog-img {
-        margin-right: 50px;
-    }
-
     .dogs {
         display: grid;
         grid-gap: 10px;
