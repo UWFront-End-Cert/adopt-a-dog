@@ -36,62 +36,81 @@
         </nav>
     </header>
 
-    <section>
-    <h1>Checkout</h1>
-        <form>
-            <label for="name">Name</label><br>
-            <input type="text" id="name" name="name"><br>
+    <section class="checkout-container">    
+        <h1>Checkout</h1>
+            <form name="checkout">
+                <label class="checkout-questions" for="name"><h3>Name</h3>
+                    <input type="text" id="name" name="applicantName">
+                </label>
 
-            <label for="email">Email Address</label><br>
-            <input type="text" id="email" name="email"><br>
+                <label class="checkout-questions" for="email"><h3>Email Address</h3>
+                    <input type="text" id="email" name="applicantEmail">
+                </label>
+                
+                <label class="checkout-questions" for="street"><h3>Street Address</h3>
+                    <input type="text" id="street" name="applicantStreet">
+                </label>
+                
+                <label class="checkout-questions" for="city"><h3>City</h3>
+                    <input type="text" id="city" name="applicantCity">
+                </label>
+                
+                <label class="checkout-questions" for="state"><h3>State</h3>
+                    <select id="state" name="applicantState">
+                        <option value="idaho">Idaho</option>
+                        <option value="montana">Montana</option>
+                        <option value="oregon">Oregon</option>
+                        <option value="washington">Washington</option>
+                    </select>
+                </label>
+                
+                <label class="checkout-questions" for="zip"><h3>Zip Code</h3>
+                    <input type="text" id="zip" name="applicantZip">
+                </label>
+                
+                <label class="checkout-questions2" for="first-time"><h3>First Time Adopter?</h3>
+                    <input type="radio" id="yes" name="firstTime" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="firstTime" value="no">
+                    <label for="no">No</label>
+                </label>
 
-            <label for="street">Street Address</label><br>
-            <input type="text" id="street" name="street"><br>
+                <label class="checkout-questions" for="pickup"><h3>Pickup Location</h3>
+                    <select id="pickup" name="pickup">
+                        <option value="empty"></option>
+                        <option value="ballard">Ballard</option>
+                        <option value="central">Central District</option>
+                        <option value="columbia">Columbia City</option>
+                    </select>
+                </label>
+                
+                <p class="checkout-questions"><h3>Dogs Adopted</h3></p>
+                <div class="dogs-adopted-container">
+                    <div class="dogs-adopted-box">
+                        <div class="dogs-adopted-image">
+                            <img src="images/lucas-checkout.jpg" alt="photo of a black dog" width="72" height="72">
+                        </div>
+                        <div class="dogs-adopted-text">
+                            <h4>Lucas</h4>
+                            <p><span class="cost">Cost to Adopt:</span> $123.45</p>
+                        </div>
+                    </div>
+                    <div class="dogs-adopted-box">
+                        <div class="dogs-adopted-image">
+                            <img src="images/duffy-checkout.jpg" alt="photo of a pit bull with a white face and brown ears" width="72" height="72">
+                        </div>
+                        <div class="dogs-adopted-text">
+                            <h4>Duffy</h4>
+                            <p><span class="cost">Cost to Adopt:</span> $123.45</p>
+                        </div>    
+                    </div>
+                </div>
 
-            <label for="city">City</label><br>
-            <input type="text" id="city" name="city"><br>
+                <p class="checkout-questions"><h3>Total Adoption Cost</h3></p>
+                <p>$1234.56</p>
 
-            <label for="state">State</label><br>
-            <select id="state" name="state">
-                <option value="idaho">Idaho</option>
-                <option value="montana">Montana</option>
-                <option value="oregon">Oregon</option>
-                <option value="washington">Washington</option>
-            </select><br>
-
-            <label for="zip">Zip Code</label><br>
-            <input type="text" id="zip" name="zip"><br>
-
-            <p>First Time Adopter?</p>
-            <input type="radio" id="yes" name="first-time" value="yes">
-            <label for="yes">Yes</label>
-            <input type="radio" id="no" name="first-time" value="no">
-            <label for="no">No</label><br>
-
-            <label for="pickup">Pickup Location</label><br>
-            <select id="pickup" name="pickup">
-                <option value="ballard">Ballard</option>
-                <option value="central">Central District</option>
-                <option value="coliumbia">Columbia City</option>
-            </select><br>
-
-            <p>Dogs Adopted</p>
-            <div>
-                <img src="images/lucas-checkout.jpg" alt="photo of a black dog" width="72" height="72">
-                <p>Lucas</p>
-                <p>Cost to Adopt: $123.45</p>
-            </div>
-            <div>
-                <img src="images/duffy-checkout.jpg" alt="photo of a pit bull with a white face and brown ears" width="72" height="72">
-                <p>Lucas</p>
-                <p>Cost to Adopt: $123.45</p>
-            </div>
-
-            <p>Total Adoption Cost</p>
-            <p>$1234.56</p>
-
-            <input type="submit" value="Submit">
-        </form>
+                <input class="submit-button" type="submit" value="Submit">
+            </form>
     </section>
 
     <footer>
