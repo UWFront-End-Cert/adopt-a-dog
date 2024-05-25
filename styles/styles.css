@@ -206,6 +206,8 @@ label {
     margin: auto;
     width: 50%;
     text-align: center;
+    background-color: transparent;
+    box-shadow: none;
 }
 
 .bold {
