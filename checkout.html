@@ -9,18 +9,19 @@
     <body>
 
         <header>
-            <h1>AdoptADog</h1>
-            <p>Seattle's premiere dog adoption agency</p>
             <aside>
                 <img src="images/cart-icon.svg" alt="cart icon" height="40" width="40">
                 <button type="button" onclick="window.location.href='checkout.html'">Checkout</button>
-            </aside>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="all-dogs.html">Dogs</a>
-                <a href="blog.html">Blog</a>
-            </nav>
+            </aside>    
+            <img src="images/adoptadog-logo.svg" alt="adopt a dog logo" height="100" width="300">
+            <p>Seattle's premiere dog adoption agency</p> 
         </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="all-dogs.html">Dogs</a>
+            <a href="blog.html">Blog</a>
+        </nav>
 
         <h2>Checkout</h2>
 
@@ -43,7 +44,7 @@
             <label for="zip">Zip Code:</label><br>
             <input type="text" id="zip" name="zip"><br>
 
-            <p>First Time Adopter?</p>
+            <p class="label">First Time Adopter?</p><br>
             <input type="radio" id="yes" name="first-time" value="yes">
             <label for="yes">Yes</label><br>
 
@@ -53,18 +54,22 @@
             <label for="location">Pickup Location:</label><br>
             <input type="text" id="location" name="location"><br>
 
-            <p>Dogs Adopted:</p>
-            <figure>
-                <img src="images/duffy-checkout.jpg" alt="pitbull puppy" height="30" width="30">
-                <figcaption>Duffy<br>
-                Cost to adopt:$123.45</figcaption>
-            </figure>
-
-            <p>Total Adoption Cost</p>
-            <p>$123.45</p>
-
-            <input type="submit" value="Submit">
         </form>
+
+            <section class="adopted">
+                <p class="label">Dogs Adopted:</p>
+                <figure>
+                    <img src="images/duffy-checkout.jpg" alt="pitbull puppy" height="80" width="80">
+                    <figcaption class="label">Duffy<br>
+                    Cost to adopt:<br>
+                    <p class="bold">$123.45</p></figcaption>
+                </figure>
+
+                <p class="label">Total Adoption Cost</p>
+                <p class="bold">$123.45</p>
+            </section>
+
+            <input class="submit" type="submit" value="Submit">
 
         <footer>
             <img src="images/adoptadog-logo.svg" alt="adopt a dog logo" height="100" width="300">
