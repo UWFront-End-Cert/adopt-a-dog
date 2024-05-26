@@ -4,53 +4,84 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-    <header>
-        <div>
-            <img src="images/header-image.jpg" width="450" height="400" alt="Close up image of a dog's face."/>
-            <img src="images/adoptadog-logo.svg" width="200" height="150" alt="The Adopt a dog Logo, a silhouette of a dog.">
-            <h1> ADOPTADOG</h1>
-            <h3> Seattle's Premeire dog adoption agency</h3>
-            <a href="checkout.html"> Checkout</a>
-        </div>
-        <div>
-            <a href="index.html"> Home</a>
-            <a href="dogs.html"> Dogs</a>
-            <a href="blog.html"> Blog</a>
-        </div>
-    </header>
+    <header class="header">
+      <div class="header-content">
+          <div class="logo">
+              <img src="images/adoptadog-logo.svg" alt="White outline of a dog.">
+              <div>
+                  <h1>ADOPTADOG</h1>
+                  <p>Seattle's premiere dog adoption agency</p>
+              </div>
+          </div>
+          <div class="checkout">
+              <span class="cart-total">$1234.56</span>
+              <button class="checkout-button">Checkout</button>
+          </div>
+      </div>
+  </header>
+  <nav>
+    <ul>
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="dogs.html"> Dogs</a></li>
+        <li><a href="blog.html"> Blog</a></li>
+    </ul>
+</nav>
+
     <img src="images/home-intro.jpg" width="300" height="250" alt="A smiling dog, hugged by a man.">
     <h2> About Us</h2>
         <p>Welcome to AdoptaDog! The temporary home of your new furry friend. Here at Adoptadog, we make it our mission to connect lovable dogs with loving homes.</p>Welcome to 
-    <h2> Dogs for Adoption</h2>
-        <h4>Lucas</h4>
-        <img src="images/lucas-card.jpg" width="300" height="250" alt="Close up of a large smiling shpeherd mix.">
-        <a href="dogs.html"> View Profile</a>
-        <h4>Duffy</h4>
-        <img src="images/duffy-card.jpg" width="300" height="250" alt="Close up of a medium sized pitbull mix.">
-        <a href="dogs.html"> View Profile</a>
-        <h4>Piper</h4>
-        <img src="images/piper-card.jpg" width="300" height="250" alt="A smiling medium sized brown dog.">
-        <a href="dogs.html"> View Profile</a>
-        <h4>Poppy</h4>
-        <img src="images/poppy-card.jpg" width="300" height="250" alt="A smiling little mixed breed dog.">
-        <a href="dogs.html"> View Profile</a>
-    <h2> From Our Blog</h2>
-        <h4>Understanding Your Dog's Moods</h4>
-        <img src="images/blog-1.jpg" width="300" height="250" alt="A woman and her dog overlooking a canyon.">
-        <a href="blog.html">Read More</a>
-        <h4>Dog Park Etiquette</h4>
-        <img src="images/blog-2.jpg" width="300" height="250" alt="Four dogs on leashes looking up to the person walking them.">
-        <a href="blog.html">Read More</a>
-        <h4>5 Dog Training Hacks</h4>
-        <img src="images/blog-3.jpg" width="300" height="250" alt="A woman holding a ball up as her dog looks up expectantly.">
-        <a href="blog.html">Read More</a>
-    <footer>
+    <h2 class="dog-cards"> Dogs for Adoption</h2>
+    <div class="dog-card">
+      
+      <img src="images/lucas-card.jpg" width="300" height="250" alt="Close up of a large smiling shpeherd mix.">
+      <h2>Lucas</h2>
+      <p><strong>Cost to Adopt:</strong> $123.45</p>
+      <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+      <a href="dogs.html"> View Profile</a>
+      <br>
+      <br>
+      <img src="images/duffy-card.jpg" width="300" height="250" alt="Close up of a medium sized pitbull mix.">      
+      <h2>Duffy</h2>
+      <p><strong>Cost to Adopt:</strong> $123.45</p>
+      <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+      <a href="dogs.html"> View Profile</a>
+      <br>
+      <br>
+      <img src="images/piper-card.jpg" width="300" height="250" alt="A smiling medium sized brown dog.">
+      <h2>Piper</h2>
+      <p><strong>Cost to Adopt:</strong> $123.45</p>
+      <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+      <a href="dogs.html"> View Profile</a>
+      <br>
+      <br>
+      <img src="images/poppy-card.jpg" width="300" height="250" alt="A smiling little mixed breed dog.">
+      <h2>Poppy</h2>
+      <p><strong>Cost to Adopt:</strong> $123.45</p>
+      <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+      <a href="dogs.html"> View Profile</a>
+    </div>
+  
+  <footer class="footer">
+          <div class="footer-content">
+              <div class="footer-logo">
+                  <img src="images/adoptadog-logo.svg" alt="AdoptADog Logo">
+                  <h1>ADOPTADOG</h1>
+              </div>
+              <p class="footer-description">
+                  Aborpos nisto inci tet aut que voluati beruptiberro to ex esseque inivenienihil imaximu scideru ptistiusam consequunt
+              </p>
+              <nav class="footer-nav">
             <a href="index.html"> Home</a>
             <a href="dogs.html"> Dogs</a>
-            <a href="checkout.html"> Checkout</a>
-            <p> Adoptadog, LLC / Seattle, WA</p>
-    </footer>
+            <a href="blog.html"> Blog</a>
+              </nav>
+          <p class="footer-copy">
+              © 2018 Adoptadog, LLC | Seattle, WA
+          </p>
+      </div>
+  </footer>
   </body>
 </html>
