@@ -5,7 +5,7 @@
 }
 
 body {
-  font-size: 1.4rem;
+  font-size: 1rem;
   border: 2px solid magenta;
 }
 
@@ -16,18 +16,37 @@ header {
   background-size: 85% 200%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 50vh;
+  max-height: 60%;
+  min-height: 40%;
   display: flex;
   border: 2px solid green;
 }
 
 #header-logo {
   border: 2px solid purple;
+  width: 30vw;
+  margin: 5vh 10vw 25vh 10vw;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
+#header-logo img {
+  border: 2px solid orange;
+  width: 100%;
+  flex-shrink: 3;
+}
 img {
   border: 2px solid blue;
 }
+h1 {
+  color: #88e24b;
+  font-style: italic;
+  font-size: 1.4rem;
+  border: 2px solid white;
+  flex-shrink: 3;
+  text-align: center;
+}
+
 nav {
   background-color: lightgrey;
   width: 100%;
