@@ -11,7 +11,6 @@ body {
   font-size: 1rem;
   border: 2px solid magenta;
 }
-
 header {
   background-image: url("../images/header-image.jpg");
   background-color: #0d0d0d;
@@ -24,22 +23,18 @@ header {
   display: flex;
   flex-flow: row nowrap;
 }
-
 #header-logo {
   width: 50vw;
   margin: 5vh 15vw 30vh 10vw;
   display: flex;
   flex-flow: column nowrap;
 }
-
 #header-logo img {
   width: 100%;
   flex-shrink: 3;
 }
-img {
-}
 h1 {
-  color: #88e24b;
+  color: #7bcc46;
   font-style: italic;
   font-size: 1.4rem;
   flex-shrink: 3;
@@ -63,7 +58,7 @@ h1 {
 }
 #checkout button {
   width: 100%;
-  background-color: #97e265;
+  background-color: #7bcc46;
   padding: 1vh 0 1vh 0;
   border-radius: 3px;
   border-style: none;
@@ -99,9 +94,7 @@ nav a {
   font-weight: 900;
   text-decoration: none;
 }
-
 #body-wrapper {
-  border: 3px solid orange;
   width: 80%;
   height: 100%;
   margin: 2% 10% 0 10%;
@@ -121,8 +114,6 @@ article img {
   flex-grow: 3;
   flex-shrink: 3;
 }
-#blog-wrapper {
-}
 article h2 {
   width: 100%;
   margin: 3vh 0 1vh 0;
@@ -137,7 +128,6 @@ article p {
   font-weight: 300;
   line-height: 1.5;
 }
-
 #index-cards-wrapper {
   height: 100%;
   max-width: 100%;
@@ -145,6 +135,7 @@ article p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 5vh 0 3vh 0;
 }
 .dog-card {
   margin: 1vh 0 1vh 0;
@@ -152,22 +143,48 @@ article p {
   max-width: 16vw;
   min-height: 0;
   max-height: 150vh;
+  border: 1px solid darkslategrey;
 }
 .dog-card img {
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 .dog-card h3 {
-  border: 3px solid red;
+  color: #232e53;
+  font-family: "DM Serif Display", serif;
+  font-weight: 900;
+  font-size: 1.2rem;
+  padding: 0 0 1vh 0.5vw;
 }
 .dog-card p {
-  border: 3px solid purple;
   font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+  color: #0f1627;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 0 0 0 0.5vw;
 }
 section button {
-  border: 3px solid red;
+  width: 90%;
+  margin: 5% 5% 5% 5%;
+  background-color: #7bcc46;
+  border-radius: 0.1px;
+  border-style: none;
+  box-shadow: 0 0 3px black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-shadow: 0 0 5px #0d0d0d;
 }
 #see-more-dogs-button {
-  border: 3px solid gold;
   width: 100%;
-  margin: 0 43% 0 43%;
+  margin: 5% 41% 5% 41%;
+  padding: 1vh 3vw 1vh 3vw;
+  border-radius: 0.1px;
+  border-style: none;
+  background-color: #dce0f0;
+  color: #232e53;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
