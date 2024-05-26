@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.4rem;
+  border: 2px solid magenta;
+}
+
+header {
+  background-image: url("../images/header-image.jpg");
+  background-color: #0d0d0d;
+  background-position: top right;
+  background-size: 85% 200%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  border: 2px solid green;
+}
+
+#header-logo {
+  border: 2px solid purple;
+}
+
+img {
+  border: 2px solid blue;
+}
+nav {
+  background-color: lightgrey;
+  width: 100%;
+  width: 10%;
+  border: 2px solid cyan;
+}
