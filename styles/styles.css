@@ -19,13 +19,14 @@ header {
   max-height: 60%;
   min-height: 40%;
   display: flex;
+  flex-flow: row nowrap;
   border: 2px solid green;
 }
 
 #header-logo {
   border: 2px solid purple;
-  width: 30vw;
-  margin: 5vh 10vw 25vh 10vw;
+  width: 50vw;
+  margin: 5vh 15vw 30vh 10vw;
   display: flex;
   flex-flow: column nowrap;
 }
@@ -46,7 +47,35 @@ h1 {
   flex-shrink: 3;
   text-align: center;
 }
-
+#checkout {
+  height: 100%;
+  min-width: 13vw;
+  max-width: 20vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: right;
+  border: 2px solid red;
+  margin: 7vh 8vw 25vh 20vw;
+  color: white;
+}
+#checkout p {
+  border: 2px solid cyan;
+  padding: 1vh 0 0 0;
+  margin: 0;
+  font-weight: 700;
+}
+#checkout button {
+  width: 100%;
+  background-color: #97e265;
+  padding: 1vh 0 1vh 0;
+  border-radius: 3px;
+  box-shadow: 3px black;
+  border: 2px solid blue;
+  color: white;
+  font-weight: 500;
+  text-shadow: 0 0 5px #0d0d0d;
+  margin: 1vh 0 0 0;
+}
 nav {
   background-color: lightgrey;
   width: 100%;
