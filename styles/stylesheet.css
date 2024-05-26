@@ -141,7 +141,7 @@ body {
 }
 
 .heading {
-    padding-left: 16rem;
+    padding-left: 17rem;
 }
 
 
@@ -247,7 +247,7 @@ textarea {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    max-width: 50%;
+    min-width: 50%;
     /*max-width: 100%;
     height: auto;
     border-style: none;
