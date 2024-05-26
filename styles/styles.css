@@ -88,7 +88,7 @@ ul {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
-  margin: 0 20vw 0 19vw;
+  margin: 0 20vw 0 15vw;
 }
 li {
   display: inline;
@@ -103,24 +103,30 @@ nav a {
 
 #body-wrapper {
   border: 3px solid orange;
-  width: 85%;
-  margin: 2% 7.5% 0 7.5%;
+  width: 80%;
+  margin: 2% 10% 0 10%;
 }
-#index-blurb {
+article {
   width: 100%;
+  min-height: 40vh;
   border: 3px solid red;
   display: flex;
   align-items: center;
 }
-#index-blurb img {
-  min-height: 100%;
-  width: 30%;
+article img {
+  max-height: 60vh;
+  max-width: 60vw;
+  height: 100%;
+  width: 100%;
   margin: 0 5% 0 0;
   border: 3px solid green;
   flex-grow: 3;
   flex-shrink: 3;
 }
-#index-blurb h2 {
+#blog-wrapper {
+  border: 3px solid teal;
+}
+article h2 {
   width: 100%;
   border: 3px solid cyan;
   margin: 3vh 0 1vh 0;
@@ -129,9 +135,7 @@ nav a {
   font-weight: 900;
   font-size: 1.6rem;
 }
-#index-blurb p {
-  width: 100%;
-  max-height: 80%;
+article p {
   border: 3px solid purple;
   font-family: "Roboto", sans-serif;
   color: #232e53;
