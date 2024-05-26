@@ -57,7 +57,7 @@ h1 {
   font-family: Roboto;
 }
 #checkout p {
-  padding: 1vh 0 0 0;
+  padding: 2vh 0 0 0;
   margin: 0;
   font-weight: 700;
 }
@@ -81,23 +81,45 @@ nav {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  border: 2px solid blue;
 }
 ul {
   max-width: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
-  border: 2px solid orange;
   margin: 0 20vw 0 19vw;
 }
 li {
   display: inline;
   padding: 1vh 1vw 1vh 1vw;
-  border: 2px solid red;
 }
 nav a {
   color: #2c3c5f;
   font-family: Roboto;
   font-weight: bolder;
+  text-decoration: none;
+}
+
+#body-wrapper {
+  border: 3px solid orange;
+  width: 90%;
+  margin: 2% 5% 0 5%;
+}
+#index-blurb {
+  width: 100%;
+  border: 3px solid red;
+  display: flex;
+}
+#index-blurb img {
+  height: 100%;
+  width: 40%;
+  margin: 0 5% 0 0;
+}
+#index-blurb h2 {
+  width: 100%;
+  border: 3px solid cyan;
+}
+#index-blurb p {
+  width: 100%;
+  border: 3px solid purple;
 }
