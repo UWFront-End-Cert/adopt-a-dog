@@ -134,6 +134,15 @@ article p {
   justify-content: space-around;
   flex: 1;
   margin: 5vh 0 3vh 0;
+  border: 2px solid magenta;
+}
+#index-cards-wrapper h2 {
+  width: 100%;
+  margin: 0 0 0 2vw;
+  color: #232e53;
+  font-family: "DM Serif Display", serif;
+  font-weight: 700;
+  font-size: 1.4rem;
 }
 .dog-card {
   margin: 1vh 0 1vh 0;
