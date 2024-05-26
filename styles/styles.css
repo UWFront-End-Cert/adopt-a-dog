@@ -4,6 +4,8 @@
   padding: 0;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body {
   font-size: 1rem;
   border: 2px solid magenta;
@@ -57,6 +59,7 @@ h1 {
   border: 2px solid red;
   margin: 7vh 8vw 25vh 20vw;
   color: white;
+  font-family: Roboto;
 }
 #checkout p {
   border: 2px solid cyan;
@@ -69,10 +72,11 @@ h1 {
   background-color: #97e265;
   padding: 1vh 0 1vh 0;
   border-radius: 3px;
-  box-shadow: 3px black;
-  border: 2px solid blue;
+  border-style: none;
+  box-shadow: 0 0 3px black;
   color: white;
-  font-weight: 500;
+  font-family: Roboto;
+  font-weight: 700;
   text-shadow: 0 0 5px #0d0d0d;
   margin: 1vh 0 0 0;
 }
