@@ -5,6 +5,7 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
   font-size: 1rem;
@@ -69,7 +70,7 @@ h1 {
   border-style: none;
   box-shadow: 0 0 3px black;
   color: white;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-shadow: 0 0 5px #0d0d0d;
   margin: 1vh 0 0 0;
@@ -94,32 +95,46 @@ li {
   padding: 1vh 1vw 1vh 1vw;
 }
 nav a {
-  color: #2c3c5f;
-  font-family: Roboto;
-  font-weight: bolder;
+  color: #232e53;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
   text-decoration: none;
 }
 
 #body-wrapper {
   border: 3px solid orange;
-  width: 90%;
-  margin: 2% 5% 0 5%;
+  width: 85%;
+  margin: 2% 7.5% 0 7.5%;
 }
 #index-blurb {
   width: 100%;
   border: 3px solid red;
   display: flex;
+  align-items: center;
 }
 #index-blurb img {
-  height: 100%;
-  width: 40%;
+  min-height: 100%;
+  width: 30%;
   margin: 0 5% 0 0;
+  border: 3px solid green;
+  flex-grow: 3;
+  flex-shrink: 3;
 }
 #index-blurb h2 {
   width: 100%;
   border: 3px solid cyan;
+  margin: 3vh 0 1vh 0;
+  color: #232e53;
+  font-family: "DM Serif Display", serif;
+  font-weight: 900;
+  font-size: 1.6rem;
 }
 #index-blurb p {
   width: 100%;
+  max-height: 80%;
   border: 3px solid purple;
+  font-family: "Roboto", sans-serif;
+  color: #232e53;
+  font-weight: 300;
+  line-height: 1.5;
 }
