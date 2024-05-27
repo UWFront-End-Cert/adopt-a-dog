@@ -124,13 +124,13 @@
   }
 
   .intro-dog {
-    grid-column: 3 / span 4;
+    grid-column: 2 / span 4;
     grid-row: 3;
     padding-top: 40px;
   }
 
   .intro-dog img {
-    grid-column: 3 / span 4;
+    grid-column: 2 / span 4;
     grid-row: 3;
     width: 25rem;
     height: auto;
@@ -138,6 +138,10 @@
 
   .adopt-text h2 {
     color: #083b5f;
+  }
+
+  .adopt-text {
+    font-size: large;
   }
 
   .bluetext {
@@ -171,7 +175,7 @@
   /* Float four columns side by side */
 .column {
   float: left;
-  width: 12%;
+  width: 25%;
   padding: 0 10px;
 }
 
@@ -185,21 +189,16 @@
   clear: both;
 }
 
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-
-/* Style the counter cards */
+/* Style the cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+}
+
+.card img {
+  max-width: 80%;
 }
 
 .dog-adoptions {
@@ -283,27 +282,10 @@ h1 {
   word-break: break-all;
 }
 
-.row {
-  margin: 8px -16px;
-}
-
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
   padding: 8px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 /* Content */
@@ -312,16 +294,31 @@ h1 {
   padding: 10px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Responsive columns */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
 }
+
+/* Responsive text size */
+@media screen and (max-width: 600px) {
+  .adopt-text {
+    font-size: small;
+  }
+}
+
+  .dog-button {
+    background-color: #DDD;
+    margin-left: 45%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #083b5f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
