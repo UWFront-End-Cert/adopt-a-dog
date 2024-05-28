@@ -8,7 +8,7 @@
     background-image: url(../images/header-image.jpg);
     grid-column: 1 / span 12;
     width: 100%;
-    min-height: 500px;
+    height: 25rem;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +35,7 @@
 .header-text {
     color: #76c91b;
     font-style: italic;
-    font-size: 24px;
+    font-size: 1rem;
     margin-top: 0;
     margin-left: 5%;
 }
@@ -132,7 +132,9 @@
   .intro-dog img {
     grid-column: 2 / span 4;
     grid-row: 3;
-    width: 25rem;
+    margin-left: 20%;
+    margin-bottom: 15%;
+    width: 65%;
     height: auto;
   }
 
@@ -140,7 +142,14 @@
     color: #083b5f;
   }
 
-  .adopt-text {
+  .adopt-text-2 h2 {
+    color: #083b5f;
+  }
+
+  .adopt-text-2 {
+    grid-column: 8 / span 4;
+    grid-row: 3;
+    padding-right: 10%;
     font-size: large;
   }
 
@@ -153,6 +162,7 @@
     grid-row: 3;
     padding-left: 10%;
     padding-right: 10%;
+    font-size: large;
   }
 
 
@@ -164,7 +174,12 @@
     text-align: center;
     color: white;
     overflow: hidden;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
+
 
   .footer img {
     width: 25rem;
@@ -176,6 +191,12 @@
 .column {
   float: left;
   width: 25%;
+  padding: 0 10px;
+}
+
+.column-blog {
+  float: left;
+  width: 100%;
   padding: 0 10px;
 }
 
@@ -240,7 +261,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #76c91b;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -249,7 +270,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #76c91b;
 }
 
 .container {
@@ -269,12 +290,21 @@ input[type=submit]:hover {
 
 .blog {width: 100%}
 .blogcontent {width: 100%;}
-.blog h3 {
-padding-left: 25%;
+.blogcontent img {
+  width: 30%;
 }
 
+
+.blog h3 {
+
+
+}
+
+
+
 .blog p {
-  padding-left: 25%;
+
+
 }
 
 h1 {
@@ -311,6 +341,85 @@ h1 {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .blogcontent img {
+    width: 80%;
+  }
+}
+
+/*Responsive Header Image*/
+@media screen and (max-width: 600px) {
+.header-img-container {
+  height: 20rem;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .adopt-text {
+    font-size: large;
+    grid-row: 4;
+    grid-column: 1 / span 12;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro-dog img {
+    width: 100%;
+    grid-row: 3;
+    grid-column: 1 / span 12;
+  }
+}
+
+@media screen and (max-width: 600px) {
+.dog-adoptions {
+  grid-column: 1 / span 12;
+  grid-row: 5;
+  padding-left: 5%;
+}
+}
+
+
+@media screen and (max-width: 750px) {
+.checkout {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  margin-top: 20%;
+  text-align: left;
+}
+
+.icon-price {
+  padding: 3rem;
+  margin-top: 15%;
+}
+
+.cart-icon {
+  width: 2rem;
+  padding-right: 1rem;
+  margin-top: 15%;
+}
+
+.header-price {
+  color: white;
+  display: inline;
+  font-weight: bold;
+  margin-top: 15%;
+}
+}
+
+.checkout a {
+  background-color: #76c91b;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+  height: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-decoration: none;
+}
+
+
+
   .dog-button {
     background-color: #DDD;
     margin-left: 45%;
@@ -321,4 +430,6 @@ h1 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
