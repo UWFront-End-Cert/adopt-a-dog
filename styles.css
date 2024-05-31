@@ -20,6 +20,25 @@ header h2 {
     margin-left: 100px;
 }
 
+.checkout {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 75px;
+    text-align: right;
+}
+
+.checkout img {
+    height: 2vw;
+    width: 2vw;
+}
+
+.checkout button{
+    background-color: rgb(129, 183, 65);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
 nav {
     background-color: rgb(236, 236, 236);
     color: rgb(9, 60, 96);
@@ -34,27 +53,6 @@ nav {
 nav a {
     text-decoration: none;
     color: rgb(9, 60, 96);
-}
-
-.checkout {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    margin-top: 75px;
-    text-align: right;
-}
-
-.checkout img {
-    height: 2vw;
-    width: 2vw;
-}
-
-.checkout button {
-    background-color: rgb(129, 183, 65);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
 }
 
 article {
@@ -108,7 +106,6 @@ article h1 {
 .dog button {
     background-color: rgb(129, 183, 65);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 10px;
