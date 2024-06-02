@@ -180,33 +180,6 @@ body {
 
 /*checkout.html & contact.html styling*/
 
-/*button, input, select, textarea {
-    font-family: inherit;
-    font-size: 100%;
-    box-sizing: border-box;
-    display: block;
-    margin-top: .5rem;
-    margin-bottom: 2rem;
-}*/
-
-.form-questions {
-    font-family: serif;
-    font-weight: bolder;
-    color: #0B2D4D;
-    display: block;
-    margin-top: 1rem;
-    margin-bottom: .5rem;
-}
-
-.form-questions2 {
-    font-family: serif;
-    font-weight: bolder;
-    color: #0B2D4D;
-    display: inline;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-}
-
 textarea {
     display: block;
 }
@@ -223,6 +196,36 @@ fieldset input {
     margin-right: 2rem;
 }
 
+label span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: serif;
+    color: #0B2D4D;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+fieldset span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: serif;
+    color: #0B2D4D;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.total-cost {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: serif;
+    color: #0B2D4D;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
 .dogs-adopted-image {
     max-width: 50%;
     height: auto;
@@ -237,11 +240,6 @@ fieldset input {
     width: 50%;
     border-style: none;
     background: none;
-    /*line-height: 1.5rem;*/
-    /*padding-left: 1rem;
-    padding-right: 1rem; 
-    padding-top: 1rem;
-    padding-bottom: 1rem;*/
 }
 
 .dogs-adopted-container {
@@ -260,14 +258,6 @@ fieldset input {
     justify-content: flex-start;
     align-items: center;
     min-width: 50%;
-    /*max-width: 100%;
-    height: auto;
-    border-style: none;
-    background: none;
-    padding-left: 1rem;
-    padding-right: 1rem; 
-    padding-top: 1rem;
-    padding-bottom: 1rem;*/
 }
 
 .submit-button {
@@ -287,9 +277,4 @@ fieldset input {
 .form-container {
     margin-left: 17rem;
     margin-right: 5rem;
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;*/
 }

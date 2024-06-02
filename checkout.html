@@ -40,23 +40,28 @@
     <section class="form-container">    
         <h1>Checkout</h1>
             <form name="checkout">
-                <label class="form-questions" for="name"><h3>Name</h3>
+                <label for="name">
+                    <span>Name</span>
                     <input type="text" id="name" name="applicantName">
                 </label>
 
-                <label class="form-questions" for="email"><h3>Email Address</h3>
+                <label for="email">
+                    <span>Email Address</span>
                     <input type="text" id="email" name="applicantEmail">
                 </label>
                 
-                <label class="form-questions" for="street"><h3>Street Address</h3>
+                <label for="street">
+                    <span>Street Address</span>
                     <input type="text" id="street" name="applicantStreet">
                 </label>
                 
-                <label class="form-questions" for="city"><h3>City</h3>
+                <label for="city">
+                    <span>City</span>
                     <input type="text" id="city" name="applicantCity">
                 </label>
                 
-                <label class="form-questions" for="state"><h3>State</h3>
+                <label for="state">
+                    <span>State</span>
                     <select id="state" name="applicantState">
                         <option value="idaho">Idaho</option>
                         <option value="montana">Montana</option>
@@ -65,12 +70,15 @@
                     </select>
                 </label>
                 
-                <label class="form-questions" for="zip"><h3>Zip Code</h3>
+                <label for="zip">
+                    <span>Zip Code</span>
                     <input type="text" id="zip" name="applicantZip">
                 </label>
                 
-                <fieldset class="form-questions2">
-                    <legend><h3>First time adopting a dog?</h3></legend>
+                <fieldset>
+                    <legend>
+                        <span>First time adopting a dog?</span>
+                    </legend>
                     <label>Yes
                         <input type="radio" name="firstTime" value="yes">
                     </label>
@@ -79,16 +87,17 @@
                     </label>
                 </fieldset>
 
-                <label class="form-questions" for="pickup"><h3>Pickup Location</h3>
+                <label for="pickup">
+                    <span>Pickup Location</span>
                     <select id="pickup" name="pickup">
-                        <option value="empty"></option>
+                        <option value="empty">Please select</option>
                         <option value="ballard">Ballard</option>
                         <option value="central">Central District</option>
                         <option value="columbia">Columbia City</option>
                     </select>
                 </label>
                 
-                <p class="form-questions"><h3>Dogs Adopted</h3></p>
+                <span class="total-cost">Dogs Adopted</span>
                 <div class="dogs-adopted-container">
                     <div class="dogs-adopted-box">
                         <div class="dogs-adopted-image">
@@ -110,7 +119,7 @@
                     </div>
                 </div>
 
-                <p class="form-questions"><h3>Total Adoption Cost</h3></p>
+                <span class="total-cost">Total Adoption Cost</span>
                 <p>$1234.56</p>
 
                 <input class="submit-button" type="submit" value="Submit">

@@ -40,24 +40,30 @@
     <section class="form-container">    
         <h1>Contact Us</h1>
             <form name="contact">
-                <label class="form-questions" for="firstName"><h3>First Name</h3>
+                <label for="firstName">
+                    <span>First Name</span>
                     <input type="text" id="firstName" name="applicantFirstName">
                 </label>
 
-                <label class="form-questions" for="lastName"><h3>Last Name</h3>
+                <label for="lastName">
+                    <span>Last Name</span>
                     <input type="text" id="lastName" name="applicantLastName">
                 </label>
 
-                <label class="form-questions" for="email"><h3>Email Address</h3>
+                <label for="email">
+                    <span>Address</span>
                     <input type="text" id="email" name="applicantEmail">
                 </label>  
                 
-                <label class="form-questions" for="phone"><h3>Phone Number</h3>
+                <label for="phone">
+                    <span>Phone Number</span>
                     <input type="text" id="phone" name="applicantPhone">
                 </label>  
 
-                <fieldset class="form-questions2">
-                    <legend><h3>How do you prefer to be contacted?</h3></legend>
+                <fieldset>
+                    <legend>
+                        <span>How do you prefer to be contacted?</span>
+                    </legend>
                     <label>Phone call
                         <input type="checkbox" name="method" value="phone">
                     </label>
@@ -69,7 +75,8 @@
                     </label>
                 </fieldset>
 
-                <label class="form-questions2"><h3>How did you hear about us?</h3>
+                <label>
+                    <span>How did you hear about us?</span>
                     <select name="howHear">
                         <option value="">Please select</option>
                         <option value="print">Print ad</option>
@@ -79,71 +86,13 @@
                     </select>
                 </label>
 
-                <label class="form-questions2"><h3>How can we help you?</h3>
+                <label>
+                    <span>How can we help you?</span>
                     <textarea name="helpQuestion" rows="4" cols="50">
                     </textarea>
                 </label>
 
                 <input class="submit-button" type="submit" value="Submit">
-
-
-<!--            <fieldset>
-                    <legend>First time adopting a dog?</legend>
-                    <label>Yes
-                        <input type="radio" name="firstTime" value="yes">
-                    </label>
-                    <label>No
-                        <input type="radio" name="firstTime" value="no">
-                    </label>
-                </fieldset>
-
-                <label class="checkout-questions" for="name"><h3>Name</h3>
-                    <input type="text" id="name" name="applicantName">
-                </label>
-
-                <label class="checkout-questions" for="email"><h3>Email Address</h3>
-                    <input type="text" id="email" name="applicantEmail">
-                </label>
-                
-                <label class="checkout-questions" for="street"><h3>Street Address</h3>
-                    <input type="text" id="street" name="applicantStreet">
-                </label>
-                
-                <label class="checkout-questions" for="city"><h3>City</h3>
-                    <input type="text" id="city" name="applicantCity">
-                </label>
-                
-                <label class="checkout-questions" for="state"><h3>State</h3>
-                    <select id="state" name="applicantState">
-                        <option value="idaho">Idaho</option>
-                        <option value="montana">Montana</option>
-                        <option value="oregon">Oregon</option>
-                        <option value="washington">Washington</option>
-                    </select>
-                </label>
-                
-                <label class="checkout-questions" for="zip"><h3>Zip Code</h3>
-                    <input type="text" id="zip" name="applicantZip">
-                </label>
-                
-                <label class="checkout-questions2" for="first-time"><h3>First Time Adopter?</h3>
-                    <input type="radio" id="yes" name="firstTime" value="yes">
-                    <label for="yes">Yes</label>
-                    <input type="radio" id="no" name="firstTime" value="no">
-                    <label for="no">No</label>
-                </label>
-
-                <label class="checkout-questions" for="pickup"><h3>Pickup Location</h3>
-                    <select id="pickup" name="pickup">
-                        <option value="empty"></option>
-                        <option value="ballard">Ballard</option>
-                        <option value="central">Central District</option>
-                        <option value="columbia">Columbia City</option>
-                    </select>
-                </label>
-
-                <input class="submit-button" type="submit" value="Submit">
-            -->
             </form>
     </section>
 
