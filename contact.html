@@ -38,8 +38,65 @@
     </header>
 
     <section class="checkout-container">    
-        <h1>Contact</h1>
-            <form name="checkout">
+        <h1>Contact Us</h1>
+            <form name="contact">
+                <label class="checkout-questions" for="firstName"><h3>First Name</h3>
+                    <input type="text" id="firstName" name="applicantFirstName">
+                </label>
+
+                <label class="checkout-questions" for="lastName"><h3>Last Name</h3>
+                    <input type="text" id="lastName" name="applicantLastName">
+                </label>
+
+                <label class="checkout-questions" for="email"><h3>Email Address</h3>
+                    <input type="text" id="email" name="applicantEmail">
+                </label>  
+                
+                <label class="checkout-questions" for="phone"><h3>Phone Number</h3>
+                    <input type="text" id="phone" name="applicantPhone">
+                </label>  
+
+                <fieldset class="checkout-questions2">
+                    <legend><h3>How do you prefer to be contacted?</h3></legend>
+                    <label>Phone call
+                        <input type="checkbox" name="method" value="phone">
+                    </label>
+                    <label>Text message
+                        <input type="checkbox" name="method" value="text">
+                    </label>
+                    <label>Email
+                        <input type="checkbox" name="method" value="email">
+                    </label>
+                </fieldset>
+
+                <label class="checkout-questions2"><h3>How did you hear about us?</h3>
+                    <select name="howHear">
+                        <option value="">Please select</option>
+                        <option value="print">Print ad</option>
+                        <option value="tv">TV commercial</option>
+                        <option value="social">Social media (Instagram, Facebook, TikTok, etc.)</option>
+                        <option value="friend">From a friend</option>
+                    </select>
+                </label>
+
+                <label class="checkout-questions2"><h3>How can we help you?</h3>
+                    <textarea name="helpQuestion" rows="4" cols="50">
+                    </textarea>
+                </label>
+
+                <input class="submit-button" type="submit" value="Submit">
+
+
+<!--            <fieldset>
+                    <legend>First time adopting a dog?</legend>
+                    <label>Yes
+                        <input type="radio" name="firstTime" value="yes">
+                    </label>
+                    <label>No
+                        <input type="radio" name="firstTime" value="no">
+                    </label>
+                </fieldset>
+
                 <label class="checkout-questions" for="name"><h3>Name</h3>
                     <input type="text" id="name" name="applicantName">
                 </label>
@@ -86,6 +143,7 @@
                 </label>
 
                 <input class="submit-button" type="submit" value="Submit">
+            -->
             </form>
     </section>
 
