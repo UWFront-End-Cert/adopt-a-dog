@@ -178,7 +178,7 @@ body {
 }
 
 
-/*checkout.html styling*/
+/*checkout.html & contact.html styling*/
 
 /*button, input, select, textarea {
     font-family: inherit;
@@ -189,7 +189,7 @@ body {
     margin-bottom: 2rem;
 }*/
 
-.checkout-questions {
+.form-questions {
     font-family: serif;
     font-weight: bolder;
     color: #0B2D4D;
@@ -198,17 +198,29 @@ body {
     margin-bottom: .5rem;
 }
 
-.checkout-questions2 {
+.form-questions2 {
     font-family: serif;
     font-weight: bolder;
     color: #0B2D4D;
     display: inline;
-    margin-top: 1rem;
-    margin-bottom: .5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 
 textarea {
     display: block;
+}
+
+fieldset {
+    border: none;
+    margin-left: 0rem;
+    padding-left: 0rem;
+}
+
+fieldset input {
+    display: inline;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
 }
 
 .dogs-adopted-image {
@@ -272,7 +284,7 @@ textarea {
     border-style: none;
 }
 
-.checkout-container {
+.form-container {
     margin-left: 17rem;
     margin-right: 5rem;
     /*display: flex;
