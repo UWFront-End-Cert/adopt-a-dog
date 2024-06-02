@@ -226,6 +226,48 @@ section button {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
 }
+fieldset {
+  border: none;
+  display: block;
+}
+label {
+  display: block;
+  margin: 1em 0 1em 0;
+}
+form {
+  font-family: "Roboto", sans-serif;
+  color: #232e53;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+}
+textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 30vw;
+  margin: 1rem auto 1rem auto;
+  background-color: lightgrey;
+  border: none;
+  font: inherit;
+  border-radius: 5px;
+}
+input {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 5px;
+}
+input:focus {
+  background-color: inherit;
+}
+input[type="submit"] {
+  margin: 1rem 0 3rem 0;
+  width: 20%;
+  height: 10vh;
+  background-color: #232e53;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
 
 footer {
   width: 100%;
