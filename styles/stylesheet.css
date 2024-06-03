@@ -178,37 +178,52 @@ body {
 }
 
 
-/*checkout.html styling*/
-
-/*button, input, select, textarea {
-    font-family: inherit;
-    font-size: 100%;
-    box-sizing: border-box;
-    display: block;
-    margin-top: .5rem;
-    margin-bottom: 2rem;
-}*/
-
-.checkout-questions {
-    font-family: serif;
-    font-weight: bolder;
-    color: #0B2D4D;
-    display: block;
-    margin-top: 1rem;
-    margin-bottom: .5rem;
-}
-
-.checkout-questions2 {
-    font-family: serif;
-    font-weight: bolder;
-    color: #0B2D4D;
-    display: inline;
-    margin-top: 1rem;
-    margin-bottom: .5rem;
-}
+/*checkout.html & contact.html styling*/
 
 textarea {
     display: block;
+}
+
+fieldset {
+    border: none;
+    margin-left: 0rem;
+    padding-left: 0rem;
+}
+
+fieldset input {
+    display: inline;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+}
+
+label span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: serif;
+    color: #0B2D4D;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+fieldset span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: serif;
+    color: #0B2D4D;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.total-cost {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: serif;
+    color: #0B2D4D;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
 }
 
 .dogs-adopted-image {
@@ -225,11 +240,6 @@ textarea {
     width: 50%;
     border-style: none;
     background: none;
-    /*line-height: 1.5rem;*/
-    /*padding-left: 1rem;
-    padding-right: 1rem; 
-    padding-top: 1rem;
-    padding-bottom: 1rem;*/
 }
 
 .dogs-adopted-container {
@@ -248,14 +258,6 @@ textarea {
     justify-content: flex-start;
     align-items: center;
     min-width: 50%;
-    /*max-width: 100%;
-    height: auto;
-    border-style: none;
-    background: none;
-    padding-left: 1rem;
-    padding-right: 1rem; 
-    padding-top: 1rem;
-    padding-bottom: 1rem;*/
 }
 
 .submit-button {
@@ -272,12 +274,7 @@ textarea {
     border-style: none;
 }
 
-.checkout-container {
+.form-container {
     margin-left: 17rem;
     margin-right: 5rem;
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;*/
 }
