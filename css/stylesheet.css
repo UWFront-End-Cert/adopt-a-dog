@@ -1,0 +1,306 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Blue box */
+.blue-box {
+    background-color: #083b5f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Cart icon */
+.cart-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+/* Green checkout box */
+.checkout-box {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    background-color: #7eb442;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.checkout-box a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Logo and text container */
+.logo-container {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.logo-text {
+    color: #7eb442;
+    font-size: 25px;
+    text-align: left;
+}
+
+/* Gray rectangle */
+.gray-rectangle {
+    background-color: #ebebeb;
+    padding: 10px;
+    text-align: center;
+}
+
+.gray-rectangle a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Main section */
+.main-section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.intro-image {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.intro-image img {
+    width: 300px;
+    height: auto;
+}
+
+.intro-text {
+    display: inline-block;
+    text-align: left;
+    width: calc(100% - 340px);
+    vertical-align: top;
+}
+
+.intro-text h2 {
+    font-size: 24px;
+}
+
+.intro-text p {
+    font-size: 18px;
+}
+
+/* Dog list */
+.dog-list {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dog-card {
+    width: calc(25% - 10px);
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.dog-card img {
+    width: 100px;
+    height: auto;
+}
+
+.dog-card p {
+    text-align: left;
+}
+
+.adopt-button {
+    background-color: #7eb442;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* See More Dogs */
+.see-more-dogs {
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    margin: 20px auto 0;
+}
+
+.see-more-dogs p {
+    color: #666666;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #3c3c3c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer img {
+    width: 100px;
+    height: auto;
+}
+
+.footer p {
+    margin-top: 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Blog specific styles */
+.blog-container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.blog-header {
+    text-align: center;
+}
+
+.blog-post {
+    margin-top: 40px;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.blog-post h2 {
+    font-size: 24px;
+    color: #333333;
+}
+
+.blog-post p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.6;
+}
+
+/* General form styles */
+.form-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[readonly] {
+    background-color: #f9f9f9;
+}
+
+.submit-button {
+    background-color: #7eb442;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #6aa335;
+}
+
+/* Dogs.html */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    width: 100%;
+}
+
+header img, footer img {
+    width: 100px;
+    height: auto;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main div {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+main h2 {
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+
+button {
+    background-color: #7eb442;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6da33a;
+}
