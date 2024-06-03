@@ -168,14 +168,14 @@ div {
     padding: 3rem;
 }
 
-/* checkout page */
+/* forms styling */
 
-form {
+.checkout {
     display: block;
     margin-left: 10rem;
 }
 
-input[type=text], select, textarea{
+input[type=text], input[type=email], select, textarea{
     width: 50%;
     padding: 0.5rem;
     border: 2px solid rgb(31, 72, 113);
@@ -225,4 +225,32 @@ label {
     text-align: center;
     font-size: x-large;
     background-color: rgb(132, 205, 126);
+}
+
+.contactform {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 3rem;
+    padding-top: 1rem;
+    width: 60%;
+}
+
+fieldset {
+    border: none;
+    padding: 1rem;
+}
+
+fieldset input {
+    display: inline;
+}
+
+fieldset label {
+    display: block;
+}
+
+legend {
+    margin:auto;
+    color: rgb(31, 72, 113);
+    font-size: 120%;
 }
