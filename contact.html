@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/all-styles.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <title>Adopt A Dog</title>
+  </head>
+  <body>
+    <header class="banner">
+      <!-- Header is distractingly large. Shrink so users get to main content faster -->
+        <div class="logo-left">
+            <img class="logo" src="images/adoptadog-logo.svg" alt="Adopt a dog logo.">
+            <h1>Seattle's premiere dog adoption agency</h1>
+        </div>
+        <div class="checkout-right">
+            <div class= "checkout-subsection">
+                <img class="checkout-details" src="images/cart-icon.svg" alt="">
+                <p class="checkout-details">$1234.56</p>
+            </div>
+            <form action="checkout.html" method="get">
+                <button class="green-button">Checkout</button>
+            </form>
+        </div>
+    </header>
+    <nav class="nav top-nav">
+      <ul>
+        <!-- Links are too small and close together, particularly on mobile devices -->
+        <li><a href="index.html">Home</a> / </li>
+        <li><a href="dogs.html">Dogs</a> / </li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+    <section class="contact-section">
+        <header>
+            <h2>Contact Us</h2>
+        </header>
+        <form>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Name"><br><br>
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" placeholder="Your email address"><br><br>
+            <label for="phone">Cell Phone Number</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="555-555-5555"><br><br>
+            <fieldset>
+                <legend>How would you prefer to be contacted?</legend>
+                <input type="radio" name="contact" id="email_pref">
+                <label for="email_pref">Email</label>
+                <input type="radio" name="contact" id="text_pref">
+                <label for="text_pref">Text</label>
+                <input type="radio" name="contact" id="call_pref">
+                <label for="call_pref">Phone call</label><br><br>
+            </fieldset>
+            <label for="reason">Main Reason For Contacting Us</label>
+            <select name="state" id="reason">
+                <option value="adoption">Questions about the adoption process</option>
+                <option value="dog">Question(s) about a specific dog or dogs</option>
+                <option value="donation">You have a dog you'd like to put up for adoption</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="question">Question</label>
+            <textarea id="question" name="question" rows="6" cols="20" placeholder="Your question"></textarea>
+            <input type="submit" value="Submit" class="green-button">
+        </form>
+    </section>
+    <footer>
+        <img src="images/adoptadog-logo.svg" alt="Adopt a dog logo.">
+        <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>
+            esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+        <nav class="nav bottom-nav">
+            <ul>
+                <li><a href="index.html">Home</a> / </li>
+                <li><a href="dogs.html">Dogs</a> / </li>
+                <li><a href="contact.html">Contact</a> / </li>
+            </ul>
+        </nav>
+        <p>© 2018 Adoptadog, LLC | Seattle, WA</p>
+    </footer>
+  </body>
+</html>
