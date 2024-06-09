@@ -1,17 +1,4 @@
-/*
-for dog cards:
-"create click handlers that alert the dog's info when the image is clicked"
-
-classify all dog profiles' images
-
-when clicked, seek the p element child to the parent dog profile OR create attributes in the img file, less desirable
-
-alert the formatted values of the elements or attributes
-
-*/
-
 console.log("The javascript has begun as intended");
-
 let dogCards = document.querySelectorAll(".dog-card img");
 console.log(dogCards.length);
 
@@ -39,9 +26,40 @@ for (var i = 0; i < dogCards.length; i++) {
   })(i);
 }
 
-/*
+console.log("the javascript has made it to the cart loop");
+// create global variables for the checkout price, price to add, and dynamic value at top right
+let total = 0;
+displayedCart = document.getElementById("displayed-cart");
 
-make buttons function to add to cart total
-make cart total alert
-*/
+//query document for all buttons child of .dog-card
+let dogButtons = document.querySelectorAll(".dog-card button");
+console.log(dogButtons.length);
+
+//loop to watch for click to button
+for (var i = 0; i < dogButtons.length; i++) {
+  (function (i) {
+    dogButtons[i].addEventListener(
+      "click",
+      (e) => {
+        let dogCost = e.target.parentElement
+          .querySelector(".dog-card img")
+          .getAttribute("dog-cost");
+        //add new dog cost to existing total (starts at 0 hopefully)
+        total = Number(dogCost) + total;
+        //alert the dog cost and show the addition to the user, update the total
+        alert(
+          "This dog is $" +
+            dogCost +
+            " and when added, your total is now: $" +
+            total
+        );
+        //update the html for the dynamic cart
+        displayedCart.innerHTML = "$" + total;
+        return total;
+      },
+      false
+    );
+  })(i);
+}
+
 console.log("script finished");
