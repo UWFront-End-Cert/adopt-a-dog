@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Adopt a Dog - Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <!-- style header background image in css file-->
+        <div id="header-logo">
+            <img src="images/adoptadog-logo.svg" width="280" height="120"
+                alt="a stylized white image of a dog with pointed ears from a side profile">
+            <h1>Seattle's premier dog adoption agency</h1>
+        </div>
+        <!-- fill the checkout div later with dynamic value for cart-->
+        <div id="checkout">
+            <img src="images/cart-icon.svg" width="30" height="30" alt="shopping cart icon">
+            <p id="displayed-cart">$1234.56</p>
+            <button type="button">Checkout</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li> / </li>
+            <li><a href="./dogs.html">Dogs</a></li>
+            <li> / </li>
+            <li><a href="./blog.html">Blog</a></li>
+        </ul>
+    </nav>
+
+    <div id="body-wrapper">
+
+        <form method="post" action=''>
+            <h2>Contact Form</h2>
+            <h3>Please fill out this contact form and we will get back to you.</h3>
+            <fieldset>
+                <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text"
+                        required /></label>
+                <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text"
+                        required /></label>
+                <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+            </fieldset>
+            <fieldset>
+                <legend>Pet type (required)</legend>
+                <label for="cat-account"><input id="cat-account" type="radio" name="pet-type" class="inline" checked />
+                    Cat</label>
+                <label for="dog-account"><input id="dog-account" type="radio" name="pet-type" class="inline" />
+                    Dog</label>
+                <label for="other-account"><input id="other-account" type="radio" name="pet-type" class="inline" />
+                    Other</label>
+                <label for="pet-age">Tell us your preferred pet age (years): <input id="pet-age" type="number"
+                        name="pet-age" min="0" max="25" /></label>
+            </fieldset>
+            <fieldset>
+                <label for="referrer">How did you hear about us?
+                    <select id="referrer" name="referrer">
+                        <option value="">(select one)</option>
+                        <option value="1">Google</option>
+                        <option value="2">Local Shelter</option>
+                        <option value="3">Pet Food Store</option>
+                        <option value="4">Other</option>
+                    </select>
+                </label>
+                <label for="bio">Provide a comment or description of your need:
+                    <textarea id="bio" name="bio" rows="3" cols="30"
+                        placeholder="I can't find a fluffy lizard or a slimy bird..."></textarea>
+                </label>
+            </fieldset>
+            <label for="terms-and-conditions">
+                <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" />
+                I accept the terms and conditions
+            </label>
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+    <footer>
+        <img src="images/adoptadog-logo.svg" width="200" height="150"
+            alt="a stylized white image of a dog with pointed ears from a side profile">
+        <p id="p-slogan">Aborpos nisto inci tet aut que volupti beruptiberro to ex
+            esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li>/</li>
+            <li><a href="./dogs.html">Dogs</a></li>
+            <li>/</li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <p>2024 Adopt-a-Dog, LLC. | Seattle, WA</p>
+    </footer>
+</body>
+
+</html>
