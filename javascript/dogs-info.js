@@ -1,5 +1,5 @@
 function murphyInfo() {
-    let information = 'Murphy is a pitbull boxer mix and the adoption fee is $50';
+    let information = 'Murphy is a pitbull boxer mix and the adoption fee is $75';
     alert(information);
 }
 
@@ -14,22 +14,22 @@ function jackInfo() {
 }
 
 function duffyInfo() {
-    let information = 'Duffy is a pitbull and the adoption fee is $50';
+    let information = 'Duffy is a pitbull and the adoption fee is $75';
     alert(information);
 }
 
 function lucasInfo() {
-    let information = 'Lucas is a German Shepherd mix and the adoption fee is $50';
+    let information = 'Lucas is a German Shepherd mix and the adoption fee is $75';
     alert(information);
 }
 
 function jakeInfo() {
-    let information = 'Jake is a yellow lab and the adoption fee is $50';
+    let information = 'Jake is a yellow lab and the adoption fee is $75';
     alert(information);
 }
 
 function angusInfo() {
-    let information = 'Angus is a bull dog terrier mix and the adoption fee is $50';
+    let information = 'Angus is a bull dog terrier mix and the adoption fee is $75';
     alert(information);
 }
 
@@ -49,7 +49,7 @@ function maximusInfo() {
 }
 
 function lunaInfo() {
-    let information = 'Luna is a yellow lab and the adoption fee is $50';
+    let information = 'Luna is a yellow lab and the adoption fee is $75';
     alert(information);
 }
 
