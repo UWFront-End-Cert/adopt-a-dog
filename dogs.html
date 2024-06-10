@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/all-styles.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/dogs.css">
+    <script src="scripts/code.js"></script>
     <title>All of Our Dogs</title>
   </head>
   <body>
@@ -33,12 +34,13 @@
         </ul>
       </nav>
     <section>
-        <header>
+        <header class="here-be-dogs">
             <h2>Here are all of our Dogs!</h2>
         </header>
-        <div>
-            <article>
-                <img src="images/murphy-card.jpg" alt="Murphy the dog">
+        <div class="dog-bio-section">
+            <article class="dog-bio">
+                <!-- Images should be sized responsively -->
+                <img src="images/murphy-card.jpg" alt="Murphy the dog" onclick="doginfo('Murphy', 'Mutt', '$123.45')">
                 <h3>Murphy</h3>
                 <p><strong>Cost to Adopt:</strong> $123.45</p>
                 <p>Corrum volorit iandae <br>
@@ -46,12 +48,10 @@
                     reicid ut et etur sunt arum <br>
                     rendae pla endis re ea erum, <br>
                     qui doluptae</p>
-                    <form action="checkout.html" method="get">
-                        <button>Checkout</button>
-                    </form>
+                    <button class="green-button" onclick="addtotal(123.45)">Checkout</button>
             </article>
-            <article>
-                <img src="images/poppy-card.jpg" alt="Poppy the dog">
+            <article class="dog-bio">
+                <img src="images/poppy-card.jpg" alt="Poppy the dog" onclick="doginfo('Poppy', 'Shitzu', '$123.45')">
                 <h3>Poppy</h3>
                 <p><strong>Cost to Adopt:</strong> $123.45</p>
                 <p>Corrum volorit iandae <br>
@@ -59,12 +59,10 @@
                     reicid ut et etur sunt arum <br>
                     rendae pla endis re ea erum, <br>
                     qui doluptae</p>
-                    <form action="checkout.html" method="get">
-                        <button>Checkout</button>
-                    </form>
+                    <button class="green-button" onclick="addtotal(123.45)">Checkout</button>
             </article>
-            <article>
-                <img src="images/jack-card.jpg" alt="Jack the dog">
+            <article class="dog-bio">
+                <img src="images/jack-card.jpg" alt="Jack the dog" onclick="doginfo('Jack', 'Beagle', '$123.45')">
                 <h3>Jack</h3>
                 <p><strong>Cost to Adopt:</strong> $123.45</p>
                 <p>Corrum volorit iandae <br>
@@ -72,12 +70,10 @@
                     reicid ut et etur sunt arum <br>
                     rendae pla endis re ea erum, <br>
                     qui doluptae</p>
-                    <form action="checkout.html" method="get">
-                        <button>Checkout</button>
-                    </form>
+                    <button class="green-button" onclick="addtotal(123.45)">Checkout</button>
             </article>
-            <article>
-                <img src="images/duffy-card.jpg" alt="Duffy the dog">
+            <article class="dog-bio">
+                <img src="images/duffy-card.jpg" alt="Duffy the dog"  onclick="doginfo('Duffy', 'Pitbull', '$123.45')">
                 <h3>Duffy</h3>
                 <p><strong>Cost to Adopt:</strong> $123.45</p>
                 <p>Corrum volorit iandae <br>
@@ -85,12 +81,10 @@
                     reicid ut et etur sunt arum <br>
                     rendae pla endis re ea erum, <br>
                     qui doluptae</p>
-                    <form action="checkout.html" method="get">
-                        <button>Checkout</button>
-                    </form>
+                    <button class="green-button" onclick="addtotal(123.45)">Checkout</button>
             </article>
-            <article>
-                <img src="images/lucas-card.jpg" alt="Lucas the dog">
+            <article class="dog-bio">
+                <img src="images/lucas-card.jpg" alt="Lucas the dog" onclick="doginfo('Lucas', 'Fox Hound', '$123.45')">
                 <h3>Lucas</h3>
                 <p><strong>Cost to Adopt:</strong> $123.45</p>
                 <p>Corrum volorit iandae <br>
@@ -98,12 +92,10 @@
                     reicid ut et etur sunt arum <br>
                     rendae pla endis re ea erum, <br>
                     qui doluptae</p>
-                    <form action="checkout.html" method="get">
-                        <button>Checkout</button>
-                    </form>
+                    <button class="green-button" onclick="addtotal(123.45)">Checkout</button>
             </article>
-            <article>
-                <img src="images/jake-card.jpg" alt="Jake the dog">
+            <article class="dog-bio">
+                <img src="images/jake-card.jpg" alt="Jake the dog" onclick="doginfo('Jake', 'Golden Lab', '$123.45')">
                 <h3>Jake</h3>
                 <p><strong>Cost to Adopt:</strong> $123.45</p>
                 <p>Corrum volorit iandae <br>
@@ -111,12 +103,10 @@
                     reicid ut et etur sunt arum <br>
                     rendae pla endis re ea erum, <br>
                     qui doluptae</p>
-                    <form action="checkout.html" method="get">
-                        <button>Checkout</button>
-                    </form>
+                    <button class="green-button" onclick="addtotal(123.45)">Checkout</button>
             </article>
-            <article>
-                <img src="images/angus-card.jpg" alt="Angus the dog">
+            <article class="dog-bio">
+                <img src="images/angus-card.jpg" alt="Angus the dog" onclick="doginfo('Angus', 'Boxer', '$123.45')">
                 <h3>Angus</h3>
                 <p><strong>Cost to Adopt:</strong> $123.45</p>
                 <p>Corrum volorit iandae <br>
@@ -124,12 +114,10 @@
                     reicid ut et etur sunt arum <br>
                     rendae pla endis re ea erum, <br>
                     qui doluptae</p>
-                <form action="checkout.html" method="get">
-                    <button>Checkout</button>
-                </form>
+                    <button class="green-button" onclick="addtotal(123.45)">Checkout</button>
             </article>
-            <article>
-                <img src="images/violet-card.jpg" alt="Violet the dog">
+            <article class="dog-bio">
+                <img src="images/violet-card.jpg" alt="Violet the dog" onclick="doginfo('Violet', 'Chocolate Lab', '$123.45')">
                 <h3>Violet</h3>
                 <p><strong>Cost to Adopt:</strong> $123.45</p>
                 <p>Corrum volorit iandae <br>
@@ -137,12 +125,10 @@
                     reicid ut et etur sunt arum <br>
                     rendae pla endis re ea erum, <br>
                     qui doluptae</p>
-                <form action="checkout.html" method="get">
-                    <button>Checkout</button>
-                </form>
+                    <button class="green-button" onclick="addtotal(123.45)">Checkout</button>
             </article>
-            <article>
-                <img src="images/piper-card.jpg" alt="Piper the dog">
+            <article class="dog-bio">
+                <img src="images/piper-card.jpg" alt="Piper the dog" onclick="doginfo('Piper', 'Fluffer Nutter', '$123.45')">
                 <h3>Piper</h3>
                 <p><strong>Cost to Adopt:</strong> $123.45</p>
                 <p>Corrum volorit iandae <br>
@@ -150,12 +136,10 @@
                     reicid ut et etur sunt arum <br>
                     rendae pla endis re ea erum, <br>
                     qui doluptae</p>
-                <form action="checkout.html" method="get">
-                    <button>Checkout</button>
-                </form>
+                    <button class="green-button" onclick="addtotal(123.45)">Checkout</button>
             </article>
-            <article>
-                <img src="images/maximus-card.jpg" alt="Maximus the dog">
+            <article class="dog-bio">
+                <img src="images/maximus-card.jpg" alt="Maximus the dog" onclick="doginfo('Maximus', 'Terrier', '$123.45')">
                 <h3>Maximus</h3>
                 <p><strong>Cost to Adopt:</strong> $123.45</p>
                 <p>Corrum volorit iandae <br>
@@ -163,12 +147,10 @@
                     reicid ut et etur sunt arum <br>
                     rendae pla endis re ea erum, <br>
                     qui doluptae</p>
-                <form action="checkout.html" method="get">
-                    <button>Checkout</button>
-                </form>
+                    <button class="green-button" onclick="addtotal(123.45)">Checkout</button>
             </article>
-            <article>
-                <img src="images/luna-card.jpg" alt="Luna the dog">
+            <article class="dog-bio">
+                <img src="images/luna-card.jpg" alt="Luna the dog" onclick="doginfo('Luna', 'Golden Lab', '$123.45')">
                 <h3>Luna</h3>
                 <p><strong>Cost to Adopt:</strong> $123.45</p>
                 <p>Corrum volorit iandae <br>
@@ -176,12 +158,10 @@
                     reicid ut et etur sunt arum <br>
                     rendae pla endis re ea erum, <br>
                     qui doluptae</p>
-                <form action="checkout.html" method="get">
-                    <button>Checkout</button>
-                </form>
+                    <button class="green-button" onclick="addtotal(123.45)">Checkout</button>
             </article>
-            <article>
-                <img src="images/stella-card.jpg" alt="Stella the dog">
+            <article class="dog-bio">
+                <img src="images/stella-card.jpg" alt="Stella the dog" onclick="doginfo('Stella', 'Chihauau', '$123.45')">
                 <h3>Stella</h3>
                 <p><strong>Cost to Adopt:</strong> $123.45</p>
                 <p>Corrum volorit iandae <br>
@@ -189,9 +169,7 @@
                     reicid ut et etur sunt arum <br>
                     rendae pla endis re ea erum, <br>
                     qui doluptae</p>
-                <form action="checkout.html" method="get">
-                    <button>Checkout</button>
-                </form>
+                    <button class="green-button" onclick="addtotal(123.45)">Checkout</button>
             </article>
         </div>
         <footer>

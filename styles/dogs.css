@@ -1,0 +1,26 @@
+.dog-bio-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    padding-right: 12%;
+}
+.dog-bio {
+    flex: 20%;
+    margin-left: 0;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border: 2px solid gray;
+}
+.dog-bio img {
+    width: 100%;
+}
+.here-be-dogs {
+    margin-top: 3%;
+    padding-bottom: 3%;
+    line-height: 1;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.here-be-dogs h2 {
+    margin: 0 0;
+}

@@ -59,6 +59,11 @@ body {
     font-size: 0.9em;
     border: none;
     padding: 2% 11%;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkgreen;
 }
 
 .nav {
