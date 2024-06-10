@@ -1,0 +1,25 @@
+User persona:
+    Name: Dan Baegler
+    Occupation: Data Analyst
+    Education: Master's degree
+    Bio: Dan has two young children, a full-time job, a spouse with a demanding full-time job, loads of resposibilities, and 
+    precious little free time. He uses Google Chrome on his work late-model HP laptop, Mozilla Firefox on his personal 2023 Macbook Pro, 
+    and Safari on his iPhone 7. He is tech savvy but short on time and prone to frustration. He wants to adopt a dog for 
+    his children, and is primarily concerned with finding a dog that is a puppy, fairly cute, and that is good with children.
+    He will want to be able to rapidly scan through the available dogs to find one he likes according to their picture and brief
+    description. He wants the checkout process to be simple and straight-forward, should be choose to adopt.
+
+Testing:
+1) Google Chrome on HP laptop:
+    -Pros: Pictures of dogs are nicely sized
+           Easy to checkout and add dog to cart
+    -Cons: Header is blank and way too big. Have to scroll excessively to get to content.
+    -Changes Made: Added comments to shrink header - eventually will make changes when CSS is written.
+2) Mozilla Firefox on Macbook Pro:
+    -Very similar browsing experience to Google Chrome on the HP laptop. Dog pictures are appropriately sized but header is excessively
+    and distracting lage.
+3) Safari on iPhone 7:
+    -Cons: Pictures of dogs are excessively large and are larger than the screen width
+           Buttons ("Checkout," "See More Dogs") are tiny and hard to push
+           Links and buttons are too small and close together - easy to accidentally push the wrong link or button
+    - Fixes: Added comments to resize photos responsively, increase button/link size, and increase spacing between links/buttons.

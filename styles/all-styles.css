@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+}
+.banner {
+    background-image: url("../images/header-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-left {
+    flex: 50%;
+    padding-left: 10%;
+    padding-top: 3%;
+    height: 30em;
+    color: greenyellow;
+    font-style: italic;
+}
+.checkout-right {
+    flex: 50%;
+    padding-top: 3%;
+    padding-left: 30%;
+    padding-right: 0%;
+    color: white;
+    font-size: 0.67em;
+    font-weight: 900;
+}
+.checkout-subsection {
+    padding-left: 10%;
+}
+.checkout-right img {
+    width: 10%;
+    padding-right: 0.5em;
+}
+.checkout-details {
+    display: inline-block;
+    font-weight: bold;
+}
+.logo-left img {
+    width: 65%;
+}
+.logo-left h1 {
+    margin-top: 0%;
+    font-size: 1.5em;
+    font-weight: 100;
+    font-family: Optima, "Gill Sans", sans-serif;
+}
+.green-button {
+    background-color: forestgreen;
+    color: white;
+    font-weight: 900;
+    font-size: 0.9em;
+    border: none;
+    padding: 2% 11%;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkgreen;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+.top-nav {
+    background-color: lightgrey;
+}
+.nav ul {
+    padding-inline-start:0px;
+}
+.top-nav ul {
+    margin-left: 15%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-weight: bold;
+}
+.top-nav ul li {
+    font-size: 1em;
+    color: rgb(29, 29, 48);
+}
+.nav ul li a {
+    text-decoration: none;
+    padding: .25rem;
+    margin: .25rem;
+}
+.top-nav ul li a {
+    color: rgb(29, 29, 48);
+    font-size: 1em;
+}
+footer {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    font-size: 0.67em;
+    padding-bottom: 3%;
+}
+footer img {
+    padding-top: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+footer p {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    border-color: navy;
+}
+.bottom-nav ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.bottom-nav ul li a {
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+.index-header {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.index-header-left {
+    flex: 40%;
+}
+.index-header-left img{
+    width: 100%;
+}
+.index-header-right {
+    flex: 60%;
+    padding-left: 3%;
+}
