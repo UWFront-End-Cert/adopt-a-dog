@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>Adopt a Dog</title>
+        <link class="logo" rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="header-left">
+                <div class="svg-container">
+                    <img src="images/adoptadog-logo.svg" alt="White Adopt A Dog logo">
+                </div>
+                <h1>Seattle's premiere dog adoption agency</h1>
+            </div>
+
+            <div class="checkout-link">
+                <p class="white-text balance"><i></i>$1234.56</p>
+                <a class="green-button white-text">Checkout</a>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a class="head-nav-link" href="index.html">Home</a></li>
+                <li><a class="head-nav-link" href="dogs.html">Dogs</a></li>
+                <li><a class="head-nav-link" href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <article>
+                <h2>Here are all of our Dogs!</h2>
+                <section>
+                    <img src="images/murphy-card.jpg" onclick="getInfo(infoMurphy)" alt="">
+                    <div class="card-info">
+                        <h3>Murphy</h3>
+                        <p>Cost to adopt: $120.00</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisl vitae lectus blandit viverra. Curabitur lacinia placerat tincidunt.</p>
+                        <a class="green-button white-text" onclick="addTotal(infoMurphy[2])">Adopt</a>
+                    </div>
+                </section>
+                
+                <section>
+                    <img src="images/poppy-card.jpg" onclick="getInfo(infoPoppy)" alt="">
+                    <div class="card-info">
+                        <h3>Poppy</h3>
+                        <p>Cost to adopt: $123.45</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisl vitae lectus blandit viverra. Curabitur lacinia placerat tincidunt.</p>
+                        <a class="green-button white-text" onclick="addTotal(infoPoppy[2])">Adopt</a>
+                    </div>
+                </section>
+                
+                <section>
+                    <img src="images/jack-card.jpg" onclick="getInfo(infoJack)" alt="">
+                    <div class="card-info">
+                        <h3>Jack</h3>
+                        <p>Cost to adopt: $110.20</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisl vitae lectus blandit viverra. Curabitur lacinia placerat tincidunt.</p>
+                        <a class="green-button white-text" onclick="addTotal(infoJack[2])">Adopt</a>
+                    </div>
+                </section>
+                
+                <section>
+                    <img src="images/duffy-card.jpg" onclick="getInfo(infoDuffy)" alt="">
+                    <div class="card-info">
+                        <h3>Duffy</h3>
+                        <p>Cost to adopt: $125.35</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisl vitae lectus blandit viverra. Curabitur lacinia placerat tincidunt.</p>
+                        <a class="green-button white-text" onclick="addTotal(infoDuffy[2])">Adopt</a>
+                    </div>
+                </section>
+    
+                <section>
+                    <img src="images/lucas-card.jpg" onclick="getInfo(infoLucas)" alt="">
+                    <div class="card-info">
+                        <h3>Lucas</h3>
+                        <p>Cost to adopt: $105.00</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisl vitae lectus blandit viverra. Curabitur lacinia placerat tincidunt.</p>
+                        <a class="green-button white-text" onclick="addTotal(infoLucas[2])">Adopt</a>
+                    </div>  
+                </section>
+                
+                <section>
+                    <img src="images/jake-card.jpg" onclick="getInfo(infoJake)" alt="">
+                    <div class="card-info">
+                        <h3>Jake</h3>
+                        <p>Cost to adopt: $100.00</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisl vitae lectus blandit viverra. Curabitur lacinia placerat tincidunt.</p>
+                        <a class="green-button white-text" onclick="addTotal(infoJake[2])">Adopt</a>
+                    </div>
+                </section>
+                
+                <section>
+                    <img src="images/angus-card.jpg" onclick="getInfo(infoAngus)" alt="">
+                    <div class="card-info">
+                        <h3>Angus</h3>
+                        <p>Cost to adopt: $107.00</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisl vitae lectus blandit viverra. Curabitur lacinia placerat tincidunt.</p>
+                        <a class="green-button white-text" onclick="addTotal(infoAngus[2])">Adopt</a>
+                    </div>
+                </section>
+                
+                <section>
+                    <img id="violet" src="images/violet-card.jpg" onclick="getInfo(infoViolet)" alt="">
+                    <div class="card-info">
+                        <h3>Violet</h3>
+                        <p>Cost to adopt: $140.50</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisl vitae lectus blandit viverra. Curabitur lacinia placerat tincidunt.</p>
+                        <a class="green-button white-text" onclick="addTotal(infoViolet[2])">Adopt</a>
+                    </div>
+                </section>
+    
+                <section>
+                    <img src="images/piper-card.jpg" onclick="getInfo(infoPiper)" alt="">
+                    <div class="card-info">
+                        <h3>Piper</h3>
+                        <p>Cost to adopt: $130.15</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisl vitae lectus blandit viverra. Curabitur lacinia placerat tincidunt.</p>
+                        <a class="green-button white-text" onclick="addTotal(infoPiper[2])">Adopt</a>
+                    </div>
+                </section>
+                
+                <section>
+                    <img src="images/maximus-card.jpg" onclick="getInfo(infoMaximus)" alt="">
+                    <div class="card-info">
+                        <h3>Maximus</h3>
+                        <p>Cost to adopt: $122.80</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisl vitae lectus blandit viverra. Curabitur lacinia placerat tincidunt.</p>
+                        <a class="green-button white-text" onclick="addTotal(infoMaximus[2])">Adopt</a>
+                    </div>
+                </section>
+                
+                <section>
+                    <img src="images/luna-card.jpg" onclick="getInfo(infoLuna)" alt="">
+                    <div class="card-info">
+                        <h3>Luna</h3>
+                        <p>Cost to adopt: $123.40</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisl vitae lectus blandit viverra. Curabitur lacinia placerat tincidunt.</p>
+                        <a class="green-button white-text" onclick="addTotal(infoLuna[2])">Adopt</a>
+                    </div>
+                </section>
+                
+                <section>
+                    <img src="images/stella-card.jpg" onclick="getInfo(infoStella)" alt="">
+                    <div class="card-info">
+                        <h3>Stella</h3>
+                        <p>Cost to adopt: $80.00</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nisl vitae lectus blandit viverra. Curabitur lacinia placerat tincidunt.</p>
+                        <a class="green-button white-text" onclick="addTotal(infoStella[2])">Adopt</a>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <div class="svg-container center">
+                <img src="images/adoptadog-logo.svg" alt="White Adopt A Dog logo">
+            </div>
+            <p class="white-text center">Lorem ipsum dolor sit amet</p>
+
+            <nav id="foot-nav" class="center">
+                <ul>
+                    <li><a class="white-text head-nav-link" href="index.html">Home</a></li>
+                    <li><a class="white-text head-nav-link" href="dogs.html">Dogs</a></li>
+                    <li><a class="white-text head-nav-link" href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+
+            <p class="white-text center"> © 2018 Adoptadog, LLC   |   Seattle, WA</p>
+        </footer>
+    </body>
+</html>

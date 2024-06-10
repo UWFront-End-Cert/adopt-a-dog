@@ -1,0 +1,47 @@
+Tests:
+- Firefox, Chrome, Edge
+- W3C markup validation tested for all pages (no errors or warnings)
+- Load speeds (481 ms)
+
+Future testing:
+- testing on Safari
+- will validate/troubleshoot CSS when CSS is added
+- responsiveness on smaller viewports
+- emulating mobile devices
+
+Changes made:
+- No current changes
+
+User Persona:
+Name: Jeremy Williams
+Age: 32
+Occupation: Account Manager
+Salary: $90,000
+Education: Bachelor's Degree
+Bio: Jeremy is a married father of 2 young children, and his family has become interested in adopting a pet. Jeremy is tech-savvy, and feels financially secure enough to adopt a pet, but his family would be new to dog ownership. They still want to adopt a rescue rather than buy from a breeder, so Jeremy has certain particulars in mind for breeds & temperaments that would be a good fit for an inexperienced family with small children.
+Challenges: The site should prioritize navigability in listings & corresponding info, and present information in a way that is up-front and intuitive, as this user is often strapped for time, and could opt for another service if he feels his options here can't be evaluated efficiently enough.
+Additionally, Jeremy is red-green colorblind, so ensuring proper color contrast everywhere on the site, and including detailed alt text descriptions on photos (particularly visual descriptions of dogs listed on the platform) is essential.
+Device info: Owns a 6 month-old smartphone (browses with Safari) and a 2 year-old laptop (browses with Firefox). Occasionally browses on his work desktop using Chrome.
+
+User Research:
+- In a Forbes Advisor survey of 10,000 dog owners, the majority reported they adopted their dog from a breeder (36%), followed by adopting their dog from a shelter (23%).
+- The majority of U.S. pet owners report adopting/fostering a pet because it was the right time for them, and they were spending more time at home (48%).
+- The second most common reason for adopting a pet by a slim margin was that the owner’s family wanted a pet (47%).
+- Households with annual incomes of $100,000 and over are most likely to own pets: 63% of households in this income bracket own dogs and 40% own cats.
+- Homeowners are more likely to own pets than renters: 58% of homeowners have a dog and 36% have a cat versus 39% and 29% of renters respectively.
+- Americans in rural areas are more likely to own pets than Americans in suburban and urban areas. 71% of adults living in rural areas have a pet.
+- Residents of rural areas are also more likely to have multiple pets: 47% of adults in rural areas have more than one pet, compared with 32% in the suburbs and 26% in urban areas.
+Source: (https://www.forbes.com/advisor/pet-insurance/pet-adoption-statistics/)
+- Most people are more likely to have a pet in their home than a child, except for people in their 40s. 
+- Dog owners are twice as likely to work in the financial field than cat owners.
+- Dog owners are more likely to enjoy hobbies like sports, dancing, and travel.
+- 45% of dog owners say their dogs improve their lives through exercise, compared to just 8% of cat owners.
+- Washington Pet Ownership Stats:
+	- 62.7% of Washington households own a pet.
+	- 42.8% of Washington households own a dog.
+	- 30.5% of Washington households own a cat.
+Source: (https://www.pawlicy.com/blog/us-pet-ownership-statistics/)
+
+
+
+

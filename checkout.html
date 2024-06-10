@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>Adopt a Dog</title>
+        <link class="logo" rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="header-left">
+                <div class="svg-container">
+                    <img src="images/adoptadog-logo.svg" alt="White Adopt A Dog logo">
+                </div>
+                <h1>Seattle's premiere dog adoption agency</h1>
+            </div>
+
+            <div class="checkout-link">
+                <p class="white-text balance"><i></i>$1234.56</p>
+                <a class="green-button white-text">Checkout</a>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a class="head-nav-link" href="index.html">Home</a></li>
+                <li><a class="head-nav-link" href="dogs.html">Dogs</a></li>
+                <li><a class="head-nav-link" href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Checkout</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="email"><br><br>
+
+                <label for="street">Street Address</label>
+                <input type="text" id="street" name="street"><br><br>
+
+                <label for="city">City</label>
+                <input type="text" id="city" name="city">
+
+                <label for="state">State</label>
+                <select id="state" name="state">
+                    <option>ID</option>
+                    <option>WA</option>
+                </select>
+
+                <label for="zip">Zip Code</label>
+                <input type="text" id="zip" name="zip"><br><br>
+
+                <h4>First Time Adopter?</h4><br>
+                <input type="radio" id="yes" name="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="no">
+                <label for="no">No</label><br><br>
+
+                <label for="location">Pickup Location</label>
+                <select name="location" id="location">
+                    <option>Auburn</option>
+                    <option>Seattle</option>
+                    <option>Spokane</option>
+                </select> <br><br>
+            
+                <section class="pre-gallery">
+                    <div>
+                        <img src="images/lucas-checkout.jpg" alt="">
+                        <h5>Lucas</h5>
+                    </div>
+                   
+                    <div>
+                        <img src="images/duffy-checkout.jpg" alt="">
+                        <h5>Duffy</h5>
+                    </div>
+                </section>
+
+                <h4>Total Adoption Cost</h4>
+                <p>$1234.56</p>
+
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+
+        <footer>
+            <div class="svg-container center">
+                <img src="images/adoptadog-logo.svg" alt="White Adopt A Dog logo">
+            </div>
+            <p class="white-text center">Lorem ipsum dolor sit amet</p>
+
+            <nav id="foot-nav" class="center">
+                <ul>
+                    <li><a class="white-text head-nav-link" href="index.html">Home</a></li>
+                    <li><a class="white-text head-nav-link" href="dogs.html">Dogs</a></li>
+                    <li><a class="white-text head-nav-link" href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+
+            <p class="white-text center"> © 2018 Adoptadog, LLC   |   Seattle, WA</p>
+        </footer>
+    </body>
+</html>

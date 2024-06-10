@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(60, 92, 128);
+    background-image: url("images/header-image.jpg");
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    padding: 4rem 4rem 8rem 4rem;
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(204, 204, 204);
+    height: 3rem;
+    max-width: 100%;
+}
+
+.head-nav {
+    margin: 0;
+    padding: 0;
+}
+
+.head-nav-link {
+    padding: .75rem;
+    margin: .75rem;
+    color: black;
+}
+
+.header-left {
+    margin-right: 3em;
+}
+
+.svg-container {
+    width: 25em;
+    max-width: 100%;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.checkout-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 100%;
+}
+
+.balance {
+    font-weight: bold;
+}
+
+.green-button {
+    color: black;
+    background-color: rgb(98, 179, 66);
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 8em;
+}
+
+.see-more {
+    background-color: rgb(231, 231, 231);
+    padding: 0.5rem;
+    margin: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 8em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Neuton", serif;
+}
+
+h1 {
+    color: rgb(168, 253, 135);
+    font-style: italic;
+    font-weight: 200;
+}
+
+h2 {
+    color: black;
+    flex-basis: 100%;
+}
+
+.white-text {
+    color: white;
+}
+
+a,
+p {
+    font-size: 1rem;
+    font-family: "Work Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    max-width: 100%;
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    padding: 3em;
+    margin-bottom: 4rem;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.no-stretch {
+    max-width: 100%;
+    height: auto;
+}
+
+.pre-gallery {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    margin-bottom: 3em;
+}
+
+.pre-gallery-info {
+    margin: 0 0 0 4em;
+}
+
+section {
+    max-width: 20vw;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    margin: 2rem;
+}
+
+.card-info {
+    margin: 2rem;
+}
+
+.center {
+    margin: auto;
+    max-width: fit-content;
+}
+
+footer {
+    max-width: 100%;
+    background-color: rgb(38, 67, 100);
+    background-size: cover;
+    padding: 2rem;
+}
+
+#foot-nav {
+    background-color: rgb(38, 67, 100);
+}
+
+
+
+@media print, screen and (max-width: 800px) {
+    
+    .pre-gallery {
+        flex-direction: column;
+    }
+
+    .pre-gallery-info {
+        margin: 0 auto;
+    }
+}
+
