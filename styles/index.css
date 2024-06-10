@@ -16,19 +16,3 @@
     flex: 60%;
     padding-left: 3%;
 }
-.dog-bio-section {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 15%;
-    padding-right: 12%;
-}
-.dog-bio {
-    flex: 20%;
-    margin-left: 0;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    border: 2px solid gray;
-}
-.dog-bio img {
-    width: 100%;
-}
