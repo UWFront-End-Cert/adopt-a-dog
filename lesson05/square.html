@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square a Number</title>
+</head>
+<body>
+    <h1>Square a Number</h1>
+    <button id="squareButton">Click me to square a number</button>
+
+    <script>
+        // Function to square a number
+        function squareNumber() {
+            // Prompt the user to enter a number
+            let number = prompt("Enter a number:");
+            
+            // Convert the input to a number
+            number = parseFloat(number);
+            
+            // Check if the input is a valid number
+            if (isNaN(number)) {
+                alert("Please enter a valid number.");
+            } else {
+                // Calculate the square of the number
+                let squaredNumber = number * number;
+                
+                // Show the result in an alert
+                alert("The square of " + number + " is " + squaredNumber);
+            }
+        }
+
+        // Attach the event handler to the button
+        document.getElementById("squareButton").addEventListener("click", squareNumber);
+    </script>
+</body>
+</html>
