@@ -1,0 +1,41 @@
+USER PERSONA
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Name: Jordan Jefferies
+Age: 26
+Occupation: Documentary Supply Chain Analyst
+Technology: 1 year old iPad/ 2 year old iPhone/3 year old PC
+Additional Details:
+Goals
+- Learn more about the dogs available for adoption in his area.
+- Connect with and learn from other dog owners on parenting their fur babies.
+- Utilize current technologies to make the process as smooth as possible.
+- Find a companion pup that will enjoy hiking and other outdoor activities.
+
+Frustrations
+- Lack of updated information on dogs available in local shelters.
+- Scarcity of websites that are mobile friendly for potential adopters.
+- Feels anxious over new responsibilities.
+- Finding dog friendly areas to get play.
+
+TESTING
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Desktop Browsers
+Google Chrome Version 90.0.4430.93
+Microsoft Edge Version 90.0.818.51
+Opera Version:76.0.4017.94
+Firefox Version 88.0
+Safari on macOS 14.1
+
+Mobile Browsers
+Chrome Version 90.0.4430.91
+Firefox Version 88.1.2
+Safari on iOS 14.0
+
+Responsiveness checked by resizing the window on all browsers.
+Pages checked to see if they rendered correctly on individual browser.
+Buttons and links checked for correct target links.
+Tested on iOS and macOS using LAMBDATEST
+
+Site worked as expected across all browsers, OS and enviroments.

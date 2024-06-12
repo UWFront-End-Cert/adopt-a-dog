@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ADOPT-A-DOG CHECKOUT</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5398a5e1fc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <a href="#main-content" class="sr-only">Skip to main content</a>
+  <div class="wrapper">
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo-header-wrapper">
+          <figure class="logo">
+            <img src="images/adoptadog-logo.svg" alt="" width="450">
+          </figure>
+          <h1 class="slogan">Seattle's premiere dog adoption agency</h1>
+        </div>
+        <div class="checkout-cart-wrapper">
+          <img src="images/cart-icon.svg" alt="" width="30">
+          <p class="checkout-total" id="cartUpdate">$0.00</p>
+          <form action="checkout.html" class="checkout-button">
+            <input class="checkout" type="submit" value="Checkout" onclick="checkout.html" />
+          </form>
+          <input type="image" id="cart" alt="checkout-cart" src="images/cart-icon.svg" width="30">
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adoption-list.html">Dogs</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+          <div id="mobile-menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="adoption-list.html">Dogs</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="checkout.html"><img src="images/cart-icon.svg" class="shopping-cart-img" alt="shopping cart img" width="30"></a></li>
+            </ul>
+          </div>
+          <div id="menu-close">
+            <i class="fa-solid fa-x"></i>
+          </div>
+          <div id="mobile-menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="sr-only" id="main-content">
+      <h2 class="skip-link">content</h2>
+    </section>
+    <section class="main-checkout">
+      <h2>Checkout</h2>
+      <div class="form-wrapper">
+        <form action="/action.php" method="POST" id="form">
+          <label>Name
+            <input type="text" id="name" name="name" value="">
+          </label>
+          <label>Email Address
+            <input type="email" id="email" name="email">
+          </label>
+          <label>Street Address</label>
+          <input type="text" id="address" name="address">
+          <div class="city-state-zip">
+            <label>City
+              <input type="text" id="city" name="city" value="">
+            </label>
+            <label>State
+              <select id="state" name="state">
+                <option value="AL">AL</option>
+                <option value="AK">AK</option>
+                <option value="AR">AR</option>
+                <option value="AZ">AZ</option>
+                <option value="CA">CA</option>
+                <option value="CO">CO</option>
+                <option value="CT">CT</option>
+                <option value="DC">DC</option>
+                <option value="DE">DE</option>
+                <option value="FL">FL</option>
+                <option value="GA">GA</option>
+                <option value="HI">HI</option>
+                <option value="IA">IA</option>
+                <option value="ID">ID</option>
+                <option value="IL">IL</option>
+                <option value="IN">IN</option>
+                <option value="KS">KS</option>
+                <option value="KY">KY</option>
+                <option value="LA">LA</option>
+                <option value="MA">MA</option>
+                <option value="MD">MD</option>
+                <option value="ME">ME</option>
+                <option value="MI">MI</option>
+                <option value="MN">MN</option>
+                <option value="MO">MO</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="NC">NC</option>
+                <option value="NE">NE</option>
+                <option value="NH">NH</option>
+                <option value="NJ">NJ</option>
+                <option value="NM">NM</option>
+                <option value="NV">NV</option>
+                <option value="NY">NY</option>
+                <option value="ND">ND</option>
+                <option value="OH">OH</option>
+                <option value="OK">OK</option>
+                <option value="OR">OR</option>
+                <option value="PA">PA</option>
+                <option value="RI">RI</option>
+                <option value="SC">SC</option>
+                <option value="SD">SD</option>
+                <option value="TN">TN</option>
+                <option value="TX">TX</option>
+                <option value="UT">UT</option>
+                <option value="VT">VT</option>
+                <option value="VA">VA</option>
+                <option value="WA">WA</option>
+                <option value="WI">WI</option>
+                <option value="WV">WV</option>
+                <option value="WY">WY</option>
+              </select>
+            </label>
+            <label>Zip Code
+              <input type="text" id="zipCode" name="zipCode" value="">
+            </label>
+          </div>
+          <fieldset>
+            <legend class="first-time">First Time Adopter?</legend>
+            <label>
+              <input class="yes" type="radio" name="firstTimeAdopter" value="yes">Yes
+            </label>
+            <label>
+              <input class="no" type="radio" name="firstTimeAdopter" value="no">No
+            </label>
+          </fieldset>
+          <br>
+          <label class="pickup">Pickup Location
+            <select name="dropdown">
+              <option value="Here">Here</option>
+              <option value="There">There</option>
+              <option value="Anywhere">Anywhere</option>
+            </select>
+          </label>
+          <label>Dogs Adopted</label>
+          <div class="checkout-selections">
+            <img src="images/lucas-checkout.jpg" alt="" width="75">
+            <h4>Lucas</h4>
+            <p class="cost-total">Cost to Adopt:</p>
+            <p class="adoption-amount"> $123.45</p>
+            <img src="images/duffy-checkout.jpg" alt="" width="75">
+            <h4>Duffy</h4>
+            <p class="cost-total">Cost to Adopt:</p>
+            <p class="adoption-amount"> $123.45</p>
+          </div>
+          <label>Total Adoption Cost</label>
+          <p class="total-cost">$1234.56</p>
+          <input class="adoption-submit" id="submit" type="submit" name="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="footer-wrapper">
+        <figure class=footer-fig>
+          <img src="images/adoptadog-logo.svg" alt="" width="350">
+        </figure>
+        <p class="footer-info">Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="index.html">Home&nbsp;&nbsp;&nbsp;/</a></li>
+            <li><a href="adoption-list.html">Dogs&nbsp;&nbsp;&nbsp;/</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">&copy; 2018 Adoptadog, &#x2758; LLC Seattle, WA</p>
+      </div>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="checkout.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ADOPT-A-DOG LIST</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5398a5e1fc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <a href="#main-content" class="sr-only">Skip to main content</a>
+  <div class="wrapper">
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo-header-wrapper">
+          <figure class="logo">
+            <img src="images/adoptadog-logo.svg" alt="" width="450">
+          </figure>
+          <h1 class="slogan">Seattle's premiere dog adoption agency</h1>
+        </div>
+        <div class="checkout-cart-wrapper">
+          <img src="images/cart-icon.svg" alt="" width="30">
+          <p class="checkout-total" id="cartUpdate">$0.00</p>
+          <form action="checkout.html" class="checkout-button">
+            <input class="checkout" type="submit" value="Checkout" onclick="checkout.html" />
+          </form>
+          <input type="image" id="cart" alt="checkout-cart" src="images/cart-icon.svg" width="30">
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adoption-list.html">Dogs</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+          <div id="mobile-menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="adoption-list.html">Dogs</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="checkout.html"><img src="images/cart-icon.svg" class="shopping-cart-img" alt="shopping cart img" width="30"></a></li>
+            </ul>
+          </div>
+          <div id="menu-close">
+            <i class="fa-solid fa-x"></i>
+          </div>
+          <div id="mobile-menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="sr-only" id="main-content">
+      <h2 class="skip-link">content</h2>
+    </section>
+    <section class="pups-main-content" id="pups-main">
+
+    </section>
+    <footer class="main-footer">
+      <div class="footer-wrapper">
+        <figure class=footer-fig>
+          <img src="images/adoptadog-logo.svg" alt="" width="350">
+        </figure>
+        <p class="footer-info">Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="index.html">Home&nbsp;&nbsp;&nbsp;/</a></li>
+            <li><a href="adoption-list.html">Dogs&nbsp;&nbsp;&nbsp;/</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">&copy; 2018 Adoptadog, &#x2758; LLC Seattle, WA</p>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="adoptadog.js"></script>
+</body>
+
+</html>
