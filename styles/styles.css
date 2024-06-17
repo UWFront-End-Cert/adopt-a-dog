@@ -244,6 +244,19 @@ width: 15rem;
   cursor: pointer;
 }
 
+button {
+  background-color: #76c91b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 /*Form*/
 
@@ -366,8 +379,6 @@ h1 {
   }
 
 }
-
-
 
 /* Responsive text size */
 @media screen and (max-width: 600px) {
