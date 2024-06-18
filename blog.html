@@ -40,20 +40,14 @@
                   <li><a href="contact.html">Contact</a></li>
               </ul>
           </nav>
-          <div class="dog-card">
-              <h4>Understanding Your Dog's Moods</h4>
-              <img src="images/blog-1.jpg" alt="A woman and her dog overlooking a canyon.">
-              <p>Every dog owner knows what ears down and a tucked tail means. But how well do you know some of your dog's subtler signs?</p>
-              <a href="blog.html">Read More</a>
-              <h4>Dog Park Etiquette</h4>
-              <img src="images/blog-2.jpg" alt="Four dogs on leashes looking up to the person walking them.">
-              <p>No one wants to get side eye from other owners at the dog park. Scan this checklist to see if you're minding your p's and q's at the dog park.</p>
-              <a href="blog.html">Read More</a>
-              <h4>5 Dog Training Hacks</h4>
-              <img src="images/blog-3.jpg" alt="A woman holding a ball up as her dog looks up expectantly.">
-              <p>Want to know the most effective methods for training your dog? Look no further.</p>
-              <a href="blog.html">Read More</a>
-          </div>
+          <h1>Our Blog</h1>
+            <div id="blog-posts"></div>
+          <form id="blog-form">
+            <input type="text" id="headline" placeholder="Headline" required><br>
+            <input type="text" id="image-url" placeholder="Image URL" required><br>
+            <textarea id="blog-text" placeholder="Blog Text" required></textarea><br>
+            <button type="submit">Submit</button>
+          </form>
           <footer class="footer">
             <div class="footer-content">
                 <div class="footer-logo">
@@ -74,5 +68,6 @@
             </p>
         </div>
     </footer>
+    <script src="./blog.js" charset="utf-8"> </script>
     </body>
   </html>
