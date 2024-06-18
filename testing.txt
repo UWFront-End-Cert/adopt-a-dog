@@ -1,0 +1,12 @@
+User Personas
+
+Adoptadog needs to be intuitive enough to accommodate those less comfortable with website navigation and checkout processes, and have a the quality UI and responsiveness desired by tech-savvy users.
+
+In particular, the convenience of being able to refresh your browser while on the go, periodically checking in if their is a listing for a dog you are looking to adopt necessitates the a high-quality mobile-first design.
+
+A poorly designed mobile experience, or dog listing page, will result in them removing this site from the list of dog adoption sites they frequent.
+
+
+Browser Testing
+
+I tested the site on Google Chrome, Firefox, and Safari web browsers. The site's images, text, and links all displayed and functioned properly. Once CSS is added to the site, more testing for proper responsiveness will be necessary. I also used developer tools to view the site on various iPhone models and everything looked good there as well. After adding alt text to a few images that were missing it, all code was passed HTML validation.
