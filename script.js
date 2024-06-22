@@ -28,7 +28,7 @@ const posts = [
 ];
 
 const article = document.querySelector("article");
-if (article) {
+if (article.getAttribute("id") == "blog") {
     const heading = document.createElement("h1");
     heading.textContent = "Dynamically Generated Posts:";
     article.appendChild(heading);
