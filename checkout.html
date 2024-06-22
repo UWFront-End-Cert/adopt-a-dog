@@ -23,7 +23,7 @@
         href="./blog.html">Blog</a>&nbsp;/&nbsp;<a href="./contact.html">Contact</a></nav>
     <article>
         <h1>Checkout</h1>
-        <form>
+        <form name="checkout">
             <label for="name">Name</label><br>
             <textarea id="name" name="name" rows="2" cols="100"></textarea><br><br>
             <label for="email">Email Address</label><br>
@@ -38,6 +38,7 @@
                 <div>
                     <label for="state">State</label><br>
                     <select name="state" id="state">
+                        <option value=""></option>
                         <option value="WA">WA</option>
                     </select>
                 </div>
@@ -53,7 +54,8 @@
             <label for="no">No</label><br><br>
             <label for="pickup">Pickup Location</label><br>
             <select name="pickup" id="pickup">
-                <option value="WA">Home</option>
+                <option value=""></option>
+                <option value="Home">Home</option>
             </select><br><br>
             <label for="pickup">Dogs Adopted</label><br>
             <div class="city-state-zip">
@@ -81,6 +83,7 @@
                 href="./contact.html">Contact</a></p>
         <p>© 2024 Adoptadog, LLC | Seattle, WA</p>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
