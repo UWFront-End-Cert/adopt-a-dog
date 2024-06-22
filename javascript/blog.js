@@ -1,24 +1,47 @@
 const blogPosts = [
     {
+        image: 'images/blog-1.jpg',
         title: 'Traveling With Your Dog',
-        text: 'Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium faccull oribus es quidignis ipietus explam sus am aut amet ant fugiatum, utem non reptat.'
+        text1: 'Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium faccull oribus es quidignis ipietus explam sus am aut amet ant fugiatum, utem non reptat.',
+        text2: 'Uptiusd andesci qui nem aut vendion ectur? Debis que explaut laborenia que doluptur, conet labor abor sant poreperum dio quat que doluptatur aut voluptassim quisciatquam ea adqui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alitulparume nonseca estorer spernam.'
     }
 ];
 
-const blogContainer = document.getElementById('b-container');
-const article = document.createElement('article');
-blogContainer.appendChild(article);
 
 for (let i = 0; i < blogPosts.length; i += 1) {
     const blogPost = blogPosts[i];
 
+    const blogImage = document.createElement('img');
+    blogImage.src = blogPost.image;
+
     const blogTitle = document.createElement('h2');
     blogTitle.textContent = blogPost.title;
-    //bogTitle.setAttribute('class', blogPost.title);
 
-    const blogText = document.createElement('p');
-    blogText.textContent = blogPost.text;
+    const blogTextP1 = document.createElement('p');
+    blogTextP1.textContent = blogPost.text1;
+    
+    const blogTextP2 = document.createElement('p');
+    blogTextP2.textContent = blogPost.text2;
 
-    article.appendChild(blogTitle);
-    article.appendChild(blogText);
+
+    const blogSection = document.getElementById('blog-section');
+    const article = document.createElement('article');
+    article.setAttribute('class', 'blog-container');
+    blogSection.appendChild(article);
+    
+    const divBlogImage = document.getElementsByClassName('blog-image');
+    const div1 = document.createElement('div');
+    div1.setAttribute('class', 'blog-image');
+    article.appendChild(div1);
+    div1.appendChild(blogImage);
+    
+    const divBlogText = document.getElementsByClassName('blog-text');
+    const div2 = document.createElement('div');
+    div2.setAttribute('class', 'blog-text');
+    article.appendChild(div2);
+    div2.appendChild(blogTitle);
+    div2.appendChild(blogTextP1);
+    div2.appendChild(blogTextP2);
+
+
 }
