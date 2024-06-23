@@ -42,42 +42,37 @@
             <form name="contact">
                 <label for="firstName">
                     <span>First Name</span>
-                    <input type="text" id="firstName" name="applicantFirstName">
+                    <input type="text" class="cFInput" name="applicantFirstName">
                 </label>
 
                 <label for="lastName">
                     <span>Last Name</span>
-                    <input type="text" id="lastName" name="applicantLastName">
+                    <input type="text" class="cFInput" name="applicantLastName">
                 </label>
 
                 <label for="email">
-                    <span>Address</span>
-                    <input type="text" id="email" name="applicantEmail">
+                    <span>Email</span>
+                    <input type="email" class="cFInput" name="applicantEmail">
                 </label>  
                 
                 <label for="phone">
                     <span>Phone Number</span>
-                    <input type="text" id="phone" name="applicantPhone">
+                    <input type="text" class="cFInput" name="applicantPhone">
                 </label>  
 
-                <fieldset>
-                    <legend>
-                        <span>How do you prefer to be contacted?</span>
-                    </legend>
-                    <label>Phone call
-                        <input type="checkbox" name="method" value="phone">
-                    </label>
-                    <label>Text message
-                        <input type="checkbox" name="method" value="text">
-                    </label>
-                    <label>Email
-                        <input type="checkbox" name="method" value="email">
-                    </label>
-                </fieldset>
+                <label>
+                    <span>How do you prefer to be contacted?</span>
+                    <select name="method" class="cFInput">
+                        <option value="">Please select</option>
+                        <option value="phone">Phone call</option>
+                        <option value="text">Text message</option>
+                        <option value="email">Email</option>
+                    </select>
+                </label>
 
                 <label>
                     <span>How did you hear about us?</span>
-                    <select name="howHear">
+                    <select name="howHear" class="cFInput">
                         <option value="">Please select</option>
                         <option value="print">Print ad</option>
                         <option value="tv">TV commercial</option>
@@ -88,7 +83,7 @@
 
                 <label>
                     <span>How can we help you?</span>
-                    <textarea name="helpQuestion" rows="4" cols="50">
+                    <textarea name="helpQuestion" class="cFInput" rows="4" cols="50">
                     </textarea>
                 </label>
 
@@ -110,6 +105,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="javascript/contact-form.js" charset="utf-8"></script>
 
 </body>
 
