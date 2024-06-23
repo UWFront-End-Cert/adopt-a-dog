@@ -39,7 +39,7 @@
 
     <section class="form-container">    
         <h1>Contact Us</h1>
-            <form name="contact">
+            <form name="contact" id="contactForm">
                 <label for="firstName">
                     <span>First Name</span>
                     <input type="text" id="firstName" name="applicantFirstName">
@@ -52,7 +52,7 @@
 
                 <label for="email">
                     <span>Email</span>
-                    <input type="text" id="email" name="applicantEmail">
+                    <input type="email" id="email" name="applicantEmail">
                 </label>  
                 
                 <label for="phone">
@@ -65,13 +65,13 @@
                         <span>How do you prefer to be contacted?</span>
                     </legend>
                     <label>Phone call
-                        <input type="checkbox" name="method" value="phone">
+                        <input type="radio" id="method" name="method" value="phone">
                     </label>
                     <label>Text message
-                        <input type="checkbox" name="method" value="text">
+                        <input type="radio" id="method" name="method" value="text">
                     </label>
                     <label>Email
-                        <input type="checkbox" name="method" value="email">
+                        <input type="radio" id="method" name="method" value="email">
                     </label>
                 </fieldset>
 
@@ -92,7 +92,7 @@
                     </textarea>
                 </label>
 
-                <input class="submit-button" type="submit" value="Submit">
+                <input class="submit-button" type="submit" value="Submit" onclick="formInfo()">
             </form>
     </section>
 
