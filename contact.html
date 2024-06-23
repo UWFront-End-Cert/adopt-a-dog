@@ -60,20 +60,15 @@
                     <input type="text" class="cFInput" name="applicantPhone">
                 </label>  
 
-                <fieldset>
-                    <legend>
-                        <span>How do you prefer to be contacted?</span>
-                    </legend>
-                    <label>Phone call
-                        <input type="radio" class="cFInput" name="method" value="phone">
-                    </label>
-                    <label>Text message
-                        <input type="radio" class="cFInput" name="method" value="text">
-                    </label>
-                    <label>Email
-                        <input type="radio" class="cFInput" name="method" value="email">
-                    </label>
-                </fieldset>
+                <label>
+                    <span>How do you prefer to be contacted?</span>
+                    <select name="method" class="cFInput">
+                        <option value="">Please select</option>
+                        <option value="phone">Phone call</option>
+                        <option value="text">Text message</option>
+                        <option value="email">Email</option>
+                    </select>
+                </label>
 
                 <label>
                     <span>How did you hear about us?</span>
@@ -92,7 +87,7 @@
                     </textarea>
                 </label>
 
-                <input class="submit-button" type="submit" value="Submit" onclick="formInfo()">
+                <input class="submit-button" type="submit" value="Submit">
             </form>
     </section>
 
