@@ -39,25 +39,25 @@
 
     <section class="form-container">    
         <h1>Contact Us</h1>
-            <form name="contact" id="contactForm">
+            <form name="contact">
                 <label for="firstName">
                     <span>First Name</span>
-                    <input type="text" id="firstName" name="applicantFirstName">
+                    <input type="text" class="cFInput" name="applicantFirstName">
                 </label>
 
                 <label for="lastName">
                     <span>Last Name</span>
-                    <input type="text" id="lastName" name="applicantLastName">
+                    <input type="text" class="cFInput" name="applicantLastName">
                 </label>
 
                 <label for="email">
                     <span>Email</span>
-                    <input type="email" id="email" name="applicantEmail">
+                    <input type="email" class="cFInput" name="applicantEmail">
                 </label>  
                 
                 <label for="phone">
                     <span>Phone Number</span>
-                    <input type="text" id="phone" name="applicantPhone">
+                    <input type="text" class="cFInput" name="applicantPhone">
                 </label>  
 
                 <fieldset>
@@ -65,19 +65,19 @@
                         <span>How do you prefer to be contacted?</span>
                     </legend>
                     <label>Phone call
-                        <input type="radio" id="method" name="method" value="phone">
+                        <input type="radio" class="cFInput" name="method" value="phone">
                     </label>
                     <label>Text message
-                        <input type="radio" id="method" name="method" value="text">
+                        <input type="radio" class="cFInput" name="method" value="text">
                     </label>
                     <label>Email
-                        <input type="radio" id="method" name="method" value="email">
+                        <input type="radio" class="cFInput" name="method" value="email">
                     </label>
                 </fieldset>
 
                 <label>
                     <span>How did you hear about us?</span>
-                    <select name="howHear">
+                    <select name="howHear" class="cFInput">
                         <option value="">Please select</option>
                         <option value="print">Print ad</option>
                         <option value="tv">TV commercial</option>
@@ -88,7 +88,7 @@
 
                 <label>
                     <span>How can we help you?</span>
-                    <textarea name="helpQuestion" rows="4" cols="50">
+                    <textarea name="helpQuestion" class="cFInput" rows="4" cols="50">
                     </textarea>
                 </label>
 
