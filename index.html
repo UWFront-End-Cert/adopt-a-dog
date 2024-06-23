@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <title>Adopt A Dog</title>
+</head>
+
+<body>
+  <header>
+    <div class="banner">
+      <img src="images/adoptadog-logo.svg" class="banner-logo" alt="adopt a dog logo">
+      <h1 class="headline">Seattle's premiere dog adoption agency</h1>
+      <div class="cart">
+        <div class="cart-content">
+          <img src="images/cart-icon.svg" class="cart-icon" height="20" alt="shopping cart icon"><br>
+          <span class="cart-amount">$1234.56</span><br>
+        </div>
+        <a href="checkout.html" class="button checkout">Checkout</a><br><br>
+      </div>
+    </div>
+    <div class="nav-container">
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dogs.html">Dogs</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="content-container">
+    <div class="intro-section">
+      <img src="images/home-intro.jpg" class="intro-image" alt="A golden retriever smiling, getting a hug from its male owner">
+      <div class="intro-text">
+        <h1 class="intro-heading">Adopt A Dog</h1>
+        <p>When you have led me to where the great man is, what do you want?
+          He will tend to you, where is the pain of your flight? Fresh water
+          and then, when he wills, he is recuperated, or
+          You are like a fan of the rumpled arum, which is seen as an office
+          with the lips of a corporeal face, you are the one who exclaims the spirit
+          whether or not ant has fled, let him not crawl to the castle
+          they would like to run away from the unsettled, and to lead those who are as important or
+          the labor of autatia ad is the work of the acca and all cus, od qui ate</p>
+      </div>
+    </div>
+
+    <div class="dog-cards-container">
+      <div class="dog-card">
+        <img src="images/murphy-card.jpg" class="dog-image" alt="A picture of a large brown dog with soulfull eyes and a white muzzle" data-name="Murphy" data-breed="Large mixed-breed" data-fee="123.45" onclick="displayDogInfo(this)">
+        <h2>Murphy</h2>
+        <p><strong>Cost to Adopt:</strong>&nbsp;<span>$123.45</span></p>
+        <p>He wants to go by car I want to be very restful
+          they are rejected as they will be eaten I am willing
+          to pay for that matter, those who were robbed</p>
+        <a href="checkout.html" class="button adopt" data-fee="123.45" onclick="addAdoption(event, this)">Adopt</a>
+      </div>
+
+      <div class="dog-card">
+        <img src="images/poppy-card.jpg" class="dog-image" alt="A picture of a happy-looking small gray and white Shih Tzu-type dog walking toward you, tounge hanging out" data-name="Poppy" data-breed="Shih Tzu" data-fee="123.45" onclick="displayDogInfo(this)">
+        <h2>Poppy</h2>
+        <p><strong>Cost to Adopt:</strong>&nbsp;<span>$123.45</span></p>
+        <p>He wants to go by car I want to be very restful
+          they are rejected as they will be eaten I am willing
+          to pay for that matter, those who were robbed</p>
+        <a href="checkout.html" class="button adopt" data-fee="123.45" onclick="addAdoption(event, this)">Adopt</a>
+      </div>
+
+      <div class="dog-card">
+        <img src="images/jack-card.jpg" class="dog-image" alt="A picture of a sweet-looking brown and white beagle" data-name="Jack" data-breed="Beagle" data-fee="123.45" onclick="displayDogInfo(this)">
+        <h2>Jack</h2>
+        <p><strong>Cost to Adopt:</strong>&nbsp;<span>$123.45</span></p>
+        <p>He wants to go by car I want to be very restful
+          they are rejected as they will be eaten I am willing
+          to pay for that matter, those who were robbed</p>
+        <a href="checkout.html" class="button adopt" data-fee="123.45" onclick="addAdoption(event, this)">Adopt</a>
+      </div>
+
+      <div class="dog-card">
+        <img src="images/duffy-card.jpg" class="dog-image" alt="A picture of a beautiful brown and white pitt-bull mix, with a sweet face just waiting to be kissed" data-name="Duffy" data-breed="Pitbull mix" data-fee="123.45" onclick="displayDogInfo(this)">
+        <h2>Duffy</h2>
+        <p><strong>Cost to Adopt:</strong>&nbsp;<span>$123.45</span></p>
+        <p>He wants to go by car I want to be very restful
+          they are rejected as they will be eaten I am willing
+          to pay for that matter, those who were robbed</p>
+        <a href="checkout.html" class="button adopt" data-fee="123.45" onclick="addAdoption(event, this)">Adopt</a>
+      </div>
+
+      <div class="dog-card">
+        <img src="images/lucas-card.jpg" class="dog-image" alt="A picture of a happy-looking black lab-mix with spots of white on his muzzle, looking happy to greet you" data-name="Lucas" data-breed="Black Lab mix" data-fee="123.45" onclick="displayDogInfo(this)">
+        <h2>Lucas</h2>
+        <p><strong>Cost to Adopt:</strong>&nbsp;<span>$123.45</span></p>
+        <p>He wants to go by car I want to be very restful
+          they are rejected as they will be eaten I am willing
+          to pay for that matter, those who were robbed</p>
+        <a href="checkout.html" class="button adopt" data-fee="123.45" onclick="addAdoption(event, this)">Adopt</a>
+      </div>
+
+      <div class="dog-card">
+        <img src="images/jake-card.jpg" class="dog-image" alt="A picture of a handsome yellow lab, looking ready for someone to throw a ball" data-name="Jake" data-breed="Yellow Lab" data-fee="123.45" onclick="displayDogInfo(this)">
+        <h2>Jake</h2>
+        <p><strong>Cost to Adopt:</strong>&nbsp;<span>$123.45</span></p>
+        <p>He wants to go by car I want to be very restful
+          they are rejected as they will be eaten I am willing
+          to pay for that matter, those who were robbed</p>
+        <a href="checkout.html" class="button adopt" data-fee="123.45" onclick="addAdoption(event, this)">Adopt</a>
+      </div>
+
+      <div class="dog-card">
+        <img src="images/angus-card.jpg" class="dog-image" alt="A picture of a brown boxer with a white chest that perfectly complements the smile on his face." data-name="Angus" data-breed="Boxer" data-fee="123.45" onclick="displayDogInfo(this)">
+        <h2>Angus</h2>
+        <p><strong>Cost to Adopt:</strong>&nbsp;<span>$123.45</span></p>
+        <p>He wants to go by car I want to be very restful
+          they are rejected as they will be eaten I am willing
+          to pay for that matter, those who were robbed</p>
+        <a href="checkout.html" class="button adopt" data-fee="123.45" onclick="addAdoption(event, this)">Adopt</a>
+      </div>
+
+      <div class="dog-card">
+        <img src="images/violet-card.jpg" class="dog-image" alt="A picture of a chocolate brown lab puppy. She is as cute purple flower." data-name="Violet" data-breed="Chocolate Lab" data-fee="123.45" onclick="displayDogInfo(this)">
+        <h2>Violet</h2>
+        <p><strong>Cost to Adopt:</strong>&nbsp;<span>$123.45</span></p>
+        <p>He wants to go by car I want to be very restful
+          they are rejected as they will be eaten I am willing>
+          to pay for that matter, those who were robbed</p>
+        <a href="checkout.html" class="button adopt" data-fee="123.45" onclick="addAdoption(event, this)">Adopt</a>
+      </div>
+    </div>
+
+    <!-- see more dogs button -->
+    <div class="more-dogs-container">
+      <a href="dogs.html" class="button more-dogs">See More Dogs</a>
+    </div>
+  </div>
+
+  <!--footer content-->
+  <div class="footer-banner">
+    <img src="images/adoptadog-logo.svg" class="footer-logo" alt="adopt a dog logo">
+    <div class="footer-text">
+      <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>
+        esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+      <nav class="footer-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dogs.html">Dogs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <p>&copy;2018 Adoptadog LLC&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Seattle, WA</p>
+    </div>
+  </div>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>

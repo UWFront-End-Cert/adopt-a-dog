@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <title>Contact Us</title>
+</head>
+
+<body>
+  <header>
+    <div class="banner">
+      <img src="images/adoptadog-logo.svg" class="banner-logo" alt="adopt a dog logo">
+      <h1 class="headline">Seattle's premiere dog adoption agency</h1>
+      <div class="cart">
+        <div class="cart-content">
+          <img src="images/cart-icon.svg" class="cart-icon" height="20" alt="shopping cart icon"><br>
+          <span class="cart-amount">$1234.56</span><br>
+        </div>
+        <a href="checkout.html" class="button checkout">Checkout</a><br><br>
+      </div>
+    </div>
+    <div class="nav-container">
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dogs.html">Dogs</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="content-container">
+    <div class="contact-heading">
+      <h1>Contact Us</h1>
+      <p>We love talking dogs! Tell us about yourself, and we'll get back to you within 1 business day. Now who's a good doggo? Woof!</p>
+    </div>
+    <div class="container">
+      <div class="column">
+        <div class="contact-info">
+          <img src="images/luna-card.jpg" alt="A picture of a yellow lab with a smile so big her eyes squint with excitement">
+          <a href="tel:14254539553">Phone: 123.456.7890</a>
+          <a href="mailto:adopt@adoptadog.com">Email: adopt@adoptadog.com</a>
+          <a href="sms:14255034092">Text: 123.456.7891</a>
+        </div>
+      </div>
+      <div class="column">
+        <form id="contact-form" method="GET">
+          <div class="form-group">
+            <label>Name<br>
+              <input type="text" name="applicantName">
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label>Email Address<br>
+              <input type="email" name="applicantEmail">
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label>Phone Number<br>
+              <input type="tel" name="applicantPhone">
+            </label>
+          </div>
+
+          <fieldset>
+            <legend>Preferred Contact Method</legend>
+            <div class="form-group radio-group">
+              <input type="radio" name="contactMethod" value="email"> Email
+              <input type="radio" name="contactMethod" value="phone"> Phone
+              <input type="radio" name="contactMethod" value="text"> Text
+            </div>
+          </fieldset>
+
+          <div class="form-group">
+            <label>Reason for Contact<br>
+              <select name="contactReason">
+                <option value="general-inquiry">General Inquiry</option>
+                <option value="adoption-information">Adoption Information</option>
+                <option value="volunteering">Volunteering</option>
+                <option value="donation">Donation</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+          </div>
+
+          <fieldset>
+            <legend>Dog Preferences</legend>
+            <p>Select all that apply:</p>
+            <div class="checkbox-group">
+              <input type="checkbox" id="puppy" name="dogPreference" value="puppy">
+              <label for="puppy">Puppy</label>
+            </div>
+            <div class="checkbox-group">
+              <input type="checkbox" id="adult-dog" name="dogPreference" value="adult_dog">
+              <label for="adult-dog">Adult Dog</label>
+            </div>
+            <div class="checkbox-group">
+              <input type="checkbox" id="senior-dog" name="dogPreference" value="senior_dog">
+              <label for="senior-dog">Senior Dog</label>
+            </div>
+            <div class="checkbox-group">
+              <input type="checkbox" id="small-breed" name="dogPreference" value="small_breed">
+              <label for="small-breed">Small Breed</label>
+            </div>
+            <div class="checkbox-group">
+              <input type="checkbox" id="medium-breed" name="dogPreference" value="medium_breed">
+              <label for="medium-breed">Medium Breed</label>
+            </div>
+            <div class="checkbox-group">
+              <input type="checkbox" id="large-breed" name="dogPreference" value="large_breed">
+              <label for="large-breed">Large Breed</label>
+            </div>
+          </fieldset>
+
+          <div class="form-group">
+            <label>Message<br>
+              <textarea name="applicantMessage" placeholder="Enter your message here"></textarea>
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label>Best Time to Contact<br>
+              <select name="bestTime">
+                <option value="anytime">Anytime</option>
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="submit-button-container">
+            <button type="submit" class="button">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!--footer content-->
+  <div class="footer-banner">
+    <img src="images/adoptadog-logo.svg" class="footer-logo" alt="adopt a dog logo">
+    <div class="footer-text">
+      <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>
+        esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+      <nav class="footer-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dogs.html">Dogs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <p>&copy;2018 Adoptadog LLC&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Seattle, WA</p>
+    </div>
+  </div>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>

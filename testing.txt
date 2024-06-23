@@ -1,0 +1,149 @@
+# Adopt-A-Dog Website Testing Document
+
+## Table of Contents
+1. [General Information](#general-information)
+2. [Research on Users and Devices](#research-on-users-and-devices)
+3. [Testing Environment](#testing-environment)
+4. [Testing](#testing)
+    1. [Home Page](#1-home-page)
+    2. [Navigation Links](#2-navigation-links)
+    3. [Buttons](#3-buttons)
+    4. [Images](#4-images)
+    5. [Content Accuracy](#5-content-accuracy)
+    6. [Footer Links](#6-footer-links)
+    7. [W3C Markup Validation](#7-w3c-markup-validation)
+    8. [Page Load Speed](#8-page-load-speed)
+    9. [Cross-Device Compatibility](#9-cross-device-compatibility)
+    10. [Accessibility Testing](#10-accessibility-testing)
+    11. [Browser Compatibility](#11-browser-compatibility)
+5. [Test Summary](#test-summary)
+6. [Future Testing Plans](#future-testing-plans)
+
+## General Information
+- **Website Name:** [http://www.adoptadog.com](https://www.adoptadog.com)
+- **Author:** Susan Loren-Taylor
+- **Date:** May 19, 2024
+- **Purpose:** The following information outlines the testing that was completed to verify the functionality, performance, and accessibility of the Adopt-A-Dog website.
+
+## Research on Users and Devices
+
+### Users
+- **Primary Audience:** Potential dog adopters of all ages.
+- **User Needs:**
+  - Easy navigation to browse available dogs for adoption.
+  - Detailed information about each dog, including photos, personality traits, and adoption fees.
+  - Simple and secure adoption process.
+  - Access to resources on dog care and training.
+
+### Devices
+- **Desktop and Laptop Computers:**
+  - Screen resolutions: 1024x768 and higher
+  - Operating systems: Windows, macOS, Linux
+  - Browsers: Chrome, Firefox, Safari, Edge
+- **Tablets:**
+  - Screen sizes: 7 to 12 inches
+  - Operating systems: iOS, Android
+  - Browsers: Chrome, Safari, Firefox
+- **Mobile Phones:**
+  - Screen sizes: 4 to 6.5 inches
+  - Operating systems: iOS, Android
+  - Browsers: Chrome, Safari, Firefox
+
+## Testing Environment
+- **Operating System:** macOS Sonoma 14.4.1
+- **Browsers Tested:** Chrome (v126), Firefox (v126), Safari (v17.4)
+- **Tools Used:** Google PageSpeed Insights, W3C Markup Validation, Google Lighthouse, Chrome Inspector
+
+## Testing
+
+### 1. Home Page
+- **Test Description:** Verified the Home page loads correctly.
+- **Process:**
+  1. Opened a web browser.
+  2. Navigated to the URL of the Home page.
+- **Result:** The Home page loads without errors, displaying the correct title, header, and content.
+
+### 2. Navigation Links
+- **Test Description:** Verified all navigation links are working.
+- **Process:**
+  1. Opened the Home page.
+  2. Clicked each navigation link: Home, Dogs, & Blog.
+- **Result:** Each link navigates to the correct page without errors.
+
+### 3. Buttons
+- **Test Description:** Verified all button links are working on the Home page, the Dog page, and the Blog page.
+- **Process:**
+  1. Opened the Home page and clicked each button: Checkout, Adopt, & See More Dogs.
+  2. Opening the Dogs page and clicked the Checkout button.
+  3. Opened the Blog page and clicked the Checkout button.
+  4. Opened the Checkout page and clicked the Checkout and Submit buttons.
+- **Result:** Each link navigates to the correct page without errors.
+
+### 4. Images
+- **Test Description:** Verified all images are loading correctly.
+- **Process:**
+  1. Opened each page of the website.
+  2. Checked that all images appear correctly.
+- **Result:** All images load without broken links or errors.
+
+### 5. Content Accuracy
+- **Test Description:** Verified the accuracy of the content on each page.
+- **Process:**
+  1. Reviewed the content on each page.
+  2. Checked for spelling and grammatical errors.
+- **Result:** All content is accurate and free of errors.
+
+### 6. Footer Links
+- **Test Description:** Verified all footer links are working.
+- **Process:**
+  1. Scrolled to the footer on each page.
+  2. Clicked each footer link.
+- **Result:** Each footer link navigates to the correct page without errors.
+
+### 7. W3C Markup Validation
+- **Test Description:** Validated the HTML markup using the W3C Markup Validation website.
+- **Process:**
+  1. Opened the W3C Markup Validation website.
+  2. Copied the HTML of the Home page to W3C.
+  3. Ran the validation.
+  4. Repeated the process for the Dog, Blog, & Checkout pages.
+- **Result:** The HTML markup passes the validation without errors.
+
+### 8. Page Load Speed
+- **Test Description:** Verified the page load speeds.
+- **Process:**
+  1. Opened Google PageSpeed and entered the URL of the Adopt-A-Dog website.
+  3. Analyzed the results.
+- **Result:** The page loads within an acceptable time frame with a 91 performance score.
+
+### 9. Cross-Device Compatibility
+- **Test Description:** Verified the website's appearance and functionality on different devices using Chrome Inspector.
+- **Process:**
+  1. Opened the website and Chrome Inspector, 
+  2. Verified that it looks proper on desktop, iPad, and large and small mobile sizes.
+- **Result:** The website displays and functions correctly across all tested devices.
+
+### 10. Accessibility Testing
+- **Test Description:** Tested the website's accessibility.
+- **Process:**
+  1. Opened Google Lighthouse.
+  2. Ran the accessibility audit on the Adopt-A-Dog website.
+- **Result:** The website meets accessibility standards with a score of 100.
+
+### 11. Browser Compatibility
+- **Test Description:** Verified the website's compatibility with different browsers.
+- **Process:**
+  1. Opened the website in Chrome, Firefox, & Safari.
+  2. Verified that all pages appeared properly in all browsers.
+- **Result:** The website functions correctly in all tested browsers.
+
+## Test Summary
+- **Total number of Tests:** 11
+- **Passed:** 11
+- **Failed:** 0
+- **Critical Issues:** None
+
+## Future Testing Plans
+- **CSS Enhancements:** CSS will be added as the website evolves. Future tests will include verifying the correct application of styles, responsiveness, and cross-browser compatibility of CSS.
+- **JavaScript Functionality:** If JavaScript is added in the future, tests will include verifying the correct execution of scripts and interaction with the DOM.
+
