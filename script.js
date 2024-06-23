@@ -27,6 +27,69 @@ const posts = [
     }
 ];
 
+const dogs = [
+    {
+        name: "Murphy",
+        image: "images/murphy-card.jpg",
+        breed: "American Staffordshire Terrier"
+    },
+    {
+        name: "Poppy",
+        image: "images/poppy-card.jpg",
+        breed: "Shih Tzu"
+    },
+    {
+        name: "Jack",
+        image: "images/jack-card.jpg",
+        breed: "Beagle"
+    },
+    {
+        name: "Duffy",
+        image: "images/duffy-card.jpg",
+        breed: "Pit Bull"
+    },
+    {
+        name: "Lucas",
+        image: "images/lucas-card.jpg",
+        breed: "Borador"
+    },
+    {
+        name: "Jake",
+        image: "images/jake-card.jpg",
+        breed: "Labrador Retriever"
+    },
+    {
+        name: "Angus",
+        image: "images/angus-card.jpg",
+        breed: "Boxer"
+    },
+    {
+        name: "Violet",
+        image: "images/violet-card.jpg",
+        breed: "Labrador Retriever"
+    },
+    {
+        name: "Piper",
+        image: "images/piper-card.jpg",
+        breed: "Nova Scotia Duck Tolling Retriever"
+    },
+    {
+        name: "Maximus",
+        image: "images/maximus-card.jpg",
+        breed: "Miniature Schnauzer"
+    },
+    {
+        name: "Luna",
+        image: "images/luna-card.jpg",
+        breed: "Labrador Retriever"
+    },
+    {
+        name: "Stella",
+        image: "images/stella-card.jpg",
+        breed: "Chihuahua"
+    }
+]
+
 const article = document.querySelector("article");
 if (article.getAttribute("id") == "blog") {
     const heading = document.createElement("h1");
@@ -56,6 +119,45 @@ if (article.getAttribute("id") == "blog") {
         section.appendChild(paragraph2);
         blogPost.appendChild(section);
         article.appendChild(blogPost);
+    }
+} else if (article.getAttribute("id") == "index" || article.getAttribute("id") == "dogs") {
+    const heading = document.createElement("h1");
+    heading.textContent = "Dynamically Generated Tiles:";
+    article.appendChild(heading);
+    const dogsContainer = document.createElement("div");
+    dogsContainer.setAttribute("class", "dogs");
+    article.appendChild(dogsContainer);
+    for (let i = 0; i < dogs.length; i++) {
+        const row = document.createElement("div");
+        row.setAttribute("class", "row");
+        let j = i;
+        while (j < i + 4 && j < dogs.length) {
+            const dog = document.createElement("div");
+            dog.setAttribute("class", "dog");
+            const img = document.createElement("img");
+            img.setAttribute("src", dogs[j].image);
+            img.setAttribute("alt", dogs[j].name);
+            img.setAttribute("onclick", `information("${dogs[j].name}", "${dogs[j].breed}", 123.45)`);
+            dog.appendChild(img);
+            const nameHeading = document.createElement("h3");
+            nameHeading.textContent = dogs[j].name;
+            dog.appendChild(nameHeading);
+            const cost = document.createElement("p");
+            cost.textContent = "Cost to adopt: $123.45";
+            dog.appendChild(cost);
+            const description = document.createElement("p");
+            description.textContent = "Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae";
+            dog.appendChild(description);
+            const adoptButton = document.createElement("button");
+            adoptButton.setAttribute("type", "button");
+            adoptButton.setAttribute("onclick", `adopt("${dogs[j].name}")`);
+            adoptButton.textContent = `Adopt ${dogs[j].name}`;
+            dog.appendChild(adoptButton);
+            row.appendChild(dog);
+            j++;
+        }
+        i = j - 1;
+        dogsContainer.appendChild(row);
     }
 }
 
