@@ -27,7 +27,7 @@ const posts = [
     }
 ];
 
-const dogs = [
+let dogs = [
     {
         name: "Murphy",
         image: "images/murphy-card.jpg",
@@ -121,6 +121,9 @@ if (article.getAttribute("id") == "blog") {
         article.appendChild(blogPost);
     }
 } else if (article.getAttribute("id") == "index" || article.getAttribute("id") == "dogs") {
+    if (article.getAttribute("id") == "index") {
+        dogs = dogs.slice(0, 8);
+    }
     const heading = document.createElement("h1");
     heading.textContent = "Dynamically Generated Tiles:";
     article.appendChild(heading);
