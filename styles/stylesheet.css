@@ -1,0 +1,281 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: serif;
+    font-weight: 900;
+    color: #0B2D4D;
+}
+
+h2 {
+    font-family: serif;
+    font-weight: 900;
+    color: #0B2D4D;
+}
+
+h3 {
+    font-family: serif;
+    font-weight: 900;
+    color: #0B2D4D;
+}
+
+h4 {
+    font-family: serif;
+    font-weight: 900;
+    color: #0B2D4D;
+}
+
+.cost {
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #0B2D4D;
+}
+
+.dogs-descript {
+    font-size: 14px;
+}
+
+body {
+    margin: 0rem;
+    color: black;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    background: none;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.about-text {
+    width: 30%;
+    border-style: none;
+    background: none;
+    line-height: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dogs-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+/*  padding-bottom: 3rem;
+    padding-right: 10rem;*/
+}
+
+.dogs-box {
+    width: min-content;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    background: none;
+    margin-left: 5rem;
+    margin-right: 5rem; 
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.dogs-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.dogs-text {
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.adopt-button {
+    background-color: #70AD32;
+    border: none;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.more-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.more-button {
+    background-color: lightgrey;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: #0B2D4D;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.more-button a:hover {
+    text-decoration: none;
+    color: #70AD32;
+}
+
+.heading {
+    padding-left: 17rem;
+}
+
+
+/*blog.html styling*/
+
+.blog-image {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    background: none;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.blog-text {
+    width: 30%;
+    border-style: none;
+    background: none;
+    line-height: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*checkout.html & contact.html styling*/
+
+textarea {
+    display: block;
+}
+
+fieldset {
+    border: none;
+    margin-left: 0rem;
+    padding-left: 0rem;
+}
+
+fieldset input {
+    display: inline;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+}
+
+label span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: serif;
+    color: #0B2D4D;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+fieldset span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: serif;
+    color: #0B2D4D;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.total-cost {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: serif;
+    color: #0B2D4D;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.dogs-adopted-image {
+    max-width: 50%;
+    height: auto;
+    border-style: none;
+    background: none;
+    padding-right: 1rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.dogs-adopted-text {
+    width: 50%;
+    border-style: none;
+    background: none;
+}
+
+.dogs-adopted-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.dogs-adopted-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 50%;
+}
+
+.submit-button {
+    background-color: #70AD32;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-style: none;
+}
+
+.form-container {
+    margin-left: 17rem;
+    margin-right: 5rem;
+}

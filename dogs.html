@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ADOPTADOG</title>
+<link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="styles/header-stylesheet.css">
+<link rel="stylesheet" type="text/css" href="styles/footer-stylesheet.css">
+</head>
+
+<body>
+    
+    <header class="upper-container">
+        <div class="logo-checkout-container">
+            <div class="logo-box">
+                <img class="logo" src="images/adoptadog-logo.svg" alt="company logo featuring a silhoutte image of a dog with the word adopt a dog in bold text next to it" width="356">
+                <p id="subheading">Seattle's premiere dog adoption agency</p>
+            </div>
+            <div class="checkout-box">
+                <div>
+                    <div class="shopping-cart">
+                        <img src="images/cart-icon.svg" alt="shopping cart icon" width="25"> $1234.56
+                    </div>
+                </div>
+                <div>
+                    <a class="checkout-button" href="checkout.html">Checkout</a>
+                </div>
+            </div>
+        </div>
+        <nav class="nav-box">
+            <a href="index.html">Home</a> /
+            <a href="dogs.html">Dogs</a> /
+            <a href="blog.html">Blog</a> /
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="heading">
+        <h1>Here are all our Dogs!</h1>
+    </div>
+    <section class="dogs-container">
+        <div class="dogs-box">
+            <img onclick="murphyInfo()" class="dogs-image" src="images/murphy-card.jpg" alt="close-up photo of a brown dog with a white muzzle" width="476" height="284">
+            <div class="dogs-text">
+                <h2>Murphy</h2>
+                <p class="dogs-descript"><span class="cost">Cost to Adopt:</span> $75</p>
+                <p class="dogs-descript">Corrum volorit iandae
+                    nimaxim cum restia volor
+                    reicid ut et etur sunt arum
+                    rendae pla endis re ea erum,
+                    qui doluptae</p>
+                <button onclick="feeTotal(75)" class="adopt-button">Adopt</button>
+            </div>
+        </div>
+
+        <div class="dogs-box">
+            <img onclick="poppyInfo()" class="dogs-image" src="images/poppy-card.jpg" alt="photo of a small, gray dog walking towards camera" width="476" height="284">
+            <div class="dogs-text">
+                <h2>Poppy</h2>
+                <p class="dogs-descript"><span class="cost">Cost to Adopt:</span> $50</p>
+                <p class="dogs-descript">Corrum volorit iandae
+                    nimaxim cum restia volor
+                    reicid ut et etur sunt arum
+                    rendae pla endis re ea erum,
+                    qui doluptae</p>
+                <button onclick="feeTotal(50)" class="adopt-button">Adopt</button>
+            </div>
+        </div>
+
+        <div class="dogs-box">
+            <img onclick="jackInfo()" class="dogs-image" src="images/jack-card.jpg" alt="photo of a beagle" width="476" height="284">
+            <div class="dogs-text">
+                <h2>Jack</h2>
+                <p class="dogs-descript"><span class="cost">Cost to Adopt:</span> $50</p>
+                <p class="dogs-descript">Corrum volorit iandae
+                    nimaxim cum restia volor
+                    reicid ut et etur sunt arum
+                    rendae pla endis re ea erum,
+                    qui doluptae</p>
+                <button onclick="feeTotal(50)" class="adopt-button">Adopt</button>
+            </div>
+        </div>
+
+        <div class="dogs-box">
+            <img onclick="duffyInfo()" class="dogs-image" src="images/duffy-card.jpg" alt="photo of a pit bull with a white face and brown ears" width="476" height="284">
+            <div class="dogs-text">
+                <h2>Duffy</h2>
+                <p class="dogs-descript"><span class="cost">Cost to Adopt:</span> $75</p>
+                <p class="dogs-descript">Corrum volorit iandae
+                    nimaxim cum restia volor
+                    reicid ut et etur sunt arum
+                    rendae pla endis re ea erum,
+                    qui doluptae</p>
+                <button onclick="feeTotal(75)" class="adopt-button">Adopt</button>
+            </div>
+        </div>
+
+        <div class="dogs-box">
+            <img onclick="lucasInfo()" class="dogs-image" src="images/lucas-card.jpg" alt="photo of a black dog" width="476" height="284">
+            <div class="dogs-text">
+                <h2>Lucas</h2>
+                <p class="dogs-descript"><span class="cost">Cost to Adopt:</span> $75</p>
+                <p class="dogs-descript">Corrum volorit iandae
+                    nimaxim cum restia volor
+                    reicid ut et etur sunt arum
+                    rendae pla endis re ea erum,
+                    qui doluptae</p>
+                <button onclick="feeTotal(75)" class="adopt-button">Adopt</button>
+            </div>
+        </div>
+
+        <div class="dogs-box">
+            <img onclick="jakeInfo()" class="dogs-image" src="images/jake-card.jpg" alt="photo of a yellow lab" width="476" height="284">
+            <div class="dogs-text">
+                <h2>Jake</h2>
+                <p class="dogs-descript"><span class="cost">Cost to Adopt:</span> $75</p>
+                <p class="dogs-descript">Corrum volorit iandae
+                    nimaxim cum restia volor
+                    reicid ut et etur sunt arum
+                    rendae pla endis re ea erum,
+                    qui doluptae</p>
+                <button onclick="feeTotal(75)" class="adopt-button">Adopt</button>
+            </div>
+        </div>
+
+        <div class="dogs-box">
+            <img onclick="angusInfo()" class="dogs-image" src="images/angus-card.jpg" alt="photo of a brown dog with a black muzzle and white chest" width="476" height="284">
+            <div class="dogs-text">
+                <h2>Angus</h2>
+                <p class="dogs-descript"><span class="cost">Cost to Adopt:</span> $75</p>
+                <p class="dogs-descript">Corrum volorit iandae
+                    nimaxim cum restia volor
+                    reicid ut et etur sunt arum
+                    rendae pla endis re ea erum,
+                    qui doluptae</p>
+                <button onclick="feeTotal(75)" class="adopt-button">Adopt</button>
+            </div>
+        </div>
+
+        <div class="dogs-box">
+            <img onclick="violetInfo()" class="dogs-image" src="images/violet-card.jpg" alt="photo of a chocolate brown lab puppy" width="476" height="284">
+            <div class="dogs-text">
+                <h2>Violet</h2>
+                <p class="dogs-descript"><span class="cost">Cost to Adopt:</span> $50</p>
+                <p class="dogs-descript">Corrum volorit iandae
+                    nimaxim cum restia volor
+                    reicid ut et etur sunt arum
+                    rendae pla endis re ea erum,
+                    qui doluptae</p>
+                <button onclick="feeTotal(50)" class="adopt-button">Adopt</button>
+            </div>
+        </div>
+
+        <div class="dogs-box">
+            <img onclick="piperInfo()" class="dogs-image" src="images/piper-card.jpg" alt="photo of a brown dog with big ears and it's big, pink tongue hanging out of it's mouth" width="476" height="284">
+            <div class="dogs-text">
+                <h2>Piper</h2>
+                <p class="dogs-descript"><span class="cost">Cost to Adopt:</span> $50</p>
+                <p class="dogs-descript">Corrum volorit iandae
+                    nimaxim cum restia volor
+                    reicid ut et etur sunt arum
+                    rendae pla endis re ea erum,
+                    qui doluptae</p>
+                <button onclick="feeTotal(50)" class="adopt-button">Adopt</button>
+            </div>
+        </div>
+
+        <div class="dogs-box">
+            <img onclick="maximusInfo()" class="dogs-image" src="images/maximus-card.jpg" alt="photo of a small black dog with white eye brows and a white muzzle" width="476" height="284">
+            <div class="dogs-text">
+                <h2>Maximus</h2>
+                <p class="dogs-descript"><span class="cost">Cost to Adopt:</span> $50</p>
+                <p class="dogs-descript">Corrum volorit iandae
+                    nimaxim cum restia volor
+                    reicid ut et etur sunt arum
+                    rendae pla endis re ea erum,
+                    qui doluptae</p>
+                <button onclick="feeTotal(50)" class="adopt-button">Adopt</button>
+            </div>
+        </div>
+
+        <div class="dogs-box">
+            <img onclick="lunaInfo()" class="dogs-image" src="images/luna-card.jpg" alt="photo of a yellow lab with a grin on it's face" width="476" height="284">
+            <div class="dogs-text">
+                <h2>Luna</h2>
+                <p class="dogs-descript"><span class="cost">Cost to Adopt:</span> $75</p>
+                <p class="dogs-descript">Corrum volorit iandae
+                    nimaxim cum restia volor
+                    reicid ut et etur sunt arum
+                    rendae pla endis re ea erum,
+                    qui doluptae</p>
+                <button onclick="feeTotal(75)" class="adopt-button">Adopt</button>
+            </div>
+        </div>
+
+        <div class="dogs-box">
+            <img onclick="stellaInfo()" class="dogs-image" src="images/stella-card.jpg" alt="photo of a light brown chihuahua with a white face" width="476" height="284">
+            <div class="dogs-text">
+                <h2>Stella</h2>
+                <p class="dogs-descript"><span class="cost">Cost to Adopt:</span> $50</p>
+                <p class="dogs-descript">Corrum volorit iandae
+                    nimaxim cum restia volor
+                    reicid ut et etur sunt arum
+                    rendae pla endis re ea erum,
+                    qui doluptae</p>
+                <button onclick="feeTotal(50)" class="adopt-button">Adopt</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box">
+                <img class="logo" src="images/adoptadog-logo.svg" alt="company logo featuring a silhoutte image of a dog with the word adopt a dog in bold text next to it" width="356">
+                <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex
+                    esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+                <a class="footer-links" href="index.html">Home</a> /
+                <a class="footer-links" href="dogs.html">Dogs</a> /
+                <a class="footer-links" href="blog.html">Blog</a> /
+                <a class="footer-links" href="contact.html">Contact</a>
+                <p>© 2024 Adoptadog, LLC &nbsp;|&nbsp; Seattle, WA</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="javascript/dogs-info.js" charset="utf-8"></script>
+    <script src="javascript/total.js" charset="utf-8"></script>
+</body>
+
+</html>
