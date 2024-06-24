@@ -67,7 +67,7 @@ form.addEventListener('submit', function(event) {
         <p><strong>Title:</strong> ${title}</p>
         <p><strong>Content:</strong> ${content}</p>
         <p><strong>Image Link:</strong> <a href="${imageLink}" target="_blank">${imageLink}</a></p>
-        <img src="${imageLink}" alt="Blog Image" style="max-width: 100%; height: auto;">
+        <img src="${imageLink}" alt="Blog Image Submitted by User" style="max-width: 100%; height: auto;">
     `;
 
     /*Sends the user an alert after submission*/
