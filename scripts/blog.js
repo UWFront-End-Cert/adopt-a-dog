@@ -54,13 +54,16 @@ for (i = 0; i < blogs.length; i++) {
     left_div.setAttribute('class', 'left-blog-div');
     const image = document.createElement('img');
     image.setAttribute('src', blogs[i].img_src);
+    console.log(`Image src: ${blogs[i].img_src}`)
     image.setAttribute('alt', blogs[i].img_alt);
+    console.log(`Image alt text: ${blogs[i].img_alt}`)
     left_div.appendChild(image);
 
     const right_div = document.createElement('div');
     right_div.setAttribute('class', 'right-blog-div');
     const title = document.createElement('h3');
     title.textContent = blogs[i].name;
+    console.log(`Blog title: ${blogs[i].name}`)
     const p1 = document.createElement('p');
     p1.textContent = blogs[i].p1;
     const p2 = document.createElement('p');
@@ -73,6 +76,7 @@ for (i = 0; i < blogs.length; i++) {
     article.appendChild(right_div);
     container.appendChild(article);
 };
+alert("Thank you. The form information has been received");
 
 
 
