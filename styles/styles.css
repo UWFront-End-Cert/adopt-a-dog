@@ -249,6 +249,11 @@ nav > a:last-of-type {
   cursor: pointer;
 }
 
+.button-remove {
+  background-color: yellow;
+  color: black; /* Adjust text color for better visibility */
+}
+
 /* Form styles */
 input[type=text], input[type=email], select, textarea {
   width: 100%;

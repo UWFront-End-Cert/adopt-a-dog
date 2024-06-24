@@ -1,4 +1,42 @@
-/*Define fields*/
+const blogPosts = [
+    {
+        headline: "Traveling With Your Dog",
+        image: "images/blog-1.jpg",
+        text: "Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no."
+    },
+    {
+        headline: "How to Walk Multiple Dogs",
+        image: "images/blog-2.jpg",
+        text: "Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no."
+    },
+    {
+        headline: "Teach Your Dog to Fetch",
+        image: "images/blog-3.jpg",
+        text: "Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no."
+    }
+];
+
+function generateBlogPosts(posts) {
+    const blogContainer = document.querySelector('.blog .column-blog');
+    posts.forEach(post => {
+        const postDiv = document.createElement('div');
+        postDiv.classList.add('row');
+        postDiv.innerHTML = `
+            <div class="blogcontent">
+                <img src="${post.image}" alt="${post.headline}">
+                <h3 class="bluetext">${post.headline}</h3>
+                <p>${post.text}</p>
+            </div>
+        `;
+        blogContainer.appendChild(postDiv);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    generateBlogPosts(blogPosts);
+});
+
+/* Define fields for the form */
 const fields = [
     {
         name: 'blog-title',
@@ -19,7 +57,7 @@ const fields = [
     }
 ];
 
-/*Form Container*/
+/* Form Container */
 const formContainer = document.getElementById('blog-form-container');
 const form = document.createElement('form');
 formContainer.appendChild(form);
@@ -46,7 +84,7 @@ fields.forEach(field => {
     form.appendChild(document.createElement('br'));
 });
 
-/*After form submission*/ 
+/* After form submission */
 const submitButton = document.createElement('button');
 submitButton.setAttribute('type', 'submit');
 submitButton.textContent = 'Submit';
@@ -70,7 +108,6 @@ form.addEventListener('submit', function(event) {
         <img src="${imageLink}" alt="Blog Image Submitted by User" style="max-width: 100%; height: auto;">
     `;
 
-    /*Sends the user an alert after submission*/
-    alert('Your blog post submission has been received and will be reviewed soon for publishing.')
-}
-);
+    /* Sends the user an alert after submission */
+    alert('Your blog post submission has been received and will be reviewed soon for publishing.');
+});
