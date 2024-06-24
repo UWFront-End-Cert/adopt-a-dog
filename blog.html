@@ -3,89 +3,46 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/all-styles.css">
+    <link rel="stylesheet" href="styles/blogs.css">
     <title>Blog</title>
   </head>
   <body>
-    <header>
-      <img src="images/adoptadog-logo.svg" alt="Adopt a dog logo">
-      <h1>Seattle's premiere dog adoption agency</h1>
-      <div>
-        <img src="images/cart-icon.svg" alt="">
-        <p>$XXXX.YY</p>
-        <form action="checkout.html" method="get">
-            <button>Checkout</button>
-        </form>
-      </div>
+    <header class="banner">
+      <!-- Header is distractingly large. Shrink so users get to main content faster -->
+        <div class="logo-left">
+            <img class="logo" src="images/adoptadog-logo.svg" alt="Adopt a dog logo.">
+            <h1>Seattle's premiere dog adoption agency</h1>
+        </div>
+        <div class="checkout-right">
+            <div class= "checkout-subsection">
+                <img class="checkout-details" src="images/cart-icon.svg" alt="">
+                <p class="checkout-details">$1234.56</p>
+            </div>
+            <form action="checkout.html" method="get">
+                <button class="green-button">Checkout</button>
+            </form>
+        </div>
     </header>
-    <nav>
+    <nav class="nav top-nav">
       <ul>
+        <!-- Links are too small and close together, particularly on mobile devices -->
         <li><a href="index.html">Home</a> / </li>
         <li><a href="dogs.html">Dogs</a> / </li>
-        <li><a href="blog.html">Blog</a> / </li>
+        <li><a href="blog.html">Blog</a></li>
       </ul>
     </nav>
     <section>
-        <header>
+        <header class="blog-title">
             <h2>Adoptadog Blog</h2>
         </header>
-        <div>
-            <article>
-                <div>
-                    <h3>Traveling With Your Dog</h3>
-                    <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem
-                        quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium
-                        hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium
-                        faccull oribus es quidignis ipietus explam sus am aut amet ant fugiatum, utem non reptat.</p>
-                    <p>Uptiusd andesci qui nem aut vendion ectur? Debis que explaut laborenia que doluptur, con
-                        et labor abor sant poreperum dio quat que doluptatur aut voluptassim quisciatquam ea ad
-                        qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam
-                        voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit
-                        ulparume nonseca estorer spernam.</p>
-                </div>
-                <div>
-                    <img src="images/blog-1.jpg" alt="woman sitting with dog looking at mesas">
-                </div>
-            </article>
-            <article>
-                <div>
-                    <h3>How To Walk Multiple Dogs</h3>
-                    <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem
-                        quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium
-                        hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium
-                        faccull oribus es quidignis ipietus explam sus am aut amet ant fugiatum, utem non reptat.</p>
-                    <p>Uptiusd andesci qui nem aut vendion ectur? Debis que explaut laborenia que doluptur, con
-                        et labor abor sant poreperum dio quat que doluptatur aut voluptassim quisciatquam ea ad
-                        qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam
-                        voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit
-                        ulparume nonseca estorer spernam.</p>
-                </div>
-                <div>
-                    <img src="images/blog-2.jpg" alt="several dogs on leashes all held by one person's hand">
-                </div>
-            </article>
-            <article>
-                <div>
-                    <h3>Teach Your Dog To Fetch!</h3>
-                    <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem
-                        quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium
-                        hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium
-                        faccull oribus es quidignis ipietus explam sus am aut amet ant fugiatum, utem non reptat.</p>
-                    <p>Uptiusd andesci qui nem aut vendion ectur? Debis que explaut laborenia que doluptur, con
-                        et labor abor sant poreperum dio quat que doluptatur aut voluptassim quisciatquam ea ad
-                        qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam
-                        voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit
-                        ulparume nonseca estorer spernam.</p>
-                </div>
-                <div>
-                    <img src="images/blog-3.jpg" alt="woman about to throw ball to dog during sunset">
-                </div>
-            </article>
+        <div class="blog-section" id="blog-section">
         </div>
         <footer>
-            <img src="images/adoptadog-logo.svg" alt="adopt a dog logo">
+            <img src="images/adoptadog-logo.svg" alt="Adopt a dog logo.">
             <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>
                 esseque invenienihil imaximu scideru ptistiusam consequunt</p>
-            <nav>
+            <nav class="nav bottom-nav">
                 <ul>
                     <li><a href="index.html">Home</a> / </li>
                     <li><a href="dogs.html">Dogs</a> / </li>
@@ -95,5 +52,6 @@
             <p>© 2018 Adoptadog, LLC | Seattle, WA</p>
         </footer>
     </section>
+    <script src="scripts/blog.js"></script>
   </body>
 </html>
