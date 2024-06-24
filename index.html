@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body style="margin: 0;">
+
+    <!-- Blue box -->
+    <div style="background-color: #083b5f; color: white; padding: 20px; text-align: center; position: relative;"> <!-- Blue box styling -->
+        <!-- Cart icon -->
+        <div style="position: absolute; top: 10px; right: 10px;"> 
+            <img src="images/cart-icon.svg" alt="Cart Icon" style="width: 30px; height: 30px;">
+        </div>
+        <!-- Green checkout box -->
+        <div style="position: absolute; top: 10px; right: 50px; background-color: #7eb442; color: white; padding: 10px 20px; text-align: center;"> <!-- Green checkout box styling -->
+            <a href="checkout.html" style="color: white; text-decoration: none;">Checkout</a>
+        </div>
+        <!-- Logo and text container -->
+        <div style="position: relative; display: inline-block; text-align: left;"> <!-- Container for image and text -->
+            <img src="images/adoptadog-logo.svg" alt="Adopt A Dog Logo" style="width: 200px; height: auto; margin-bottom: 10px;"> <!-- Logo with negative margin to shift it left -->
+            <div style="color: #7eb442; font-size: 25px; text-align: left;">Seattle’s premiere dog adoption agency</div> <!-- Text with font-size set to 18px -->
+        </div>
+    </div>
+    
+    <!-- Gray rectangle below the blue box -->
+    <div style="background-color: #ebebeb; padding: 10px; text-align: center;"> <!-- Gray box styling -->
+        <!-- Links -->
+        <a href="index.html" style="color: black; text-decoration: none; margin-right: 10px;">Home</a>
+        <span style="color: black;">/</span>
+        <a href="dogs.html" style="color: black; text-decoration: none; margin-left: 10px; margin-right: 10px;">Dogs</a>
+        <span style="color: black;">/</span>
+        <a href="blog.html" style="color: black; text-decoration: none; margin-left: 10px;">Blog</a>
+    </div>
+
+    <!-- Main section -->
+    <div style="padding: 20px; margin: 0 auto; max-width: 800px; text-align: center;">
+        <div style="display: inline-block; text-align: left; vertical-align: top; padding-right: 20px;">
+            <img src="images/home-intro.jpg" alt="Home Intro Image" style="width: 300px; height: auto;">
+        </div>
+        <div style="display: inline-block; text-align: left; width: calc(100% - 340px); vertical-align: top;">
+            <h2 style="font-size: 24px;">Adopt A Dog</h2>
+            <p style="font-size: 18px;">Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium faccull oribus es quidignis ipietus explam sus am aut amet ant fugiatum, utem non reptat ad magnienecto volorent fugia nonsedi gendand itatquos as magnimpor aut molor autatia ad est officimus accae et omnia cus, od qui ate</p>
+
+            <!-- Dog list -->
+            <div style="margin-top: 40px; display: flex; justify-content: space-between;">
+                <!-- First Row -->
+                <div style="width: calc(25% - 10px); display: inline-block; vertical-align: top; text-align: center;">
+                    <div style="text-align: left;">
+                        <img src="images/murphy-card.jpg" alt="Murphy" style="width: 100px; height: auto;">
+                        <p>Murphy</p>
+                        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                        <p>Cost to Adopt: $123.45</p>
+                    </div>
+                    <button style="background-color: #7eb442; color: white; padding: 10px; border: none;" data-dog="Murphy">Adopt</button>
+                </div>
+                <div style="width: calc(25% - 10px); display: inline-block; vertical-align: top; text-align: center;">
+                    <div style="text-align: left;">
+                        <img src="images/poppy-card.jpg" alt="Poppy" style="width: 100px; height: auto;">
+                        <p>Poppy</p>
+                        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                        <p>Cost to Adopt: $123.45</p>
+                    </div>
+                    <button style="background-color: #7eb442; color: white; padding: 10px; border: none;" data-dog="Poppy">Adopt</button>
+                </div>
+                <div style="width: calc(25% - 10px); display: inline-block; vertical-align: top; text-align: center;">
+                    <div style="text-align: left;">
+                        <img src="images/jack-card.jpg" alt="Jack" style="width: 100px; height: auto;">
+                        <p>Jack</p>
+                        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                        <p>Cost to Adopt: $123.45</p>
+                    </div>
+                    <button style="background-color: #7eb442; color: white; padding: 10px; border: none;" data-dog="Jack">Adopt</button>
+                </div>
+                <div style="width: calc(25% - 10px); display: inline-block; vertical-align: top; text-align: center;">
+                    <div style="text-align: left;">
+                        <img src="images/duffy-card.jpg" alt="Duffy" style="width: 100px; height: auto;">
+                        <p>Duffy</p>
+                        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                        <p>Cost to Adopt: $123.45</p>
+                    </div>
+                    <button style="background-color: #7eb442; color: white; padding: 10px; border: none;" data-dog="Duffy">Adopt</button>
+                </div>
+                <!-- Second Row -->
+                <div style="width: calc(25% - 10px); display: inline-block; vertical-align: top; text-align: center;">
+                    <div style="text-align: left;">
+                        <img src="images/lucas-card.jpg" alt="Lucas" style="width: 100px; height: auto;">
+                        <p>Lucas</p>
+                        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                        <p>Cost to Adopt: $123.45</p>
+                    </div>
+                    <button style="background-color: #7eb442; color: white; padding: 10px; border: none;" data-dog="Lucas">Adopt</button>
+                </div>
+                <div style="width: calc(25% - 10px); display: inline-block; vertical-align: top; text-align: center;">
+                    <div style="text-align: left;">
+                        <img src="images/jake-card.jpg" alt="Jake" style="width: 100px; height: auto;">
+                        <p>Jake</p>
+                        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                        <p>Cost to Adopt: $123.45</p>
+                    </div>
+                    <button style="background-color: #7eb442; color: white; padding: 10px; border: none;" data-dog="Jake">Adopt</button>
+                </div>
+                <div style="width: calc(25% - 10px); display: inline-block; vertical-align: top; text-align: center;">
+                    <div style="text-align: left;">
+                        <img src="images/angus-card.jpg" alt="Angus" style="width: 100px; height: auto;">
+                        <p>Angus</p>
+                        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                        <p>Cost to Adopt: $123.45</p>
+                    </div>
+                    <button style="background-color: #7eb442; color: white; padding: 10px; border: none;" data-dog="Angus">Adopt</button>
+                </div>
+                <div style="width: calc(25% - 10px); display: inline-block; vertical-align: top; text-align: center;">
+                    <div style="text-align: left;">
+                        <img src="images/violet-card.jpg" alt="Violet" style="width: 100px; height: auto;">
+                        <p>Violet</p>
+                        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+                        <p>Cost to Adopt: $123.45</p>
+                    </div>
+                    <button style="background-color: #7eb442; color: white; padding: 10px; border: none;" data-dog="Violet">Adopt</button>
+                </div>
+            </div>
+        </div>
+        <!-- See More Dogs -->
+        <div style="background-color: #f2f2f2; margin-top: 20px; padding: 10px; width: 150px; margin: 0 auto;">
+            <p style="color: #666666; font-size: 16px; margin: 0;">See More Dogs</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="background-color: #3c3c3c; color: white; padding: 20px; text-align: center;">
+        <!-- Footer logo -->
+        <img src="images/adoptadog-logo.svg" alt="Footer Logo" style="width: 100px; height: auto;">
+        <p style="margin-top: 10px;">Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+        <!-- Footer links -->
+        <p>
+            <a href="index.html" style="color: white; text-decoration: none;">Home</a>
+            <span style="color: white;"> / </span>
+            <a href="dogs.html" style="color: white; text-decoration: none;">Dogs</a>
+            <span style="color: white;"> / </span>
+            <a href="contact.html" style="color: white; text-decoration: none;">Contact</a>
+        </p>
+        <p>© 2018 Adoptadog, LLC   |   Seattle, WA</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
