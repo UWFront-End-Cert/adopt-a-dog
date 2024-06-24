@@ -479,3 +479,89 @@ h1 {
     margin-top: 5%;
     margin-bottom: 5%;
   }
+
+  /* Add styles for the submit blog section */
+.submit-blog-section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.submit-blog-section h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Ensure the blog form container takes the full width */
+#blog-form-container {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Adjust form styles for better appearance */
+form {
+  display: block;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 5%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #76c91b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #76c91b;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100%;
+}
+
+.input-box {
+  max-width: 40%;
+  height: 50px;
+}
+
+.input-box-2 {
+  max-width: 25%;
+  height: 50px;
+}
+
+.input-box-3 {
+  max-width: 20%;
+  height: 50px;
+}
+
+form {
+  display: block;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 5%;
+  margin: 0 auto;
+  max-width: 600px;
+}
