@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adopt a Dog</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aef11390a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="header-img-container">
+            <div class="header-text-container">
+                <img src="images/adoptadog-logo.svg" alt="Adopt A Dog Logo">
+                <p class="header-text">Seattle's Premiere Dog Adoption Agency</p>
+            </div>
+        </div>
+
+        <aside class="checkout">
+            <div class="icon-price">
+                <img class="cart-icon" src="images/cart-icon.svg" alt="shopping cart">
+                <p class="header-price" id="total">$0</p>
+            </div>
+            <a href="checkout.html">Checkout</a>
+        </aside>
+
+        <header class="navigation-bar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="divider-vertical-second-menu"></li>
+                    <li><a href="dog.html">Dogs</a></li>
+                    <li class="divider-vertical-second-menu"></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="intro-dog">
+            <img src="images/home-intro.jpg" alt="boy with back turned and hugging a smiling dog">
+        </div>
+
+        <div class="adopt-text">
+            <h2>Adopt A Dog</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="dog-adoptions">
+        <div class="row">
+            <div class="adopt-text-2">
+                <h2>Here are all of our Dogs!</h2>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="images/murphy-card.jpg" alt="Dog giving puppy eyes" onclick="dogInfo('Dog1', 'Murphy', 'Pit Bull', 75)">
+                    <p id="Dog1"></p>
+                    <h3>Murphy</h3>
+                    <button class="button" id="DogAdopt1" onclick="dogAdopt('DogAdopt1', 75)">Adopt</button>
+                </div>
+                <div class="card">
+                    <img src="images/lucas-card.jpg" alt="Dog giving puppy eyes" onclick="dogInfo('Dog5', 'Lucas', 'Black Lab Mix', 100)">
+                    <p id="Dog5"></p>
+                    <h3>Lucas</h3>
+                    <button class="button" id="DogAdopt5" onclick="dogAdopt('DogAdopt5', 100)">Adopt</button>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/poppy-card.jpg" alt="" onclick="dogInfo('Dog2', 'Poppy', 'Purebred Shih', 300)">
+                    <p id="Dog2"></p>
+                    <h3>Poppy</h3>
+                    <button class="button" id="DogAdopt2" onclick="dogAdopt('DogAdopt2', 300)">Adopt</button>
+                </div>
+                <div class="card">
+                    <img src="images/jake-card.jpg" alt="Dog giving puppy eyes" onclick="dogInfo('Dog6', 'Jake', 'Yellow Lab', 300)">
+                    <p id="Dog6"></p>
+                    <h3>Jake</h3>
+                    <button class="button" id="DogAdopt6" onclick="dogAdopt('DogAdopt6', 300)">Adopt</button>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/jack-card.jpg" alt="" onclick="dogInfo('Dog3', 'Jack', 'Beagle', 175)">
+                    <p id="Dog3"></p>
+                    <h3>Jack</h3>
+                    <button class="button" id="DogAdopt3" onclick="dogAdopt('DogAdopt3', 175)">Adopt</button>
+                </div>
+                <div class="card">
+                    <img src="images/angus-card.jpg" alt="Dog giving puppy eyes" onclick="dogInfo('Dog7', 'Angus', 'Pit Bull', 100)">
+                    <p id="Dog7"></p>
+                    <h3>Angus</h3>
+                    <button class="button" id="DogAdopt7" onclick="dogAdopt('DogAdopt7', 100)">Adopt</button>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/duffy-card.jpg" alt="" onclick="dogInfo('Dog4', 'Duffy', 'Pit Bull', 75)">
+                    <p id="Dog4"></p>
+                    <h3>Duffy</h3>
+                    <button class="button" id="DogAdopt4" onclick="dogAdopt('DogAdopt4', 75)">Adopt</button>
+                </div>
+                <div class="card">
+                    <img src="images/violet-card.jpg" alt="Dog giving puppy eyes" onclick="dogInfo('Dog8', 'Violet', 'Labrador Retriever', 400)">
+                    <p id="Dog8"></p>
+                    <h3>Violet</h3>
+                    <button class="button" id="DogAdopt8" onclick="dogAdopt('DogAdopt8', 400)">Adopt</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="dog-button-container">
+          <a href="dog.html" class="dog-button">See More Dogs</a>
+      </div>
+
+        <footer class="footer">
+            <img src="images/adoptadog-logo.svg" alt="Adopt A Dog Logo">
+            <p>Finding great homes for dogs, and providing their humans resources since 2018.</p>
+            <p>Home / Dogs / Contact </p>
+            <p>© 2018 Adoptadog, LLC | Seattle, WA</p>
+        </footer>
+    </div>
+
+    <script src="./dog.js"></script>
+</body>
+
+</html>

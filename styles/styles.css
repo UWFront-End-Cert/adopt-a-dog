@@ -1,0 +1,509 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* Hold and format the website header */
+.header-img-container {
+  background-image: url(../images/header-image.jpg);
+  grid-column: 1 / span 12;
+  width: 100%;
+  height: 25rem;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-text-container {
+  position: absolute;
+  grid-column: 1 / span 12;
+  width: 100%;
+  text-align: left;
+  vertical-align: middle;
+  left: 4%;
+  top: 15%;
+}
+
+.header-text-container img {
+  width: 26rem;
+  max-width: 90%;
+  margin-left: 5%;
+}
+
+.header-text {
+  color: #76c91b;
+  font-style: italic;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-left: 5%;
+}
+
+/* Format navigation bar */
+.navigation-bar {
+  grid-column: 1 / span 12;
+  width: 100%;
+}
+
+.navigation-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  background-color: #f2f5f1;
+}
+
+.navigation-bar ul li:first-child {
+  float: left;
+  margin-left: 8%;
+}
+
+.navigation-bar ul li {
+  float: left;
+  margin-left: 3%;
+}
+
+.navigation-bar li a {
+  display: block;
+  padding: 1%;
+  font-weight: bold;
+  font-size: large;
+  color: #093c60;
+  text-decoration: none;
+}
+
+/* Create a divider between navigation items */
+.divider-vertical-second-menu {
+  height: 40px;
+  width: 1px;
+  margin: 0 5px;
+  overflow: hidden;
+  background-color: #ddd;
+  border-right: 2px solid #fff;
+}
+
+nav > a {
+  border-right: solid 1px #000;
+}
+
+nav > a:last-of-type {
+  border-right: none;
+}
+
+/* Format cart and checkout information */
+.checkout {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  text-align: right;
+}
+
+.icon-price {
+  padding: 3rem;
+}
+
+.cart-icon {
+  width: 2rem;
+  padding-right: 1rem;
+}
+
+.header-price {
+  color: white;
+  display: inline;
+  font-weight: bold;
+}
+
+.checkout a {
+  background-color: #76c91b;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+  height: auto;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-decoration: none;
+}
+
+/* Format text and photo on index page */
+.intro-dog {
+  grid-column: 2 / span 4;
+  grid-row: 3;
+  padding-top: 40px;
+}
+
+.intro-dog img {
+  grid-column: 2 / span 4;
+  grid-row: 3;
+  margin-left: 20%;
+  margin-bottom: 15%;
+  width: 65%;
+  height: auto;
+}
+
+/* Format the index page main paragraph */
+.adopt-text h2 {
+  color: #083b5f;
+}
+
+.adopt-text-2 {
+  grid-column: 8 / span 4;
+  grid-row: 3;
+  padding-right: 10%;
+  font-size: large;
+}
+
+.bluetext {
+  color: #083b5f;
+}
+
+.adopt-text {
+  grid-column: 8 / span 4;
+  grid-row: 3;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: large;
+}
+
+/* Format footer */
+.footer {
+  grid-column: 1 / span 12;
+  width: 100%;
+  background-color: #083b5f;
+  align-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.footer img {
+  width: 25rem;
+  max-width: 60%;
+  align-content: center;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.column-blog {
+  float: left;
+  width: 100%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.card img {
+  max-width: 80%;
+}
+
+.dog-adoptions {
+  grid-column: 1 / span 12;
+  grid-row: 4;
+  padding-left: 5%;
+}
+
+.dog-adoptions img {
+  width: 15rem;
+}
+
+.dog-adoptions2 {
+  grid-column: 1 / span 12;
+  grid-row: 4;
+  padding-left: 5%;
+}
+
+.dog-adoptions2 img {
+  width: 8rem;
+}
+
+/* Style buttons */
+.button {
+  background-color: #76c91b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-remove {
+  background-color: yellow;
+  color: black; /* Adjust text color for better visibility */
+}
+
+
+/* Form styles */
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #76c91b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #76c91b;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100%;
+}
+
+.input-box {
+  max-width: 40%;
+  height: 50px;
+}
+
+.input-box-2 {
+  max-width: 25%;
+  height: 50px;
+}
+
+.input-box-3 {
+  max-width: 20%;
+  height: 50px;
+}
+
+form {
+  display: block;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 5%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Blog section */
+.blog {
+  width: 100%;
+}
+
+.blogcontent {
+  width: 100%;
+}
+
+.blogcontent img {
+  width: 30%;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+/* Add padding between each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Responsive checkout form */
+@media screen and (max-width: 600px) {
+  .input-box,
+  .input-box-2,
+  .input-box-3 {
+    max-width: 100%;
+    height: 50px;
+  }
+}
+
+/* Responsive text size */
+@media screen and (max-width: 600px) {
+  .adopt-text {
+    font-size: small;
+  }
+}
+
+/* Responsive blog image */
+@media screen and (max-width: 600px) {
+  .blogcontent img {
+    width: 80%;
+  }
+}
+
+/* Responsive Header Image */
+@media screen and (max-width: 600px) {
+  .header-img-container {
+    height: 20rem;
+  }
+}
+
+/* Responsive text size */
+@media screen and (max-width: 600px) {
+  .adopt-text {
+    font-size: large;
+    grid-row: 4;
+    grid-column: 1 / span 12;
+  }
+}
+
+/* Responsive main page dog image */
+@media screen and (max-width: 600px) {
+  .intro-dog img {
+    width: 100%;
+    grid-row: 3;
+    grid-column: 1 / span 12;
+  }
+}
+
+/* Responsive grid to view adoptable dogs */
+@media screen and (max-width: 600px) {
+  .dog-adoptions {
+    grid-column: 1 / span 12;
+    grid-row: 5;
+    padding-left: 5%;
+  }
+}
+
+/* Responsive checkout section */
+@media screen and (max-width: 750px) {
+  .checkout {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    margin-top: 20%;
+    text-align: left;
+  }
+
+  .icon-price {
+    padding: 3rem;
+    margin-top: 15%;
+  }
+
+  .cart-icon {
+    width: 2rem;
+    padding-right: 1rem;
+    margin-top: 15%;
+  }
+
+  .header-price {
+    color: white;
+    display: inline;
+    font-weight: bold;
+    margin-top: 15%;
+  }
+}
+
+/* Format checkout link */
+.checkout a {
+  background-color: #76c91b;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+  height: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-decoration: none;
+}
+
+/* Format 'see more dogs' button link */
+.dog-button-container {
+  grid-column: 1 / span 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dog-button {
+  background-color: #ddd;
+  font-weight: bold;
+  text-decoration: none;
+  color: #083b5f;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* Blog section form styles */
+.submit-blog-section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.submit-blog-section h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Blog form container takes the full width */
+#blog-form-container {
+  width: 100%;
+  padding: 10px;
+}

@@ -1,0 +1,108 @@
+Research on Users and Devices
+
+Top Devices by Visits
+Desktop: 3,406
+Mobile: 14,520
+Tablet: 392
+Total: 18,318
+
+
+Top Browsers by Visits
+Chrome: 11,723
+Safari: 3,846
+Edge: 2,749
+Total: 18,318
+
+
+Top Operating Systems by Visits
+Windows: 13,372
+MacOS: 2,747
+iOS: 2,199
+Total: 18,318
+
+
+Testing Done and Changes Made
+
+Testing Process Details Using a Variety of Browsers and Platforms. 
+
+Chrome (Laptop)
+Observations: 
+Dog information with description and photo needs to be aligned. 
+Blog posts need to take up more horizontal space on the page. 
+Overview of Changes: Coming next week. 
+
+Chrome (Mobile)
+Observations:
+Text size needs to increase as the screen size goes down. 
+Dog information with description and photo need to be listed in a single file vertically. 
+Blog posts need to have the title, photo, and then blog post content listed vertically on the page. 
+Navigation bar needs to be larger. 
+Overview of Changes: Coming next week. 
+
+Safari (Laptop)
+Observations: 
+Dog information (description and photos) are showing up with the correct layout with this browser and device. 
+Blog posts need to take up more horizontal space on the page. 
+Overview of Changes: Coming next week. 
+
+Safari ( Tablet)
+Observations: 
+Layout changes are needed. For instance, dog information with description and photo needs to be aligned. 
+Text size needs to increase as the screen size goes down. 
+Blog posts need to take up more horizontal space on the page. 
+Navigation bar needs to be larger. 
+Overview of Changes: Coming next week. 
+
+
+W3c Markup Validation:
+HTML: no errors
+CSS: no errors
+
+Page Load Speeds: 
+Google Lighthouse Audit
+Performance: 79
+Accessibility: 90
+Best Practices: 74
+SEO: 67
+First Contentful Paint: 1.9 s
+Largest Contentful Paint: 5.3 s
+Total Blocking Time: 0 ms
+Cumulative Layout Shift: 0.017
+
+Accessibility: 
+Accessibility score: 71
+Status: not compliant
+One critical issue discovered
+Visual Issue: Background and foreground colors do not have a sufficient contrast ratio. 
+
+User Persona 
+
+User Persona: Valerie Albrecht
+Age: 56
+Occupation: Retired Data Scientist
+Education: PhD in Computer Science
+Bio: Valerie is a recently widowed, retired data scientist with a PhD in Computer Science. She lives in the Pacific Northwest and enjoys hiking in the region's scenic landscapes. With her grown children living out of state, Valerie is looking for a loyal companion to accompany her on her outdoor adventures. She would like to adopt a black lab and has experience owning dogs in the past. 
+
+Motivations:
+Valerie is driven by engaging and informative content.
+She enjoys watching short videos about each dog up for adoption to get a better sense of their personalities and behaviors.
+She is deeply motivated to provide a loving home for a dog.
+
+Frustrations:
+Valerie dislikes pop-up ads that disrupt her browsing experience.
+She finds disorganized information frustrating and prefers websites where information is clearly structured and easily accessible.
+
+Goals:
+Valerie wants to efficiently navigate adoption websites without encountering slow load times or broken links.
+She seeks comprehensive information about each dog, including their health history, temperament, and suitability for hiking.
+Valerie aims to find an energetic black lab to join her on hikes in the Pacific Northwest.
+
+Tech Skills and Usage:
+Valerie has a strong understanding of technology. Both her mobile and laptop are less than a year old. She prefers to use her laptop while searching for potential dogs. 
+Valerie uses Google products, such as a Pixel cell phone (4.6% of the market)  and a Chromebook Pixel (2.45%), putting her in a minority for devices. 
+She plans to regularly check for updates, and appreciates timely and accurate information about dog availability.
+
+Additional Details:
+Valerie appreciates user-friendly websites, this means it should have a clean interface and straightforward navigation.
+She values detailed descriptions communicated in a concise and organized manner to make informed decisions.
+Regular updates about new dogs available for adoption are crucial, as she plans to monitor the website until she finds the perfect hiking companion.
