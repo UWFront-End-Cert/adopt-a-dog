@@ -28,55 +28,65 @@
 
         <h2>Contact Us!</h2>
 
-        <form class="contactform">
-            <label> Your name: <br>
-                <input type="text" name="contactName">
-            </label> <br>
+        <form class="contactform" id="contactForm">
 
-            <label> Your email: <br>
-                <input type="email" name="contactEmail">
-            </label> <br>
+            <div>
+                <label> Your name: <br>
+                    <input type="text" name="contactName" id="text-input">
+                </label> <br>
+            </div>
 
-            <label> Your phone number: <br>
-                <input type="text" name="contactPhone">
-            </label> <br>
+            <div>
+                <label> Your email: <br>
+                    <input type="email" name="contactEmail" id="text-input">
+                </label> <br>
+            </div>
 
-            <fieldset>
-                <legend>Can we text you at this number?</legend>
+            <div> 
+                <label> Your phone number: <br>
+                    <input type="text" name="contactPhone" id="text-input">
+                </label> <br>
+            </div>
 
-                <label>
-                    <input type="radio" name="canText" value="yes">
-                    Yes
-                </label>
+            <div>
+                <fieldset>
+                    <legend>Can we text you at this number?</legend>
 
-                <label> 
-                    <input type="radio" name="canText" value="no">
-                    No
-                </label>
+                    <label>
+                        <input type="radio" name="canText" value="yes" id="radio-input">
+                        Yes
+                    </label>
 
-            </fieldset>
+                    <label> 
+                        <input type="radio" name="canText" value="no" id="radio-input">
+                        No
+                    </label>
+                </fieldset>
+            </div>
 
-            <label> Message: <br>
-                <textarea name="contactMessage" rows="5" cols="50"></textarea>
-            </label> <br>
+            <div>
+                <label> Message: <br>
+                    <textarea name="contactMessage" rows="5" cols="50" id="contact-mesage"></textarea>
+                </label> <br>
+            </div>
 
-            <fieldset>
-                <legend>What's the best way to reach you?</legend>
-                <label>
-                    <input type="checkbox" name="contactType" value="email">
-                    Email
-                </label>
-                <label>
-                    <input type="checkbox" name="contactType" value="call">
-                    Call
-                </label>
-                <label>
-                    <input type="checkbox" name="contactType" value="text">
-                    Text
-                </label>
-            </fieldset>
-
-            <input class="submit" type="submit" value="Submit">
+            <div>
+                <fieldset>
+                    <legend>What's the best way to reach you?</legend>
+                    <label>
+                        <input type="checkbox" name="contactType" value="email" id="check-input">
+                        Email
+                    </label>
+                    <label>
+                        <input type="checkbox" name="contactType" value="call" id="check-input">
+                        Call
+                    </label>
+                    <label>
+                        <input type="checkbox" name="contactType" value="text" id="check-input">
+                        Text
+                    </label>
+                </fieldset>
+            </div>
 
         </form>
 
@@ -90,6 +100,8 @@
             </nav>
             <p>@2024 Adoptadog, LLC | Seattle, WA</p>
         </footer>
+
+        <script src="./scripts/java.js" charset="utf-8"></script>
 
     </body>
 </html>
