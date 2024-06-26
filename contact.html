@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Adopt a Dog</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    </head>
+
+    <body> 
+
+        <header>
+            <aside>
+                <img src="images/cart-icon.svg" alt="cart icon" height="40" width="40">
+                <button type="button" onclick="window.location.href='checkout.html'">Checkout</button>
+            </aside>    
+            <img src="images/adoptadog-logo.svg" alt="adopt a dog logo" height="100" width="300">
+            <p>Seattle's premiere dog adoption agency</p>    
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="all-dogs.html">Dogs</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <h2>Contact Us!</h2>
+
+        <form class="contactform" id="contactForm">
+
+            <div>
+                <label> Your name: <br>
+                    <input type="text" name="contactName" id="text-input">
+                </label> <br>
+            </div>
+
+            <div>
+                <label> Your email: <br>
+                    <input type="email" name="contactEmail" id="text-input">
+                </label> <br>
+            </div>
+
+            <div> 
+                <label> Your phone number: <br>
+                    <input type="text" name="contactPhone" id="text-input">
+                </label> <br>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Can we text you at this number?</legend>
+
+                    <label>
+                        <input type="radio" name="canText" value="yes" id="radio-input">
+                        Yes
+                    </label>
+
+                    <label> 
+                        <input type="radio" name="canText" value="no" id="radio-input">
+                        No
+                    </label>
+                </fieldset>
+            </div>
+
+            <div>
+                <label> Message: <br>
+                    <textarea name="contactMessage" rows="5" cols="50" id="contact-mesage"></textarea>
+                </label> <br>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>What's the best way to reach you?</legend>
+                    <label>
+                        <input type="checkbox" name="contactType" value="email" id="check-input">
+                        Email
+                    </label>
+                    <label>
+                        <input type="checkbox" name="contactType" value="call" id="check-input">
+                        Call
+                    </label>
+                    <label>
+                        <input type="checkbox" name="contactType" value="text" id="check-input">
+                        Text
+                    </label>
+                </fieldset>
+            </div>
+
+        </form>
+
+        <footer>
+            <img src="images/adoptadog-logo.svg" alt="adopt a dog logo" height="100" width="300">
+            <p>Nunc ligula justo, imperdiet sed pharetra sit amet, venenatis in erat. In hac habitasse platea dictumst.</p>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="all-dogs.html">Dogs</a>
+                <a href="#">Contact</a>
+            </nav>
+            <p>@2024 Adoptadog, LLC | Seattle, WA</p>
+        </footer>
+
+        <script src="./scripts/java.js" charset="utf-8"></script>
+
+    </body>
+</html>

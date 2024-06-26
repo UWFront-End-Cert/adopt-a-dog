@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Adoptable Dogs</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    </head>
+
+    <body>
+
+        <header>
+            <aside>
+                <img src="images/cart-icon.svg" alt="cart icon" height="40" width="40">
+                <button type="button" onclick="window.location.href='checkout.html'">Checkout</button>
+            </aside>    
+            <img src="images/adoptadog-logo.svg" alt="adopt a dog logo" height="100" width="300">
+            <p>Seattle's premiere dog adoption agency</p>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="all-dogs.html">Dogs</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <h2>Here are all of our dogs!</h2>
+
+        <section class="doggie-profiles">
+
+        <div class="profile">
+            <figure>
+                <img src="images/jack-card.jpg" alt="beagle puppy" height="100" width="150" onclick="dogAlert('Jack', 'beagle', '$123.45')">
+                <figcaption>
+                    <h4>Jack</h4>
+                    <p>Cost to adopt: $123.45</p>
+                    <p>Praesent maximus dignissim justo, a porttitor elit pharetra nec. Cras placerat fermentum urna, non interdum tortor.</p>
+                </figcaption>
+            </figure>
+            <button type="button" onclick="clickAdopt(123.45, 1)">Adopt</button>
+        </div>
+
+        <div class="profile">
+            <figure>
+                <img src="images/lucas-card.jpg" alt="black dog looking at camera" height="100" width="150" onclick="dogAlert('Lucas', 'Shepherd Mix', '$123.45')">
+                <figcaption>
+                    <h4>Lucas</h4>
+                    <p>Cost to adopt: $123.45</p>
+                    <p>Praesent maximus dignissim justo, a porttitor elit pharetra nec. Cras placerat fermentum urna, non interdum tortor.</p>
+                </figcaption>
+            </figure>
+            <button type="button" onclick="clickAdopt(123.45, 1)">Adopt</button>
+        </div>
+
+        <div class="profile">
+            <figure>
+                <img src="images/duffy-card.jpg" alt="Pitbull puppy" height="100" width="150" onclick="dogAlert('Duffy', 'Pitbull', '$123.45')">
+                <figcaption>
+                    <h4>Duffy</h4>
+                    <p>Cost to adopt: $123.45</p>
+                    <p>Praesent maximus dignissim justo, a porttitor elit pharetra nec. Cras placerat fermentum urna, non interdum tortor.</p>
+                </figcaption>
+            </figure>
+            <button type="button" onclick="clickAdopt(123.45, 1)">Adopt</button>
+        </div>
+
+        <div class="profile">
+            <figure>
+                <img src="images/poppy-card.jpg" alt="Shi Tzu on street" height="100" width="150" onclick="dogAlert('Poppy', 'Shih Tzu', '$123.45')">
+                <figcaption>
+                    <h4>Poppy</h4>
+                    <p>Cost to adopt: $123.45</p>
+                    <p>Praesent maximus dignissim justo, a porttitor elit pharetra nec. Cras placerat fermentum urna, non interdum tortor.</p>
+                </figcaption>
+            </figure>
+            <button type="button" onclick="clickAdopt(123.45, 1)">Adopt</button>
+        </div>    
+
+        <div class="profile">
+            <figure>
+                <img src="images/murphy-card.jpg" alt="Brown dog with white nose" height="100" width="150" onclick="dogAlert('Murphy', 'Mixed Breed', '$123.45')">
+                <figcaption>
+                    <h4>Murphy</h4>
+                    <p>Cost to adopt: $123.45</p>
+                    <p>Praesent maximus dignissim justo, a porttitor elit pharetra nec. Cras placerat fermentum urna, non interdum tortor.</p>
+                </figcaption>
+            </figure>
+            <button type="button" onclick="clickAdopt(123.45, 1)">Adopt</button>
+        </div>
+
+        <div class="profile">
+            <figure>
+                <img src="images/jake-card.jpg" alt="yellow lab" height="100" width="150" onclick="dogAlert('Jake', 'Lab', '$123.45')">
+                <figcaption>
+                    <h4>Jake</h4>
+                    <p>Cost to adopt: $123.45</p>
+                    <p>Praesent maximus dignissim justo, a porttitor elit pharetra nec. Cras placerat fermentum urna, non interdum tortor.</p>
+                </figcaption>
+            </figure>
+            <button type="button" onclick="clickAdopt(123.45, 1)">Adopt</button>
+        </div>
+
+        <div class="profile">
+            <figure>
+                <img src="images/angus-card.jpg" alt="Boxer mix" height="100" width="150" onclick="dogAlert('Angus', 'Boxer', '$123.45')">
+                <figcaption>
+                    <h4>Angus</h4>
+                    <p>Cost to adopt: $123.45</p>
+                    <p>Praesent maximus dignissim justo, a porttitor elit pharetra nec. Cras placerat fermentum urna, non interdum tortor.</p>
+                </figcaption>
+            </figure>
+            <button type="button" onclick="clickAdopt(123.45, 1)">Adopt</button>
+        </div>
+
+        <div class="profile">
+            <figure>
+                <img src="images/violet-card.jpg" alt="brown lab puppy" height="100" width="150" onclick="dogAlert('Violet', 'Lab', '$123.45')">
+                <figcaption>
+                    <h4>Violet</h4>
+                    <p>Cost to adopt: $123.45</p>
+                    <p>Praesent maximus dignissim justo, a porttitor elit pharetra nec. Cras placerat fermentum urna, non interdum tortor.</p>
+                </figcaption>
+            </figure>
+            <button type="button" onclick="clickAdopt(123.45, 1)">Adopt</button>
+        </div>
+
+        <div class="profile">
+            <figure>
+                <img src="images/piper-card.jpg" alt="brown dog in meadow" height="100" width="150" onclick="dogAlert('Piper', 'Retriver Mix', '$123.45')">
+                <figcaption>
+                    <h4>Piper</h4>
+                    <p>Cost to adopt: $123.45</p>
+                    <p>Praesent maximus dignissim justo, a porttitor elit pharetra nec. Cras placerat fermentum urna, non interdum tortor.</p>
+                </figcaption>
+            </figure>
+            <button type="button" onclick="clickAdopt(123.45, 1)">Adopt</button>
+        </div>
+
+        <div class="profile">
+            <figure>
+                <img src="images/maximus-card.jpg" alt="small black terrier" height="100" width="150" onclick="dogAlert('Maximus', 'Terrier', '$123.45')">
+                <figcaption>
+                    <h4>Maximus</h4>
+                    <p>Cost to adopt: $123.45</p>
+                    <p>Praesent maximus dignissim justo, a porttitor elit pharetra nec. Cras placerat fermentum urna, non interdum tortor.</p>
+                </figcaption>
+            </figure>
+            <button type="button" onclick="clickAdopt(123.45, 1)">Adopt</button>
+        </div>
+
+        <div class="profile">
+            <figure>
+                <img src="images/luna-card.jpg" alt="yellow lab" height="100" width="150" onclick="dogAlert('Luna', 'Lab', '$123.45')">
+                <figcaption>
+                    <h4>Luna</h4>
+                    <p>Cost to adopt: $123.45</p>
+                    <p>Praesent maximus dignissim justo, a porttitor elit pharetra nec. Cras placerat fermentum urna, non interdum tortor.</p>
+                </figcaption>
+            </figure>
+            <button type="button" onclick="clickAdopt(123.45, 1)">Adopt</button>
+        </div>
+
+        <div class="profile">
+            <figure>
+                <img src="images/stella-card.jpg" alt="sleeping chihuahua" height="100" width="150" onclick="dogAlert('Stella', 'Chihuahua', '$123.45')">
+                <figcaption>
+                    <h4>Stella</h4>
+                    <p>Cost to adopt: $123.45</p>
+                    <p>Praesent maximus dignissim justo, a porttitor elit pharetra nec. Cras placerat fermentum urna, non interdum tortor.</p>
+                </figcaption>
+            </figure>
+            <button type="button" onclick="clickAdopt(123.45, 1)">Adopt</button>
+        </div>
+
+        </section>
+
+        <footer>
+            <img src="images/adoptadog-logo.svg" alt="adopt a dog logo" height="100" width="300">
+            <p>Nunc ligula justo, imperdiet sed pharetra sit amet, venenatis in erat. In hac habitasse platea dictumst.</p>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="all-dogs.html">Dogs</a>
+                <a href="#">Contact</a>
+            </nav>
+            <p>@2024 Adoptadog, LLC | Seattle, WA</p>
+        </footer>
+
+        <script src="./scripts/java.js" charset="utf-8"></script>
+
+    </body>
+</html>

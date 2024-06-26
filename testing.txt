@@ -1,0 +1,21 @@
+Users:
+    The user base for this project would mainly be people looking to adopt a new dog.
+    This can include many different types and ages of people, most likely at least in their twenties.
+    This means there is also a wide range of technological knowledge in the user base, so the site shoud be easy enough for anyone to navigate.
+    Plenty of the users would likely be younger and more technologically savvy, and would like the site to be neat and quick to learn. 
+
+Devices:
+    Devices used would probably consist mainly of smartphones and laptops, many people are likely looking for dogs in their downtime or on the go.
+    The browsers used would mostly be Chrome, Safari, Edge, and Firefox, but occasionally older browsers like Internet Explorer as well.
+    The website should be reponsive on all these browsers, as well as screen sizes from smaller smartphones to larger pcs.
+    It should be clear, concise, and attractive to be as appealing to the user base as possible.
+
+Testing:
+    I tested this site on my Windows laptop using Chrome, Firefox, Brave, and Edge.
+    I used the Chrome window resizer extension to view what the site would look like on different screen sizes. 
+    I also tested it on my iPhone using Safari.
+    The text sizing and color seemed to be the same on each browser and device, as well as the layout of the site.
+    The images remained in the correct order and part of the site, even when changing the window size.
+    The site will definitely need to be tested again after the CSS is added, using all the browsers and separate devices.
+    I used the W3C HTML validation service to ensure that my code was valid and didn't have any errors. 
+    I had to adjust the buttons and form sections of the site after running it through W3C to avoid HTML errors, and it was all valid the second time around.

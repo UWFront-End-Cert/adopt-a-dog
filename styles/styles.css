@@ -1,0 +1,256 @@
+/* for all pages */
+
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: block;
+    box-sizing: border-box;
+    padding: 6rem;
+    background-image: url("https://github.com/camw222/html200-adopt-a-dog/blob/master/images/header-image.jpg?raw=true");
+    background-color: rgb(31, 72, 113);
+    width: 100%;
+    height: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: rgb(132, 205, 126);
+    font-size: 120%;
+}
+
+nav {
+    display: block;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    margin: auto;
+    background-color: rgb(180, 181, 182);
+    font-size: 120%;
+}
+
+a {
+    color:black;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+aside {
+    float:right;
+}
+
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-top: 4rem;
+    background-color: rgb(83, 84, 85);
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+.footer-nav {
+    background-color: transparent;
+}
+
+.footer-nav a {
+    color: white;
+}
+
+button {
+    background-color: rgb(132, 205, 126);
+    font-size: large;
+}
+
+.intro {
+    display: block;
+    font-size: 120%;
+    margin: auto;
+    text-align: center;
+    padding: 4rem;
+    width: 60%;
+}
+
+.intro-pic {
+    float:inline-start;
+    padding: 2rem;
+}
+
+h3 {
+    color: rgb(31, 72, 113);
+    font-size: 200%;
+}
+
+.dog-preview {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 3rem;
+    padding: 1rem;
+}
+
+.dog {
+    width: 10rem;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 5px 5px;
+    background-color: rgb(240, 240, 240);
+}
+
+.dog img {
+    border: 2px solid black;
+}
+
+.see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 15rem;
+    font-size: x-large;
+}
+
+/* all dogs page */
+
+h2 {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 160%;
+    color: rgb(31, 72, 113);
+}
+
+.doggie-profiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 5rem;
+    padding: 0.5rem;
+}
+
+.profile {
+    width: 15rem;
+    text-align: center;
+}
+
+.profile img {
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+}
+
+div {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 5px 5px;
+    background-color: rgb(240, 240, 240);
+}
+
+/* blog page */
+
+.blogs {
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    box-shadow: none;
+    width: 70%;
+    text-align: center;
+}
+.blogs img {
+    float: inline-start;
+    padding: 2rem;
+}
+
+.post {
+    padding: 3rem;
+}
+
+/* forms styling */
+
+.checkout {
+    display: block;
+    margin-left: 10rem;
+}
+
+input[type=text], input[type=email], select, textarea{
+    width: 50%;
+    padding: 0.5rem;
+    border: 2px solid rgb(31, 72, 113);
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 0.5rem;
+  }
+
+input[type=radio] {
+    margin: 0.5rem;
+}
+
+label {
+    margin: auto;
+    color: rgb(31, 72, 113);
+    font-size: 120%;
+}
+
+.label {
+    margin:auto;
+    color: rgb(31, 72, 113);
+    font-size: 120%;
+}
+
+.adopted {
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.bold {
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+
+.submit {
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 10rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: x-large;
+    background-color: rgb(132, 205, 126);
+}
+
+.contactform {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 3rem;
+    padding-top: 1rem;
+    width: 60%;
+}
+
+fieldset {
+    border: none;
+    padding: 1rem;
+}
+
+fieldset input {
+    display: inline;
+}
+
+fieldset label {
+    display: block;
+}
+
+legend {
+    margin:auto;
+    color: rgb(31, 72, 113);
+    font-size: 120%;
+}
