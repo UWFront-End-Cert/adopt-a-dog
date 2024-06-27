@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url("images/header-image.jpg");
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+header h2 {
+    color: rgb(129, 183, 65);
+    margin-top: 0px;
+}
+
+.title {
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 75px;
+    text-align: right;
+}
+
+.checkout img {
+    height: 2vw;
+    width: 2vw;
+}
+
+.checkout button{
+    background-color: rgb(129, 183, 65);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav {
+    background-color: rgb(236, 236, 236);
+    color: rgb(9, 60, 96);
+    font-weight: bold;
+    font-size: 18px;
+    height: 75px;
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(9, 60, 96);
+}
+
+article {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+article h1 {
+    text-align: center;
+}
+
+.blog {
+    display: flex;
+    margin: 50px;
+}
+
+.blog-img {
+    margin-right: 50px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .dogs {
+        display: grid;
+        grid-gap: 10px;
+        margin-bottom: 50px;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .dog {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+.dog {
+    border: 1px solid rgb(236, 236, 236);
+    padding: 10px;
+}
+
+.dog img {
+    width: 100%;
+}
+
+.dog button {
+    background-color: rgb(129, 183, 65);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+article h1,
+article h2,
+.dog h3 {
+    color: rgb(9, 60, 96);
+}
+
+article button {
+    background-color: rgb(236, 236, 236);
+    color: rgb(9, 60, 96);
+    font-size: 24px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    margin-left: 100px;
+}
+
+form label {
+    font-size: 24px;
+    color: rgb(9, 60, 96);
+    font-weight: bold;
+}
+
+form input[type="submit"] {
+    background-color: rgb(129, 183, 65);
+    color: white;
+    width: 20%;
+    font-size: 24px;
+}
+
+.city-state-zip {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+footer {
+    background-color: rgb(9, 60, 96);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+header img,
+footer img {
+    height: 33%;
+    width: 33%;
+}
+
+footer a {
+    color: white;
+}
