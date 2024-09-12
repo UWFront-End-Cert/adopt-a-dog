@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script/adoptADog.js" charset="utf-8"></script>
+
+    <title>Blog</title>
+  </head>
+
+  <body onload="blogBlog0(), blogBlog1(), blogBlog2()">
+    <div class="grid-container">
+      <header class="header-container linear-gradient">
+        <img
+          class="header-img"
+          src="images/header-image.jpg"
+          alt="a close-up of a beagles' face looking toward the left of the screen from the right"
+        />
+        <div class="header-flex">
+          <div class="logo-flex">
+            <img
+              src="images/adoptadog-logo.svg"
+              alt="White dog silhoutte next to the company's title."
+            />
+            <h2 class="h2"><i>Seattle's premier dog adoption agency</i></h2>
+          </div>
+          <div class="cart-flex">
+            <div class="price-flex">
+              <img
+                class="cart"
+                src="images/cart-icon.svg"
+                alt="cart icon next to the current total price"
+              />
+              <p id="cartAmount" class="cart-p">$0</p>
+            </div>
+            <a class="checkout-container" href="checkout.html">Checkout</a>
+          </div>
+        </div>
+        <nav class="nav">
+          <ul class="menu col-9">
+            <li><a href="index.html">Home</a></li>
+            /
+            <li><a href="dogs.html">Dogs</a></li>
+            /
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <h3 class="h3-blog">Adoptadog Blog</h3>
+
+      <footer class="bottom-container-js">
+        <div class="flex-container">
+          <img
+            class="footer-img"
+            src="images/adoptadog-logo.svg"
+            alt="White dog silhoutte next to the company's title."
+          />
+          <p class="footer-p">
+            Aborpos nisto inci tet aut que volupti beruptiberro to ex<br />
+            esseque invenienihil imaximu scideru ptistiusam consequunt
+          </p>
+          <nav class="footer-nav">
+            <ul class="footer-links">
+              <li><a class="footer-a" href="index.html">Home</a></li>
+              /
+              <li><a class="footer-a" href="dogs.html">Dogs</a></li>
+              /
+              <li><a class="footer-a" href="blog.html">Blog</a></li>
+            </ul>
+          </nav>
+          <p class="footer-copyright">
+            &copy; 2018 Adoptadog, LLC | Seattle, WA
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

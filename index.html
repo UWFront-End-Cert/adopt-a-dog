@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script/adoptADog.js" charset="utf-8"></script>
+
+    <title>Home</title>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <header class="header-container linear-gradient">
+        <img
+          class="header-img"
+          src="images/header-image.jpg"
+          alt="a close-up of a beagles' face looking toward the left of the screen from the right"
+        />
+        <div class="header-flex">
+          <div class="logo-flex">
+            <img
+              src="images/adoptadog-logo.svg"
+              alt="White dog silhoutte next to the company's title."
+            />
+            <h2 class="h2"><i>Seattle's premier dog adoption agency</i></h2>
+          </div>
+          <div class="cart-flex">
+            <div class="price-flex">
+              <img
+                class="cart"
+                src="images/cart-icon.svg"
+                alt="cart icon next to the current total price"
+              />
+              <p id="cartAmount" class="cart-p">$0</p>
+            </div>
+            <a class="checkout-container" href="checkout.html">Checkout</a>
+          </div>
+        </div>
+        <nav class="nav">
+          <ul class="menu col-9">
+            <li><a href="index.html">Home</a></li>
+            /
+            <li><a href="dogs.html">Dogs</a></li>
+            /
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <article class="home-intro">
+        <img
+          class="image-1"
+          src="images/home-intro.jpeg"
+          alt="a guy hugging a dog"
+        />
+        <h3 class="h3">Adopt A Dog</h3>
+        <p class="p">
+          Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis
+          dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum
+          volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum
+          haritatur arum qui officae videbiti corporeium faccull oribus es
+          quidignis ipietus explam sus am aut amet ant fugiatum, utem non reptat
+          ad magnienecto volorent fugia nonsedi gendand itatquos as magnimpor
+          aut molor autatia ad est officimus accae et omnia cus, od qui ate
+        </p>
+      </article>
+
+      <section class="section-grid-index">
+        <article class="article">
+          <img
+            id="murphy"
+            onclick="infoAboutDogs('murphy', 'dog', '$123.45')"
+            src="images/murphy-card.jpg"
+            alt="a brown and white dog looking up with sad look on their face"
+          />
+          <h3 class="h3-section-index"><b>Murphy</b></h3>
+          <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+          <p class="art-p">
+            Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+            sunt arum rendae pla endis re ea erum, qui doluptae
+          </p>
+          <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+        </article>
+
+        <article class="article">
+          <img
+            id="poppy"
+            onclick="infoAboutDogs('poppy', 'dog', '$123.45')"
+            src="images/poppy-card.jpg"
+            alt="a small white, furry dog walking toward the camera with his tongue hanging out"
+          />
+          <h3 class="h3-section-index"><b>Poppy</b></h3>
+          <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+          <p class="art-p">
+            Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+            sunt arum rendae pla endis re ea erum, qui doluptae
+          </p>
+          <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+        </article>
+
+        <article class="article">
+          <img
+            id="jack"
+            onclick="infoAboutDogs('jack', 'dog', '$123.45')"
+            src="images/jack-card.jpg"
+            alt="a small brown and white young dog looking up and to the left intently"
+          />
+          <h3 class="h3-section-index"><b>Jack</b></h3>
+          <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+          <p class="art-p">
+            Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+            sunt arum rendae pla endis re ea erum, qui doluptae
+          </p>
+          <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+        </article>
+
+        <article class="article">
+          <img
+            id="duffy"
+            onclick="infoAboutDogs('duffy', 'dog', '$123.45')"
+            src="images/duffy-card.jpg"
+            alt="a brown and white dog with two different colored eyes looking directly at the camera"
+          />
+          <h3 class="h3-section-index"><b>Duffy</b></h3>
+          <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+          <p class="art-p">
+            Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+            sunt arum rendae pla endis re ea erum, qui doluptae
+          </p>
+          <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+        </article>
+
+        <article class="article">
+          <img
+            id="lucas"
+            onclick="infoAboutDogs('lucas', 'dog', '$123.45')"
+            src="images/lucas-card.jpg"
+            alt="a black dog on a leash looking up excitedly at the camera"
+          />
+          <h3 class="h3-section-index"><b>Lucas</b></h3>
+          <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+          <p class="art-p">
+            Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+            sunt arum rendae pla endis re ea erum, qui doluptae
+          </p>
+          <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+        </article>
+
+        <article class="article">
+          <img
+            id="jake"
+            onclick="infoAboutDogs('jake', 'dog', '$123.45')"
+            src="images/jake-card.jpg"
+            alt="a light yellow colored dog looking up intently"
+          />
+          <h3 class="h3-section-index"><b>Jake</b></h3>
+          <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+          <p class="art-p">
+            Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
+            sunt arum rendae pla endis re ea erum, qui doluptae
+          </p>
+          <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+        </article>
+      </section>
+
+      <aside class="aside-grid">
+        <article>
+          <h3>From Our Blog</h3>
+          <img
+            src="images/blog-1.jpeg"
+            alt="a woman sitting with her black dog looking out towards a canyon"
+          />
+          <h4 class="h4-blog">Traveling with your dog</h4>
+          <p class="aside-p">
+            Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis
+            dolenem quidustrum fuga.
+          </p>
+
+          <a class="aside-a" href="blog.html">Read more >></a>
+        </article>
+
+        <article>
+          <img
+            src="images/blog-2.jpeg"
+            alt="4 dogs sitting in a park on 4 different leashes"
+          />
+          <h4 class="h4-blog">How to walk multiple dogs</h4>
+          <p class="aside-p">
+            Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis
+            dolenem quidustrum fuga.
+          </p>
+
+          <a class="aside-a" href="blog.html">Read more >></a>
+        </article>
+
+        <article>
+          <img
+            src="images/blog-3.jpeg"
+            alt="the silhouettes of a woman getting ready to throw a ball for her dog near sunset"
+          />
+          <h4 class="h4-blog">Teach your dog to fetch!</h4>
+          <p class="aside-p">
+            Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis
+            dolenem quidustrum fuga.
+          </p>
+
+          <a class="aside-a" href="blog.html">Read more >></a>
+        </article>
+      </aside>
+
+      <a class="a-more-dogs a" href="dogs.html"><b>See More Dogs</b></a>
+
+      <footer class="bottom-container">
+        <div class="flex-container">
+          <img
+            class="footer-img"
+            src="images/adoptadog-logo.svg"
+            alt="White dog silhoutte next to the company's title."
+          />
+          <p class="footer-p">
+            Aborpos nisto inci tet aut que volupti beruptiberro to ex<br />
+            esseque invenienihil imaximu scideru ptistiusam consequunt
+          </p>
+          <nav class="footer-nav">
+            <ul class="footer-links">
+              <li><a class="footer-a" href="index.html">Home</a></li>
+              /
+              <li><a class="footer-a" href="dogs.html">Dogs</a></li>
+              /
+              <li><a class="footer-a" href="blog.html">Blog</a></li>
+            </ul>
+          </nav>
+          <p class="footer-copyright">
+            &copy; 2018 Adoptadog, LLC | Seattle, WA
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
