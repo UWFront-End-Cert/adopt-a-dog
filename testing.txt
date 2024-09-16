@@ -1,0 +1,46 @@
+## User Persona - Adopt-a-Dog, Seattle's premiere dog adoption agency
+
+I used my youngest sister who is a Millennial to build this user persona. Back when she and her husband chose to get a dog before having kids.
+
+### Name: Kimberly Power
+### Age: twenty-eight
+### Occupation: Dental Office Assistant
+### Other details:
+• Married three years. No kids.
+• Active lifestyle likes to run.
+• Owns an Apple laptop, Microsoft laptop, iPad, and iPhone.
+• Browses on Chrome, Firefox, and iOS Safari mostly.
+
+### Current trends:
+
+“Millienials are 50% more likely to adopt a pet than to have a child in the next 12 months.”
+https://www.valuepenguin.com/news/millennials-more-likely-to-adopt-pet-than-have-child-next-12-months (accessed: 4/7/2022).
+
+## Browser Support - two most recent versions of the browser
+
+* Google Chrome
+* Firefox
+* Microsoft Edge
+* Safari for iOS
+
+## Responsiveness
+
+* LG Gram 17" Laptop, 2019, Windows 11
+* Dell 17" Laptop 2015, Windows 10
+* iPhone 12 Pro Max vs. 15.4.1
+
+## Design Considerations
+
+Progressive Enhancement
+
+## Tools used for testing
+
+* HTML5 validator
+* Viewing sites in Chrome, Firefox, Edge, and iOS
+* Developer tools used to check different screen sizing
+* Devices listed in Responsiveness tested
+
+## Testing Results
+
+* The Edge and Firefox browser replicates the comps the best. Chrome does not render as nicely.
+* iPad Air, Surface Pro 7, Nest Hub, and Nest Hub Max dimensions 820x1180 provide the best representation of the comp.

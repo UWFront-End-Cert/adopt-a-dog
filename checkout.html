@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Adopt-a-dog Adoption Dynamic Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700;800&family=Vollkorn:wght@400;500&family=Work+Sans:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <header>
+        <div class="cart">
+          <span class="b-cart">
+            <img src="images/cart-icon.svg" alt="Image shopping cart." width=40%>
+          </span><span class="b-cart">$1234.56</span>
+          <span class="c-cart">
+            <button class="cart" type="button" name="checkout">Checkout</button>
+          </span>
+        </div>
+        <div class="flexbox-container">
+          <img
+          src="images/header-image2.jpg" alt="AdoptADog header image. Side image of a dark brown Labrador Retriever, just the left eye and ear showing. Set against a dark background, looking toward the logo." width=100%
+          >
+          <div class="header-logo">
+            <img src="images/adoptadog-logo.svg" alt="White logo of a large dog sitting sideways to the right with the words ADOPTADOG to the right of it." width=30%>
+            <h1 class="heading">Seattle's premiere dog adoption agency</h1>
+          </div>
+        </div>
+    </header>
+    <nav class="global-nav">
+      <a href="index.html">Home</a>
+      <a href="#">/</a>
+      <a href="dogs.html">Dogs</a>
+      <a href="#">/</a>
+      <a href="blog.html">Blog</a>
+      <a href="#">/</a>
+      <a class="active" href="checkout.html">Checkout</a>
+    </nav>
+    <main >
+      <!--
+      <div class="clearfix-form">
+        <h1>Checkout</h1>
+          <form action="index.html" method="post">
+
+              <label>Name
+                <input type="text" name="applicantName">
+              </label>
+              <label>Email Address
+                <input type="text" name="applicantEmailAddress">
+              </label>
+              <label>Street Address
+                <input type="text" name="applicantAddress">
+              </label>
+              <label>City
+                <input class="city" type="text" name="applicantCity">
+              </label>
+              <label>State
+                <select class="state" name="state">
+                  <option value="#"></option>
+                  <option value="al">Alabama</option>
+                  <option value="ak">Alaska</option>
+                  <option value="ar">Arizona</option>
+                </select>
+              </label>
+              <label>Zip Code
+                <input class="zip" type="number" name="applicantZipcode">
+              </label>
+              <label class="radio">First Time Adopter?</label>
+                <label class="container">Yes
+                  <input type="radio" name="radio" value="Yes">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">No
+                  <input type="radio" name="radio" value="No">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="heading">Pickup Location</label>
+                  <select class="location" name="location">
+                  <option value="#"></option>
+                  </select>
+              <label class="heading" style="clear:right">Dogs Adopted</label>
+                <div class="clearfix-adopt">
+                  <div class="flex-container-adopted">
+                    <div>
+                      <img class="imgAdopt1" src="images/lucas-checkout.jpg" alt="Lucas" width="80">
+                    </div>
+                    <div>
+                      <h2 class="dogName" style="clear:right">Lucas</h2>
+                      <span class="costAdopt">
+                        <strong>Cost to Adopt:</strong> $123.45
+                      </span>
+                    </div>
+                    <div>
+                      <img class="imgAdopt2" src="images/duffy-checkout.jpg" alt="Duffy" width="80">
+                    </div>
+                    <div>
+                      <h2 class="dogName">Duffy</h2>
+                      <span class="costAdopt">
+                        <strong>Cost to Adopt:</strong> $123.45
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <label class="heading">Total Adoption Cost</label>
+                  <p class="totalCost">$1234.56</p>
+                <button onclick="submitAlert(submit)" class="submit" type="button">Submit</button>
+          </form>
+      </div>
+    -->
+    <h1>Check the console for input</h1>
+    <script src="./clickHandlers.js"></script>
+    </main>
+    <footer>
+      <div class="footer">
+        <img class="footer-logo" src="images/adoptadog-logo.svg" alt="White logo of a large dog sitting sideways to the right with the words ADOPTADOG to the right of it." width="20%">
+        <p class="footer">Aborpos nisto inci tet aut que volupti beruptiberro to ex</p>
+        <p class="footer">esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+        <div class="footer-nav">
+          <nav>
+            <a class="footer-nav" href="index.html">Home</a>
+            <a class="footer-nav" href="#">/</a>
+            <a class="footer-nav" href="dogs.html">Dogs</a>
+            <a class="footer-nav" href="#">/</a>
+            <a class="footer-nav" href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div class="footer">
+          <p class="footer">© 2018 Adoptadog, LLC | Seattle, WA</p>
+        </div>
+      </div>
+    </footer>
+    <script src="clickHandlers.js"></script>
+  </body>
+</html>

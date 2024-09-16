@@ -1,0 +1,570 @@
+/* CSS for html200-adopt-a-dog */
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  z-index: -5;
+}
+
+/* Header Cart */
+div.cart {
+  display: inline-block;
+  float: right;
+  position: sticky; /* changed from fixed to sticky */
+  padding-top: 2rem;
+  margin: 0;
+  width: 20%;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: .5rem;
+}
+span.b-cart {
+  display: inline-block;
+  width: 25%; /* changed to % from 20px */
+  height: 10px;
+  padding: 1px;
+  border: 0;
+}
+span.c-cart {
+  display:flex;
+  margin: 0;
+  width: 30%;
+}
+button.cart {
+  background-color: #70a329; /* Green */
+  border: none;
+  border-radius: 2px;
+  color: white;
+  padding: 5px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: .5rem;
+  font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+}
+/* Header Area */
+div.header-logo {
+  border: 0;
+  padding-top: 4rem;
+  padding-left: 3rem;
+  padding-bottom: 0;
+  margin: 0;
+  z-index: 10;
+}
+h1.heading {
+  display: flex;
+  font-size: 1.5em;
+  padding: 0;
+  padding-bottom: 3em;
+  margin: 0;
+  font-stretch: ultra-expanded;
+  font-family: 'Gabriola', sans-serif;
+  color: #70a329; /* Green */
+  z-index: 15;
+}
+div.flexbox-container > img {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  background-image: linear-gradient(black, white); /* Gradient for header when image is not available */
+  background-image: image(url('./images/header-image.jpg'));
+  background-position: center center;
+  background-size: cover;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  z-index: -1;
+}
+.heading::after {
+  content: "";
+  clear:both;
+  display:table;
+}
+
+/* Navigation Bar */
+.global-nav {
+  width: 100%;
+  background-color: #E5E7E9; /* light gray */
+  margin: 0;
+  padding-left: 6.5rem;
+  z-index: 10;
+}
+
+/* Global-nav font */
+.global-nav {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
+}
+/* Global-nav links */
+.global-nav a {
+  float: left;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  color: #16426b;
+  text-decoration: none;
+  font-weight: 700;
+}
+/* Global-nav links on mouse-over
+.global-nav a:hover {
+  background-color: #a9a9a9;
+  /*For now color same as bar */
+}
+/* Current/active Global-nav link */
+.active {
+  font-weight: 800;
+}
+/* Main */
+main {
+  background-color: #ffffff;
+  background-position: top;
+}
+article {
+  display: inline-block;
+  float: left;
+  width: 60%;
+}
+aside {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+}
+/* About A Dog Intro */
+div.clearfix-intro {
+  float: left;
+  width: 100%;
+  border: 0;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 0;
+  padding-right: 3rem;
+  margin-left: 4rem;
+  margin-right: 0;
+}
+.clearfix-intro::after {
+  content: "";
+  clear:both;
+  display:table;
+}
+
+/* Main body image */
+.responsive-img1 {
+  max-width: 100%;
+  height: auto;
+  float: left;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+}
+
+p.clearfix-intro {
+  display: inline-block;
+  max-width: 93%;
+  margin: 0;
+  font-size: .9em;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+  font-stretch:normal;
+  color: black;
+}
+h1.main {
+  display: inline-flex;
+  font-size: 1.5em;
+  margin: 0;
+  padding-bottom: .2em;
+  font-stretch: extra-expanded;
+  font-family: 'Alegreya', serif;
+  color: #06426b; /* Blue */
+}
+
+h2.main {
+  display: flex;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0..67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: 'Alegreya', serif;
+  color: #06426b; /* Blue */
+  font-weight: bold;
+}
+
+/* Gallery of Dogs */
+div.adoptGallery {
+  display: flex;
+  float: left;
+  width: 80%;
+  margin-left: 4em;
+  margin-right: 0;
+  padding-right: 1rem;
+}
+div.gallery {
+  border: 1.5px solid #ebebeb;
+  margin: .2em;
+  float: left;
+  width: 30%; /* changed from 180px to 100% */
+  background-color: #ffffff;
+}
+/*
+div.gallery:hover {
+  border: 1.5px solid #777;
+}
+*/
+div.gallery img {
+  max-width: 100%;
+  height: auto;
+  z-index: 980;
+}
+
+div.clearfix-Gallery {
+  float: left;
+  width: 80%;
+  border: 0;
+  padding-top: 0;
+  padding-bottom: 1rem;
+  padding-left: 0;
+  padding-right: 0rem;
+  margin-left: 4rem;
+  margin-right: 0;
+}
+.clearfix-Gallery::after {
+  content: "";
+  clear:both;
+  display:table;
+}
+
+div.desc {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+h2.dogsName {
+  display: block;
+  font-size: 1.2em;
+  margin-top: .3em;
+  margin-left: .5em;
+  margin-bottom: .3em;
+  font-weight: bold;
+  font-stretch: expanded;
+}
+.dogsName {
+  color: #003a66;
+  font-family: 'Vollkorn', serif;
+}
+p.costAmt {
+  font-size: .8em;
+  word-wrap: break-word;
+  padding-left: .7em;
+  padding-right: .7em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+
+span.dogPc {
+  display:inline-block;
+  width: 100%;
+  min-width: 50%;
+  padding-left: .7em;
+  padding-right: .7em;
+  margin-top: .3em;
+  margin-bottom: .7em;
+  border: 0;
+  font-size: .75em;
+  line-height: 140%;
+  font-stretch:ultra-expanded;
+  font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+  color: #464849;
+}
+/*
+span.dogPcBtn {
+  display:inline-block;
+  align: center;
+  max-width: 100%;
+  padding: .6em;
+  border: 0;
+}
+*/
+button.adopt {
+  align-self: center;
+  background-color: #70a329; /* Green */
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+  padding: 5% 28%; /* changed to % */
+  margin: 5%;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+  font-stretch:ultra-expanded;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+/* See More Dogs Button */
+.center {
+  display: inline-block;
+  float:inherit;
+  width: 100%;
+  padding-left: 5rem;
+  border: 0;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+button.moreDogs {
+  background-color: #ebebeb; /* light gray */
+  border: none;
+  border-radius: 2px;
+  color: #003a66;
+  padding: 7px 35px;
+  /* text-align: center; */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+}
+button.moreDogs {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* From Our Blog - Main - Side */
+aside {
+  border: 0;
+  width: 15rem;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-top: 1.5rem;
+  background-color: #ffffff;
+  float: left;
+  z-index: 999;
+}
+
+section.flex-container {
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  background-color: #ffffff;
+  padding-top: 1.5rem;
+  padding-left: 2em;
+  padding-right: 5rem;
+  padding-bottom: 1em;
+  z-index: 990;
+}
+section.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+div.clearfix-side {
+  display: inline-block;
+  padding: 0rem;
+  width: 100%;
+  margin: 0;
+}
+div.clearfix-side::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+a.sideBlog {
+  display: block;
+  font-size: .7em;
+  margin: 0;
+  padding-bottom: 3rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: #1fc1de;
+  text-decoration: none;
+}
+h2.sideBlog {
+  display: block;
+  font-size: 1.8em;
+  padding-top: 0;
+  padding-bottom: 1rem;
+  margin: 0;
+  font-family: 'Alegreya', serif;
+  color: #06426b; /* Blue */
+  font-weight: 600;
+}
+h3.sideBlog {
+  display: inline-block;
+  font-size: 1.3em;
+  padding-top: .5em;
+  margin: 0;
+  font-family: 'Alegreya', serif;
+  color: #06426b; /* Blue */
+  font-weight: 600;
+}
+p.sideBlog {
+  display: block;
+  font-size: .8rem;
+  margin-top: .4em;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: black;
+}
+.imgAsideBlog {
+  padding-top: 0;
+  padding-right: 0;
+  float: right;
+}
+
+/* Adoptadog Blog page */
+div.flex-container-blog {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+  z-index: 999;
+}
+div.clearfix-blog {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 108px;
+  margin-right: 100px;
+}
+
+.imgBlog {
+  float: left;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+h2.blog {
+  display: block;
+  font-size: 1.5em;
+  padding: 0;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: 'Alegreya', serif;
+  color: #06426b; /* Blue */
+  font-weight: 600;
+}
+p.blog {
+  display: block;
+  font-size: .8rem;
+  margin-top: .4em;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: black;
+}
+
+
+
+/* Footer */
+footer {
+  overflow: hidden;
+  position:sticky;
+  background-color: #003a66;
+  padding: 2em;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+.footer-logo{
+  border: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  color: #ffffff;
+  z-index: 995;
+}
+div.footer {
+  font-size: .7em;
+  margin-left: .3em;
+  margin-right: .3em;
+  font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+  color: #ffffff;
+}
+p.footer {
+  font-size: .7em;
+  margin-left: .3em;
+  margin-right: .3em;
+  font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+  color: #ffffff;
+}
+/* Footer Navigation */
+div.footer-nav {
+  width: 100%;
+  background-color: #003a66;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  overflow: auto;
+}
+/* Footer-nav links */
+a.footer-nav {
+  padding-left: .1rem;
+  padding-right: .1rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+/* Footer-nav links on mouse-over */
+.footer-nav a:hover {
+  background-color: #70a329;
+}
+/* Footer-nav font */
+.footer-nav {
+  font-family: 'Work Sans', sans-serif;
+  font-size: .6rem;
+}
+/* Current/active Global-nav link
+.active {
+  background-color: #25b4d2;
+}
+.global-nav i:hover {
+  font-size: 150%;
+}
+*/
+
+/* Adding media queries - Lesson 6
+--dog grid layout change from 3 columns to 1 on mobile devices
+--dog grid layout change from 3 columns to 2 on tablet devices
+--home page - only show blog article previews only on iPad size and above. DONE
+--links can either link to blog page or blog post DONE
+--on mobile blog post should not display DONE
+--Make page printable DONE
+*/
+@media screen and (min-width: 700px) {
+  header, .responsive-img1, article,  .global-nav a {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header, .responsive-img1 {
+    display: block;
+    float: none;
+  }
+  aside {
+    display: none;
+  }
+}
+
+@media print {
+  body img {
+    display: none;
+  }
+}
