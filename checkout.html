@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+        <title>Checkout</title>
+    </head>
+
+    <body>
+        <div class="grid-container">
+
+        <header class="header-container">
+            <img class="header-img col-12" src="images/header-image.jpg"
+                alt="a close-up of a beagles' face looking toward the left of the screen from the right">
+            <img class="header-logo col-8" src="images/adoptadog-logo.svg"
+                alt="White dog silhoutte next to the company's title.">
+            <h2 class="h2"><i>Seattle's premier dog adoption agency</i></h2>
+            <img class="cart" src="images/cart-icon.svg" alt="cart icon next to the current total price">
+            <p class="cart-p">$1234.56</p>
+            <a class="checkout-container col-8" href="checkout.html">Checkout</a>
+            <nav class="nav">
+                <ul class="menu col-9">
+                    <li><a href="index.html">Home</a></li>
+                    <li>/</li>
+                    <li><a href="dogs.html">Dogs</a></li>
+                    <li>/</li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="section-grid">
+            <form class="form-container" method="GET">
+                <h3 class="h3-checkout">Checkout</h3>
+
+                <label class="label-1">Name<br>
+                    <input class="input" type="text"><br>
+                </label>
+
+                <label class="label-2">Email<br>
+                    <input class="input" type="email"><br>
+                </label>
+
+                <label class="label-3">Street Address<br>
+                    <input class="input" type="text"><br>
+                </label>
+
+                <label class="label-4">City<br>
+                    <input class="input" type="text">
+                </label>
+
+                <label class="label-5">State
+                    <select name="state">
+                        <option value="">Please Select</option>
+                        <option value="State">State</option>
+                    </select>
+                </label>
+
+                <label class="label-6">Zip Code
+                    <input class="input" type="number">
+                </label>
+
+                <fieldset class="label-7">
+                    <legend>First Time Adopter?</legend>
+                    <label class="radio-font">
+                        <input class="radio-input" type="radio" name="adopter" value="yes">
+                        Yes
+                    </label>
+                    <label class="radio-font">
+                        <input class="radio-input" type="radio" name="adopter" value="no">
+                        No
+                    </label>
+                </fieldset>
+
+                <fieldset class="label-8">
+                    <label>Pickup Location<br>
+                        <select name="location">
+                            <option value="">Please Select</option>
+                            <option value="here>">Here</option>
+                            <option value="there">There</option>
+                            <option value="anywhere">Anywhere</option>
+                        </select>
+                    </label>
+                </fieldset>
+
+                <div class="adopt-container">
+                    <label class="label-9">Dogs Adopted</label>
+                    <img class="lucas-image col-12" src="images/lucas-card.jpg"
+                        alt="a black dog on a leash looking up excitedly at the camera"><br>
+                    <p class="lucas-info"><span class="dog">Lucas</span><br>
+                        <b>Cost to adopt:</b> $123.45
+                    </p>
+                    <img class="duffy-image col-12" src="images/duffy-card.jpg"
+                        alt="a brown and white dog with two different colored eyes looking directly at the camera"><br>
+                    <p class="duffy-info"><span class="dog">Duffy</span><br>
+                        <b>Cost to adopt:</b> $123.45
+                    </p>
+                    <label class="label-10">Total Adoption Cost</label>
+                    <p class="total">$1234.56</p>
+                </div>
+
+                <input class="input col-11" type="submit" value="Submit">
+            </form>
+        </section>
+
+        <footer class="bottom-grid">
+            <div class="flex-container">
+                <img class="footer-img col-12" src="images/adoptadog-logo.svg"
+                    alt="White dog silhoutte next to the company's title.">
+                <p class="footer-p">Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>
+                    esseque invenienihil imaximu scideru ptistiusam consequunt
+                </p>
+                <nav class="footer-nav-1">
+                    <p class="footer-links">
+                    <a class="footer-a" href="index.html">Home</a> / 
+                    <a class="footer-a" href="dogs.html">Dogs</a> / 
+                    <a class="footer-a" href="blog.html">Blog</a>
+                    </p>
+                </nav>
+                <p class="footer-copyright">&copy; 2018 Adoptadog, LLC | Seattle, WA</p>
+            </div>
+        </footer>
+        </div>
+        <script src="script/adoptADog.js" charset="utf-8"></script>
+    </body>
+
+</html>

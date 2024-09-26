@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+        <title>Home</title>
+    </head>
+
+    <body>
+        <div class="grid-container">
+
+        <header class="header-container">
+            <img class="header-img col-12" src="images/header-image.jpg"
+                alt="a close-up of a beagles' face looking toward the left of the screen from the right">
+            <img class="header-logo col-8" src="images/adoptadog-logo.svg"
+                alt="White dog silhoutte next to the company's title.">
+            <h2 class="h2"><i>Seattle's premier dog adoption agency</i></h2>
+            <img class="cart" src="images/cart-icon.svg" alt="cart icon next to the current total price">
+            <p class="cart-p">$1234.56</p>
+            <a class="checkout-container col-8" href="checkout.html">Checkout</a>
+            <nav class="nav">
+                <ul class="menu col-9">
+                    <li><a href="index.html">Home</a></li>
+                    <li>/</li>
+                    <li><a href="dogs.html">Dogs</a></li>
+                    <li>/</li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="section-grid">
+            <h3 class="h3-dogs-page">Here are all of our Dogs!</h3>
+            <article class="article-1">
+                <img id="murphy" onclick="infoAboutDogs('murphy', 'dog', '$123.45')" class="col-12" src="images/murphy-card.jpg"
+                    alt="a brown and white dog looking up with sad look on their face">
+                <h3><b>Murphy</b></h3>
+                <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+                <p class="art-p">
+                    Corrum volorit iandae<br>
+                    nimaxim cum restia volor<br>
+                    reicid ut et etur sunt arum<br>
+                    rendae pla endis re ea erum,<br>
+                    qui doluptae<br>
+                </p>
+                <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+                <br>
+            </article>
+
+            <article class="article-2">
+                <img id="poppy" onclick="infoAboutDogs('poppy', 'dog', '$123.45')" class="col-12" src="images/poppy-card.jpg"
+                    alt="a small white, furry dog walking toward the camera with his tongue hanging out">
+                <h3><b>Poppy</b></h3>
+                <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+                <p class="art-p">
+                    Corrum volorit iandae<br>
+                    nimaxim cum restia volor<br>
+                    reicid ut et etur sunt arum<br>
+                    rendae pla endis re ea erum,<br>
+                    qui doluptae<br>
+                </p>
+                <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+                <br>
+            </article>
+
+            <article class="article-3">
+                <img id="jack" onclick="infoAboutDogs('jack', 'dog', '$123.45')" class="col-12" src="images/jack-card.jpg"
+                    alt="a small brown and white young dog looking up and to the left intently">
+                <h3><b>Jack</b></h3>
+                <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+                <p class="art-p">Corrum volorit iandae<br>
+                    nimaxim cum restia volor<br>
+                    reicid ut et etur sunt arum<br>
+                    rendae pla endis re ea erum,<br>
+                    qui doluptae<br>
+                </p>
+                <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+                <br>
+            </article>
+
+            <article class="article-4">
+                <img id="duffy" onclick="infoAboutDogs('duffy', 'dog', '$123.45')" class="col-12" src="images/duffy-card.jpg"
+                    alt="a brown and white dog with two different colored eyes looking directly at the camera">
+                <h3><b>Duffy</b></h3>
+                <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+                <p class="art-p">
+                    Corrum volorit iandae<br>
+                    nimaxim cum restia volor<br>
+                    reicid ut et etur sunt arum<br>
+                    rendae pla endis re ea erum,<br>
+                    qui doluptae<br>
+                </p>
+                <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+                <br>
+            </article>
+
+            <article class="article-5">
+                <img id="lucas" onclick="infoAboutDogs('lucas', 'dog', '$123.45')" class="col-12" src="images/lucas-card.jpg"
+                    alt="a black dog on a leash looking up excitedly at the camera">
+                <h3><b>Lucas</b></h3>
+                <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+                <p class="art-p">
+                    Corrum volorit iandae<br>
+                    nimaxim cum restia volor<br>
+                    reicid ut et etur sunt arum<br>
+                    rendae pla endis re ea erum,<br>
+                    qui doluptae<br>
+                </p>
+                <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+                <br>
+            </article>
+
+            <article class="article-6">
+                <img id="jake" onclick="infoAboutDogs('jake', 'dog', '$123.45')" class="col-12" src="images/jake-card.jpg" alt="a light yellow colored dog looking up intently">
+                <h3><b>Jake</b></h3>
+                <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+                <p class="art-p">
+                    Corrum volorit iandae<br>
+                    nimaxim cum restia volor<br>
+                    reicid ut et etur sunt arum<br>
+                    rendae pla endis re ea erum,<br>
+                    qui doluptae<br>
+                </p>
+                <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+                <br>
+            </article>
+
+            <article class="article-7">
+                <img id="angus" onclick="infoAboutDogs('angus', 'dog', '$123.45')" class="col-12" src="images/angus-card.jpg"
+                    alt="a light-brown dog with a white chest in a grassy field with his tongue hanging out">
+                <h3><b>Angus</b></h3>
+                <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+                <p class="art-p">Corrum volorit iandae<br>
+                    nimaxim cum restia volor<br>
+                    reicid ut et etur sunt arum<br>
+                    rendae pla endis re ea erum,<br>
+                    qui doluptae<br>
+                </p>
+                <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+                <br>
+            </article>
+
+            <article class="article-8">
+                <img id="violet" onclick="infoAboutDogs('violet', 'dog', '$123.45')" class="col-12" src="images/violet-card.jpg" alt="little dark-brown puppy looking up toward the camera">
+                <h3><b>Violet</b></h3>
+                <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+                <p class="art-p">Corrum volorit iandae<br>
+                    nimaxim cum restia volor<br>
+                    reicid ut et etur sunt arum<br>
+                    rendae pla endis re ea erum,<br>
+                    qui doluptae<br>
+                </p>
+                <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+                <br>
+            </article>
+
+            <article class="article-9">
+                <img id="piper" onclick="infoAboutDogs('piper', 'dog', '$123.45')" class="col-12" src="images/piper-card.jpg" alt="a brown hairy dog with tongue hanging out in a field">
+                <h3><b>Piper</b></h3>
+                <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+                <p class="art-p">Corrum volorit iandae<br>
+                    nimaxim cum restia volor<br>
+                    reicid ut et etur sunt arum<br>
+                    rendae pla endis re ea erum,<br>
+                    qui doluptae<br>
+                </p>
+                <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+                <br>
+            </article>
+
+            <article class="article-10">
+                <img id="maximus" onclick="infoAboutDogs('maximus', 'dog', '$123.45')" class="col-12" src="images/maximus-card.jpg"
+                    alt="a small black and white dog looking straight at the camera">
+                <h3><b>Maximus</b></h3>
+                <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+                <p class="art-p">Corrum volorit iandae<br>
+                    nimaxim cum restia volor<br>
+                    reicid ut et etur sunt arum<br>
+                    rendae pla endis re ea erum,<br>
+                    qui doluptae<br>
+                </p>
+                <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+                <br>
+            </article>
+
+            <article class="article-11">
+                <img id="luna" onclick="infoAboutDogs('luna', 'dog', '$123.45')" class="col-12" src="images/luna-card.jpg"
+                    alt="a light yellow dog sitting and enjoying a chance to relax">
+                <h3><b>Luna</b></h3>
+                <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+                <p class="art-p">Corrum volorit iandae<br>
+                    nimaxim cum restia volor<br>
+                    reicid ut et etur sunt arum<br>
+                    rendae pla endis re ea erum,<br>
+                    qui doluptae<br>
+                </p>
+                <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+                <br>
+            </article>
+
+            <article class="article-12">
+                <img id="stella" onclick="infoAboutDogs('stella', 'dog', '$123.45')" class="col-12" src="images/stella-card.jpg" alt="a small bored looking dog lying on a couch">
+                <h3><b>Stella</b></h3>
+                <p class="art-p"><b>Cost to adopt: $123.45</b></p>
+                <p class="art-p">Corrum volorit iandae<br>
+                    nimaxim cum restia volor<br>
+                    reicid ut et etur sunt arum<br>
+                    rendae pla endis re ea erum,<br>
+                    qui doluptae<br>
+                </p>
+                <p onclick="runningTotal(123.45)" class="adopt"><b>Adopt</b></p>
+                <br>
+            </article>
+        </section>
+
+        <footer class="bottom-grid">
+            <div class="flex-container">
+                <img class="footer-img col-12" src="images/adoptadog-logo.svg"
+                    alt="White dog silhoutte next to the company's title.">
+                <p class="footer-p">Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>
+                    esseque invenienihil imaximu scideru ptistiusam consequunt
+                </p>
+                <nav class="footer-nav-1">
+                    <p class="footer-links">
+                    <a class="footer-a" href="index.html">Home</a> / 
+                    <a class="footer-a" href="dogs.html">Dogs</a> / 
+                    <a class="footer-a" href="blog.html">Blog</a>
+                    </p>
+                </nav>
+                <p class="footer-copyright">&copy; 2018 Adoptadog, LLC | Seattle, WA</p>
+            </div>
+        </footer>
+        </div>
+        <script src="script/adoptADog.js" charset="utf-8"></script>
+    </body>
+
+</html>
