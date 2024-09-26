@@ -1,0 +1,27 @@
+User Personas
+	The user base for the course project is anyone interested in adopting a dog.
+  This could be a young college student just starting out, a single adult, a family,
+  or an older person looking to find a dog.  Because of this, there could be a wide
+  range of devices used to access the site, including desktops, laptops, tablets,
+  and mobile devices.
+
+	A young college student, for example, is probably going to have extensive knowledge
+  on using and accessing technology.  They will have and know how to navigate some of
+  the newest devices and most likely have fast internet.
+
+	An older person, on the other hand, might not have the most up to date devices
+  and might have slower internet access depending on whether they live in the city
+  or a rural community.  Their knowledge of technology and navigating a website will
+  not be as extensive and they may need to have an easier to use layout with easily
+  clickable links and buttons.
+
+
+Site Synopsis
+  The Adopt A Dog Website is written using HTML, CSS, JavaScript, and JQuery.
+  The site runs well on commonly used browsers such as Chrome, Firefox, and Safari
+  as well as mobile devices of multiple sizes and models.  Those who access the site
+  can learn detailed information about each dog, the cost of adopting each dog, and
+  tips for owning a dog on the website’s dynamic blog page.  In addition, the website
+  contains an easy to use checkout page for those interested in adopting a dog.
+
+  See the Adopt A Dog Website for a list of dogs currently available for adoption.

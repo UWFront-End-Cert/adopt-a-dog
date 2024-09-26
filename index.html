@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="zxx">
+<head>
+  <meta charset="utf-8">
+  <title>Adopt A Dog</title>
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  <meta name="viewpoint" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header>
+    <figure class="logo">
+      <img src="images/adoptadog-logo.svg" class="image" alt="Logo">
+      <figcaption>Seattle's premiere dog adoption agency</figcaption>
+    </figure>
+    <div class="cart">
+      <img src="images/cart-icon.svg" alt="Shopping Cart Icon">
+      <p class="cost">$1234.56</p>
+      <a href="checkout.html" class="checkout">Checkout</a>
+    </div>
+  </header>
+  <nav>
+      <ul class="topNav">
+        <li class="navBar home"><a href="index.html">Home</a></li>
+        <li class="navBar">/</li>
+        <li class="navBar"><a href="dogs.html">Dogs</a></li>
+        <li class="navBar">/</li>
+        <li class="navBar"><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+
+    <aside>
+      <h3>From Our Blog</h3>
+      <section>
+        <img src="images/blog-1.jpg" width="225" height="150" alt="Woman sitting with her dog.">
+        <h4>Traveling With Your Dog</h4>
+        <p>Iciustiam et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut.</p>
+        <a href="blog.html">Read More >></a>
+      </section>
+
+      <section>
+        <img src="images/blog-2.jpg" width="225" height="150" alt="Dog walker with multiple dogs">
+        <h4>How To Walk Multiple Dogs</h4>
+        <p>Iciustiam et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut.</p>
+        <a href="blog.html">Read More >></a>
+      </section>
+
+      <section>
+        <img src="images/blog-3.jpg" width="225" height="150" alt="Little girl holding ball above dog's head">
+        <h4>Teach Your Dog To Fetch!</h4>
+        <p>Iciustiam et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut.</p>
+        <a href="blog.html">Read More >></a>
+      </section>
+
+    </aside>
+
+
+    <section class="section1">
+      <img src="images/home-intro.jpg" width="450" height="300" alt="Photo of boy hugging a dog.">
+      <div>
+        <h3>Adopt A Dog</h3>
+        <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga.
+        Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut alitatuscit
+        ommossum haritatur arum qui officae videbiti corporeium faccull oribus es quidignis ipietus explam sus
+        am aut amet ant fugiatum, utem non reptat ad magnienecto volorent fugia nonsedi gendand itatquos as
+        magnimpor aut molor autatia ad est officimus accae et omnia cus, od qui ate</p>
+      </div>
+    </section>
+
+    <div class="flex-container">
+      <section class="card card1">
+        <img class="img" onclick="doginfo('Murphy','Great','Dane','123.45')" src="images/murphy-card.jpg" alt="Photo of Murphy.">
+        <h6>Murphy</h6>
+        <p><strong>Cost to Adopt:</strong> $123.45</p>
+        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis
+        re ea erum, qui doluptae</p>
+        <a class="adopt">Adopt</a>
+      </section>
+
+      <section class="card card2">
+        <img class="img" onclick="doginfo('Poppy','Havanese','','$123.45')" src="images/poppy-card.jpg" alt="Photo of Poppy.">
+        <h6>Poppy</h6>
+        <p><strong>Cost to Adopt:</strong> $123.45</p>
+        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis
+        re ea erum, qui doluptae</p>
+        <a class="adopt">Adopt</a>
+      </section>
+
+      <section class="card card3">
+        <img class="img" onclick="doginfo('Jack','Beagle','','$123.45')" src="images/jack-card.jpg" alt="Photo of Jack.">
+        <h6>Jack</h6>
+        <p><strong>Cost to Adopt:</strong> $123.45</p>
+        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis
+        re ea erum, qui doluptae</p>
+        <a class="adopt">Adopt</a>
+      </section>
+
+      <section class="card card4">
+        <img class="img" onclick="doginfo('Duffy','Bull','Terrior','$123.45')" src="images/duffy-card.jpg" alt="Photo of Jack.">
+        <h6>Duffy</h6>
+        <p><strong>Cost to Adopt:</strong> $123.45</p>
+        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis
+        re ea erum, qui doluptae</p>
+        <a class="adopt">Adopt</a>
+      </section>
+
+      <section class="card card5">
+        <img class="img" onclick="doginfo('Lucas','Unknown','Breed','$123.45')" src="images/lucas-card.jpg" alt="Photo of Jack.">
+        <h6>Lucas</h6>
+        <p><strong>Cost to Adopt:</strong> $123.45</p>
+        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis
+        re ea erum, qui doluptae</p>
+        <a class="adopt">Adopt</a>
+      </section>
+
+      <section class="card card6">
+        <img class="img" onclick="doginfo('Jake','Lab','','$123.45')" src="images/jake-card.jpg" alt="Photo of Jack.">
+        <h6>Jake</h6>
+        <p><strong>Cost to Adopt:</strong> $123.45</p>
+        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis
+        re ea erum, qui doluptae</p>
+        <a class="adopt">Adopt</a>
+      </section>
+
+<!--Take out last 2 cards
+      <section class="card card7">
+        <img onclick="doginfo('Angus','Bull','Mastiff','$123.45')" src="images/angus-card.jpg" alt="Photo of Jack.">
+        <h6>Angus</h6>
+        <p><strong>Cost to Adopt:</strong> $123.45</p>
+        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis
+        re ea erum, qui doluptae</p>
+        <a onclick="total(123.45)" class="adopt">Adopt</a>
+      </section>
+
+      <section class="card card8">
+        <img onclick="doginfo('Violet','Chocolate','Lab','$123.45')" src="images/violet-card.jpg" alt="Photo of Jack.">
+        <h6>Violet</h6>
+        <p><strong>Cost to Adopt:</strong> $123.45</p>
+        <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis
+        re ea erum, qui doluptae</p>
+        <a onclick="total(123.45)" class="adopt">Adopt</a>
+      </section> -->
+
+    </div>
+
+    <div class="more">
+      <a href="dogs.html" class="moreDogs">See More Dogs</a>
+    </div>
+
+    <footer>
+      <img src="images/adoptadog-logo.svg" alt="Logo">
+      <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam
+      consequunt</p>
+      <nav>
+          <ul>
+            <li class="footer"><a href="index.html">Home</a></li>
+            <li class="footer">/</li>
+            <li class="footer"><a href="dogs.html">Dogs</a></li>
+            <li class="footer">/</li>
+            <li class="footer"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <h6>&copy; 2018 Adoptadog, LLC | Seattle, WA</h6>
+    </footer>
+</body>
+
+</html>

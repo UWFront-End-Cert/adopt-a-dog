@@ -1,0 +1,470 @@
+*{
+  font-family: georgia;
+}
+
+/*Format Header*/
+header{
+  background: linear-gradient(45deg,rgb(0, 51, 102),rgb(0, 0, 0),rgb(0, 51, 102));
+  background-image: url('../images/header-image.jpg');
+  position: relative;
+  height: 20rem;
+}
+
+@media screen and (max-width: 1000px) {
+  header{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+  header{
+    width: 100%;
+  }
+}
+
+header figcaption{
+  color: rgb(119, 179, 0);
+  font-size: 1.5rem;
+}
+
+.logo figcaption{
+  position: absolute;
+  top: 8.5rem;
+  left: 5rem;
+  font-size: 1.3rem;
+}
+
+.image{
+  position: absolute;
+  left: 5rem;
+  top: 2.5rem;
+  width: 25%;
+  height: 35%;
+}
+
+.cart{
+  position: absolute;
+  top: 3rem;
+  right: 6rem;
+}
+
+.cart img{
+  float: left;
+  margin-right: 0.4rem;
+  width: 18%;
+  height: 28%;
+}
+
+.cost{
+  color: rgb(232,232,232);
+  font-size: 0.5rem;
+  font-weight: bolder;
+}
+
+.checkout{
+  text-decoration: none;
+  background-color: rgb(119, 179, 0);
+  color: rgb(232,232,232);
+  padding: 0.25rem 1.75rem;
+  font-size: 0.50rem;
+  font-weight: bolder;
+  margin-right: 1rem;
+}
+
+/* Format Top Navigation Bar*/
+.topNav{
+  list-style-type: none;
+  background-color: rgb(232,232,232);
+  padding: 1.5rem;
+  margin-top: 0;
+}
+
+.navBar{
+  display: inline;
+}
+
+.navBar a{
+  text-decoration: none;
+  color: rgb(0, 51, 102);
+  font-weight: bolder;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+}
+
+.home{
+  margin-left: 6.5rem;
+}
+
+/*Format Adopt A Dog*/
+aside{
+  float: right;
+  width: 28%;
+}
+
+aside p{
+  font-size: 0.75rem;
+  width: 65%;
+}
+
+aside h3{
+  font-size: 2rem;
+  color: rgb(0, 51, 102);
+}
+
+aside h4{
+  color: rgb(0, 51, 102);
+}
+
+aside a{
+  text-decoration: none;
+  color: rgb(0, 184, 230);
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+aside img{
+  margin-top: 1rem;
+}
+
+.section1 img{
+  padding: 0 3rem 0 8rem;
+}
+
+.section1 h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(0, 51, 102);
+  padding: 0 3rem 0 8rem;
+}
+
+.section1 p{
+  width: 50%;
+  padding: 0 3rem 0 8rem;
+}
+
+/*Format List of Dog Header*/
+h2{
+  color: rgb(0, 51, 102);
+  margin-left: 8rem;
+}
+
+/*Format Dog Cards*/
+.flex-container, .flex-container2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container{
+  margin-top: 6rem;
+  margin-left: 3rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .flex-container, .flex-container2{
+    display: block;
+    margin-left: 35%;
+  }
+
+  aside img, aside p{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+  .flex-container, .flex-container2{
+    width: 50%;
+    margin-left: 15%;
+  }
+}
+
+.card{
+  box-shadow: 0 0 0.1rem 0;
+  width: 11.9rem;
+  height: 18rem;
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.card h6{
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin: 0 0.4rem;
+  text-align: left;
+  color: rgb(0, 51, 102);
+}
+
+.card p{
+  font-size: 0.8rem;
+  text-align: left;
+  margin-left: 0.4rem;
+}
+
+.card img{
+  width: 100%;
+  height: 40%;
+}
+
+.adopt{
+  background-color: rgb(119, 179, 0);
+  text-decoration: none;
+  color: rgb(255,255,255);
+  padding: 0.4rem 4rem;
+  font-weight: bolder;
+}
+
+/*Format More Dogs*/
+.more{
+  margin-left: 31%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.moreDogs{
+  text-decoration: none;
+  background: rgb(232,232,232);
+  color: rgb(0, 51, 102);
+  padding: 0.5rem 1.75rem;
+}
+
+/*Format Blog Entries*/
+.blog{
+  margin: 8rem;
+}
+
+.blog1{
+  margin-top: 0;
+}
+
+.blog img{
+  float: left;
+  margin-right: 2rem;
+  width: 25%;
+  height: 25%;
+}
+
+.blogimage{
+  float: left;
+  margin-right: 5rem;
+  margin-left: 8rem;
+  width: 15%;
+  height: 15%;
+}
+
+.blog h4{
+  color: rgb(0, 51, 102);
+  font-weight: bolder;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.bloglabel{
+  color: rgb(0, 51, 102);
+  font-weight: bolder;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.blog p{
+  font-size: 0.80rem;
+  line-height: 1.2rem;
+  width: 85%;
+}
+
+.blogparagraph{
+  font-size: 0.80rem;
+  line-height: 1.2rem;
+  width: 85%;
+}
+
+.blogparagraph1{
+  font-size: 0.80rem;
+  line-height: 1.2rem;
+  width: 85%;
+  margin-bottom: 5rem;
+}
+
+.blogheader{
+  color: rgb(0, 51, 102);
+  margin-left: 8rem;
+  font-weight: bolder;
+}
+
+/*Format Checkout*/
+.checkoutform{
+  margin-left: 8rem;
+}
+.checkoutform h1{
+  color: rgb(0, 51, 102);
+}
+
+label{
+  color: rgb(0, 51, 102);
+  font-weight: bolder;
+}
+
+input{
+  margin-bottom: 2rem;
+  width: 40%;
+  padding: 0.75rem;
+  display: block;
+}
+
+.address{
+  display: flex;
+  flex-direction: row;
+}
+
+.city{
+  width: 12rem;
+  margin-right: 2rem;
+}
+
+.state{
+  width: 4rem;
+  margin-right: 2rem;
+}
+
+.zip{
+  width: 7rem;
+  margin-right: 2rem;
+}
+
+.checkbox{
+  border: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+fieldset input{
+  display: inline;
+}
+
+.checkbox input{
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  border: 0.1rem solid rgb(232,232,232);
+  border-radius: 50%;
+}
+
+.checkbox label{
+  color: rgb(0,0,0);
+  margin-left: 2rem;
+  padding-right: 3rem;
+}
+
+legend{
+  color: rgb(0, 51, 102);
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.pickupheader{
+  color: rgb(0, 51, 102);
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
+
+.pickup select{
+  width: 10rem;
+  display: block;
+}
+
+.adoptedDogs h3{
+  color: rgb(0, 51, 102);
+  margin-top: 3rem;
+}
+
+.dogs{
+  display: flex;
+  flex-direction: row;
+}
+
+.dogs img{
+  margin-right: 0.5rem;
+}
+
+.duffy{
+  margin-left: 3rem;
+  width: 7%;
+  height: 7%;
+}
+
+.lucas{
+  width:7%;
+  height: 7%;
+}
+
+.dog1 h6, .dog2 h6{
+  color: rgb(0, 51, 102);
+  font-weight: bolder;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dog1 p, .dog2 p{
+  font-size: 0.75rem;
+}
+
+.total{
+  margin-top: 3rem;
+}
+
+.total h6{
+  color: rgb(0, 51, 102);
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.submit{
+  width: 12rem;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  background-color: rgb(119, 179, 0);
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+/*Format Footer*/
+footer{
+  background-color: rgb(0, 51, 102);
+  color: rgb(255,255,255);
+  text-align: center;
+  height: 20rem;
+}
+
+footer p{
+  font-size: 0.75rem;
+  width: 28%;
+  margin: auto;
+}
+
+footer img{
+  margin-top: 2rem;
+  width: 35%;
+  height: 25%;
+}
+
+.footer{
+  display: inline;
+}
+
+.footer a{
+  text-decoration: none;
+  color: rgb(255,255,255);
+  font-size: 0.75rem;
+  font-weight: bolder;
+}

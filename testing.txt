@@ -1,0 +1,14 @@
+Testing
+In order to test the Website, I took the following steps:
+
+  Viewed the Website using Chrome, Safari, and Firefox
+  Viewed the Website on a mobile device
+  Viewed the Website on a Mac
+
+When testing the website, I verified that the text and images were aligned properly,
+the clickable areas were suitable, and that the shading and colors were consistent across
+all devices.  I also made sure that any text, images, etc did not run into the edges of the
+screen and that all the pages were readable no matter which devices were used.
+
+Although I started out verifying the responsiveness of the website using developer tools,
+I did also check the responsiveness of the website on a laptop and mobile device.
