@@ -1,0 +1,60 @@
+User Personas
+-----------------------------------------------------------
+This website is meant for users who are looking for a quick and efficient way to adopt a dog, and that are looking for the information to be up front
+and easily accessible.
+The website is usable on desktop computers, mobile devices, and tablets.
+
+User Group
+-----------------------------------------------------------
+Name: Don Waters
+Age: 65
+Occupation: Owner of a Local Hardware Store
+Tech Habits: Uses his computer at work and home. Prefers websites that have information up front and readily 
+	available.
+Device Preference: Comfortable with using a computer, doesn't like tablets or mobile devices.
+Extra Information:
+	-Older desktop computer, older mobile phone, no tablet.
+	-Loves dogs
+	-Not married, 1 child (Male 39)
+
+
+Name: Jodie Roberts
+Age: 20
+Occupation: Full Time College Student
+Tech Habits: Uses laptop and tablet for school work and entertainment. On phone consistantly for social media 
+	and web surfing.
+Device Preference: Comfortable with all forms of devices. Prefers mobile and tablet for ease of access.
+Extra Information:
+	-Likes dogs, prefers cats
+	-Single
+	-Has latest version of the iPhone
+	-Older Macbook
+
+
+
+Name: Burrell Mccullough
+Age: 32
+Occupation: Unemployed/Stay at Home Dad
+Tech Habits: Mainly uses phone and tablet for entertainment. Likes to use his computer when web surfing.
+Device Preference: Comfortable using a computer for basic needs. Prefers mobile and tablet devices.
+Extra Information:
+	-Loves all animals and is actively looking to adopt.
+	-Married with 3 children (All girls under the age of 16)
+	-Owns a mid-range computer and older mobile device.
+
+
+Testing
+------------------------------------------------------------
+DEVICE TESTING
+Device testing for this site was done using developer tools on Firefox. To be accurate with the testing, 
+it was also loaded on an iPhone X, iPhone 7, and Samsung Galaxy A32.
+Tablet testing was done using an iPad mini as well as an iPad 4th gen.
+
+WEB BROWSER/OPERATING SYSTEM TESTING
+The website was tested using Microsoft Edge, Firefox, and Google Chrome. 
+Testing was done on Windows 10 and macOS Monterey.
+
+I verified that images and text were aligned on multiple different sizes of screens as well as working properly 
+on different operating systems. Confirmed that everything was readable and scaled properly. There were some issues 
+with the grid layout during testing but should have been fixed. Also made sure that the hover effects on the dog 
+information cards did not effect readability.

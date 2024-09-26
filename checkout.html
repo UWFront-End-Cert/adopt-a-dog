@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Adopt a Dog - Checkout</title>
+    <script src="jquery-3.6.0.js"></script>
+</head>
+<body>
+  <header>
+    <section class="header-items">
+      <article class="header-logo">
+        <img src="./images/adoptadog-logo.svg" alt="Adopt A Dog Logo">
+        <h2>Seattle's premiere dog adoption agency</h2>
+      </article>
+      <article class="header-checkout">
+        <p><img src="./images/cart-icon.svg" alt="Shopping Cart">$1234.56</p>
+        <button onclick="location.href='checkout.html'">Checkout</button>
+      </article>
+    </section>
+    <section class="header-menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>/</li>
+          <li><a href="dogs.html">Dogs</a></li>
+          <li>/</li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+
+    <h2 class="page-title">Checkout</h2>
+
+    <section title="Checkout" class="checkout">
+      <form method="GET">
+      <div class="checkout-form-style">
+        <label for="name">Name
+          <input type="text" name="customerName" value="" id="name">
+        </label>
+      </div>
+
+      <div class="checkout-form-style">
+        <label for="email">Email Address
+          <input type="text" name="customerEmail" value="" id="email">
+        </label>
+      </div>
+
+      <div class="checkout-form-style">
+        <label for="address">Street Address
+          <input type="text" name="customerAddress" value="" id="address">
+        </label>
+      </div>
+
+      <div class="address-csz">
+        <div class="csz-input">
+          <label for="City">City
+            <input type="text" name="customerCity" value="" id="City">
+          </label>
+        </div>
+        <div class="csz-input">
+          <label for="State" id="customerState">State
+            <select name="state" id="State">
+              <option disabled selected value>&nbsp;</option>
+              <option value="CA">CA</option>
+              <option value="OR">OR</option>
+              <option value="WA">WA</option>
+            </select>
+          </label>
+        </div>
+        <div class="csz-input">
+          <label for="Zip" id="customerZip">Zip Code</label>
+          <input type="text" name="Zip" value="" id="Zip">
+        </div>
+      </div>
+
+      <div class="checkout-form-style">
+        <h4>First Time Adopter?</h4>
+        <fieldset class="checkbox">
+          <input type="radio" name="firstAdopter" value="yes">
+            <label>Yes</label>
+          <input type="radio" name="firstAdopter" value="no">
+            <label>No</label>
+        </fieldset>
+      </div>
+
+      <div class="checkout-form-style">
+        <label for="Location" id="pickupLocation">Pickup Location</label>
+        <select name="pickup" id="location">
+          <option value="Seattle">Seattle</option>
+          <option value="Tacoma">Tacoma</option>
+        </select>
+      </div>
+      <div class="checkout-form-style">
+        <h4>Dogs Adopted:</h4>
+        <!-- input code here to add dogs when the adopt button is clicked on the other pages -->
+        <h4>Total Adoption Cost:</h4>
+        <!-- add code here that adds the price of the dogs adopted together -->
+        <button type="button" name="submit" id="submit" onclick="formLog();">Submit</button>
+      </div>
+      </form>
+    </section>
+
+   <footer>
+    <div class="footer-main">
+      <img src="./images/adoptadog-logo.svg" alt="Adopt A Dog Logo">
+      <h6>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</h6>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>/</li>
+        <li><a href="dogs.html">Dogs</a></li>
+        <li>/</li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+    <div class="footer-main">
+      <p>© 2018 Adoptadog, LLC | Seattle, WA</p>
+    </div>
+  </footer>
+  <script src="./checkout.js"></script>
+</body>
+</html>

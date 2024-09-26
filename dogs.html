@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Adopt a Dog - Dogs</title>
+    <script src="jquery-3.6.0.js"></script>
+</head>
+<body>
+  <header>
+    <section class="header-items">
+      <article class="header-logo">
+        <img src="./images/adoptadog-logo.svg" alt="Adopt A Dog Logo">
+        <h2>Seattle's premiere dog adoption agency</h2>
+      </article>
+      <article class="header-checkout">
+        <p><img src="./images/cart-icon.svg" alt="Shopping Cart">$1234.56</p>
+        <button onclick="location.href='checkout.html'">Checkout</button>
+      </article>
+    </section>
+    <section class="header-menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>/</li>
+          <li><a href="dogs.html">Dogs</a></li>
+          <li>/</li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+
+    <h2 class="page-title">Here are all of our Dogs!</h2>
+
+    <div class="all-dogs">
+     <div class="all-dogs-cards-grid"> <!-- This section is for listing a small amount of dogs available -->
+      <div class="dog-card">
+          <img src="./images/murphy-card.jpg" alt="Tan dog staring up" onclick="info('Murphy', 'Boxer', '123.45')">
+          <div class="dog-info">
+            <h4>Murphy</h4>
+            <h5>Cost to Adopt:<span> $123.45</span></h5>
+            <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+            <button type="button" name="adopt-dog" class="adopt" onclick="cost(123.45)">Adopt</button>
+          </div>
+        </div>
+
+        <div class="dog-card">
+          <img src="./images/poppy-card.jpg" alt="White dog running with tongue out" onclick="info('Poppy', 'Shih Tzu', '123.45')">
+          <div class="dog-info">
+            <h4>Poppy</h4>
+            <h5>Cost to Adopt:<span> $123.45</span></h5>
+            <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+            <button type="button" name="adopt-dog" class="adopt" onclick="cost(123.45)">Adopt</button>
+          </div>
+        </div>
+
+        <div class="dog-card">
+          <img src="./images/jack-card.jpg" alt="White and brown dog starting up" onclick="info('Jack', 'Beagle', '123.45')">
+          <div class="dog-info">
+            <h4>Jack</h4>
+            <h5>Cost to Adopt:<span> $123.45</span></h5>
+            <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+            <button type="button" name="adopt-dog" class="adopt" onclick="cost(123.45)">Adopt</button>
+          </div>
+        </div>
+
+        <div class="dog-card">
+          <img src="./images/duffy-card.jpg" alt="White and brown dog staring at camera" onclick="info('Duffy', 'Terrior', '123.45')">
+          <div class="dog-info">
+            <h4>Duffy</h4>
+            <h5>Cost to Adopt:<span> $123.45</span></h5>
+            <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+            <button type="button" name="adopt-dog" class="adopt" onclick="cost(123.45)">Adopt</button>
+          </div>
+        </div>
+
+        <div class="dog-card">
+          <img src="./images/lucas-card.jpg" alt="Black dog panting and staring at camera" onclick="info('Lucas', 'Croatian Shepherd', '123.45')">
+          <div class="dog-info">
+            <h4>Lucas</h4>
+            <h5>Cost to Adopt:<span> $123.45</span></h5>
+            <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+            <button type="button" name="adopt-dog" class="adopt" onclick="cost(123.45)">Adopt</button>
+          </div>
+        </div>
+
+        <div class="dog-card">
+          <img src="./images/jake-card.jpg" alt="White dog on beach" onclick="info('Jake', 'Labrador', '123.45')">
+          <div class="dog-info">
+            <h4>Jake</h4>
+            <h5>Cost to Adopt:<span> $123.45</span></h5>
+            <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+            <button type="button" name="adopt-dog" class="adopt" onclick="cost(123.45)">Adopt</button>
+          </div>
+        </div>
+
+        <div class="dog-card">
+          <img src="./images/angus-card.jpg" alt="Brown dog panting in grass" onclick="info('Angus', 'Mastiff', '123.45')">
+          <div class="dog-info">
+            <h4>Angus</h4>
+            <h5>Cost to Adopt:<span> $123.45</span></h5>
+            <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+            <button type="button" name="adopt-dog" class="adopt" onclick="cost(123.45)">Adopt</button>
+          </div>
+        </div>
+
+        <div class="dog-card">
+          <img src="./images/violet-card.jpg" alt="Brown puppy looking up" onclick="info('Violet', 'Labrador (Puppy)', '123.45')">
+          <div class="dog-info">
+            <h4>Violet</h4>
+            <h5>Cost to Adopt:<span> $123.45</span></h5>
+            <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+            <button type="button" name="adopt-dog" class="adopt" onclick="cost(123.45)">Adopt</button>
+          </div>
+        </div>
+        <div class="dog-card">
+          <img src="./images/piper-card.jpg" alt="Brown dog panting" onclick="info('Piper', 'Retriever', '123.45')">
+          <div class="dog-info">
+            <h4>Piper</h4>
+            <h5>Cost to Adopt:<span> $123.45</span></h5>
+            <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+            <button type="button" name="adopt-dog" class="adopt" onclick="cost(123.45)">Adopt</button>
+          </div>
+        </div>
+        <div class="dog-card">
+          <img src="./images/maximus-card.jpg" alt="Black dog looking up" onclick="info('Maximus', 'Mini Schnauzer', '123.45')">
+          <div class="dog-info">
+            <h4>Maximus</h4>
+            <h5>Cost to Adopt:<span> $123.45</span></h5>
+            <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+            <button type="button" name="adopt-dog" class="adopt" onclick="cost(123.45)">Adopt</button>
+          </div>
+        </div>
+        <div class="dog-card">
+          <img src="./images/luna-card.jpg" alt="White dog smiling" onclick="info('Luna', 'Labrador', '123.45')">
+          <div class="dog-info">
+            <h4>Luna</h4>
+            <h5>Cost to Adopt:<span> $123.45</span></h5>
+            <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+            <button type="button" name="adopt-dog" class="adopt" onclick="cost(123.45)">Adopt</button>
+          </div>
+        </div>
+        <div class="dog-card">
+          <img src="./images/stella-card.jpg" alt="Tan dog laying down" onclick="info('Stella', 'Chihuahua', '123.45')">
+          <div class="dog-info">
+            <h4>Stella</h4>
+            <h5>Cost to Adopt:<span> $123.45</span></h5>
+            <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+            <button type="button" name="adopt-dog" class="adopt" onclick="cost(123.45)">Adopt</button>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="footer-main">
+      <img src="./images/adoptadog-logo.svg" alt="Adopt A Dog Logo">
+      <h6>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</h6>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>/</li>
+        <li><a href="dogs.html">Dogs</a></li>
+        <li>/</li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+    <div class="footer-main">
+      <p>© 2018 Adoptadog, LLC | Seattle, WA</p>
+    </div>
+  </footer>
+  <script src="./doginfo-onclick.js" charset="utf-8"></script>
+</body>
+</html>
